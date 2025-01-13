@@ -89,7 +89,7 @@ export default function Work() {
         />
 
         <ParallaxBackground
-          imageUrl="/imgs/city-4-6.png"
+          imageUrl="/imgs/background-work-scroll.jpg"
           overlayColor={loaderData?.colorMain}
         >
           <ScrollGallery>

@@ -20,7 +20,11 @@ export default function About({ init = false }: { init: boolean }) {
           />
 
           <div className="about-image-wrapper">
-            <ParallaxImage imageSrc={"/imgs/about.jpg"} />
+            <ParallaxImage
+              imageSrc={
+                "https://res.cloudinary.com/ddf71dtj4/image/upload/v1736740483/about_limack.jpg"
+              }
+            />
           </div>
         </>
       )}
