@@ -1,0 +1,1393 @@
+{
+  "work": [
+    {
+      "id": "consumers-energy-interactive-energy-experience",
+      "colorMain": "#0079c1",
+      "title": "Consumers Energy",
+      "logo": "/imgs/portfolio/consumers-energy/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/consumers-energy/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/consumers-energy/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/consumers-energy/hero-bw.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2023"
+      },
+      "status": "Online",
+      "workplace": "Doner North",
+      "link": {
+        "url": "",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "html",
+        "less",
+        "css",
+        "gsap",
+        "typescript",
+        "figma",
+        "lottie",
+        "accessibility",
+        "jira",
+        "bitbucket"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/consumers-energy/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/selection.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/residential-ext-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/residential-int-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/residential-int-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/pop-up-m-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/small-ext-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/small-int-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/pop-up-m-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/large-ext-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/large-ext-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/pop-up-m-03.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/large-int-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/consumers-energy/large-int-02.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "The Consumers Energy Interactive Energy Experience is a dynamic, single-page website designed to engage users through a series of interactive scenes. Each scene highlights practical ways to save money on energy, allowing users to explore and select points of interest. These selected points are compiled into a personalized list, which can then be downloaded as a worksheet for future reference.",
+      "highlights": "A highlight of my career, this project was an absolute pleasure to work on. The site features sound, video, parallax effects, Lottie animations, state management, and PDF creation. I collaborated closely with designers and animators to shape the overall vision and bring it to life. While the live site is accessible only in North America (or via a VPN set to North America), I have a local version linked here to showcase it in action."
+    },
+    {
+      "id": "detroit-zoo",
+      "colorMain": "#ffc649",
+      "title": "Detroit Zoo",
+      "logo": "/imgs/portfolio/detroit-zoo/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/detroit-zoo/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/detroit-zoo/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/detroit-zoo/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2024"
+      },
+      "status": "Online",
+      "workplace": "Yamamoto",
+      "link": {
+        "url": "https://detroitzoo.org/",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "typescript",
+        "wordpress",
+        "php",
+        "html",
+        "less",
+        "css",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "figma"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/detroit-zoo/home-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/home-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/home-03.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/home-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/animals.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/attractions.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/dining.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/mobile-nav.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/events.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/filters.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/filters-open.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/mobile-search.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/footer.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/get-involved.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/mobile-filters.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/detroit-zoo/upcoming.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "As the sole Front End Developer, I spearheaded the complete rebuild of three distinct websites: the Detroit Zoo official site, Belle Isle Nature Center, and the Detroit Zoological Society.",
+      "highlights": "Using a fully custom WordPress theme, Advanced Custom Fields (ACF), and the Vue.js 3 Composition API, I developed a library of over 50 modules and numerous components that formed the foundation of this extensive project. Each page could then be dynamically composed using any combination of these modules, providing flexibility and efficiency. Responsiveness and accessibility were also central to the build, ensuring an inclusive and seamless user experience across devices."
+    },
+    {
+      "id": "shoppers-drug-mart",
+      "colorMain": "#cb333b",
+      "title": "Shoppers Drug Mart",
+      "logo": "/imgs/portfolio/sdm/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/sdm/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/sdm/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/sdm/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Years",
+        "value": "2018 - 23"
+      },
+      "status": "N/A in AU",
+      "workplace": "Union Creative / Doner North",
+      "link": {
+        "url": "",
+        "label": ""
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "typescript",
+        "html",
+        "css",
+        "less",
+        "net",
+        "agility",
+        "contentful",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "figma",
+        "xd",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/sdm/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/flu-shot-finder.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/top-picks-products.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/summer.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/apple-products.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/holiday.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/holiday-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/summer-products.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/top-picks.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/apple-home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/holiday-filters-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sdm/celebration.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "Shoppers Drug Mart, one of Canada's largest retailers with over 1,300 locations nationwide, specializes in pharmacy, cosmetics, food, and electronics. Over 5-6 years, I worked with teams of varying sizes (2-4 Front End Developers, 2-4 Back End Developers, and 1-2 QA specialists) to develop and maintain the majority of their website.",
+      "highlights": "One of my primary responsibilities was developing the front end for recurring, themed seasonal event sections, including Valentine's Day, Spring, Summer, Halloween, and Holiday. These sections were built as single-page applications using Vue.js with an Agility CMS and typically featured product listings and detail pages, product and category filters, product inventory by store, and dynamic routing. This same template was also used for the persistent Apple product section, which remains live today. Another key responsibility of mine was developing, updating, and maintaining the annual Flu Shot Finder page. This single-page application helped users check stock levels and book appointments at their local Shoppers Drug Mart pharmacy. It also included a Google Map integration to display store locations and vaccine availability. I was also fortunate enough to participate in several accessibility-focused user tests. The insights gained from observing a person with a disability interact with my work were priceless and truly helped me understand the importance of creating more inclusive and user-friendly builds."
+    },
+    {
+      "id": "hunter-pr",
+      "colorMain": "#0079c1",
+      "title": "Hunter PR",
+      "logo": "/imgs/portfolio/hunter-pr/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/hunter-pr/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/hunter-pr/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/hunter-pr/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2019"
+      },
+      "status": "Online",
+      "workplace": "Union Creative",
+      "link": {
+        "url": "https://hunterpr.com/",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "html",
+        "css",
+        "less",
+        "jira",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/hunter-pr/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/work.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/work-selection.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/work-selection-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/work-detail.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/culture.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/culture-detail.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/culture-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/expertise.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/nav.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/nav-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/news.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/work-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/hunter-pr/contact.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "I led the complete rebuild of the HUNTER website, an integrated marketing and PR firm based in New York and London that earns consumer attention for leading global brands. The goal was to create a seamless, SPA-style website without a CMS while ensuring it remained easily updatable by the client after handover. This was achieved by leveraging Vue.js and an external, well-structured JSON file for content management.",
+      "highlights": "With 5+ years of successful updates, the project continues to meet the client's needs effectively. I'm particularly proud of the transitions and motion design, implemented using GSAP and Vue's native methods, which bring a polished and dynamic feel to the site. This remains one of my favorite builds to date."
+    },
+    {
+      "id": "duke-univeristy",
+      "colorMain": "#5cadad",
+      "title": "Climate Road Trip",
+      "logo": "/imgs/portfolio/duke-university/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/duke-university/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/duke-university/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/duke-university/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2024"
+      },
+      "status": "Online",
+      "workplace": "Yamamoto",
+      "link": {
+        "url": "https://climateroadtrip.duke.edu/",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "typescript",
+        "wordpress",
+        "php",
+        "html",
+        "less",
+        "css",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "figma"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/duke-university/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/top.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/modules-a.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/modules-b.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/modules-c.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/mobile-a.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/footer.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/mobile-b.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/duke-university/get-involved.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "The Duke Univerisity Climate Roadtrip is designed to make users feel like they are embarking on a journey across North Carolina while exploring the impacts of climate change and actionable ways to address them.",
+      "highlights": "Built using a custom WordPress theme integrated with Advanced Custom Fields (ACF) and Vue.js 3, the site delivers a seamless and engaging experience. To enhance an otherwise straightforward build, I designed and implemented a variety of scroll-based transitions and hover animations using GSAP, creating a dynamic and interactive user interface. A strong emphasis was placed on accessibility, ensuring the site is inclusive and adheres to WCAG standards."
+    },
+    {
+      "id": "yamamoto",
+      "colorMain": "#eb4439",
+      "title": "Yamamoto",
+      "logo": "/imgs/portfolio/yamamoto/logo.webp",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/yamamoto/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/yamamoto/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/yamamoto/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2024"
+      },
+      "status": "Online",
+      "workplace": "Yamamoto",
+      "link": {
+        "url": "https://go-yamamoto.com/",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "typescript",
+        "wordpress",
+        "php",
+        "html",
+        "less",
+        "css",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "figma"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/yamamoto/story.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/story-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/story-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/nav-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/careers.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/culture-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/accordion-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/work.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/capabilities.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/leadership.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/culture-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/home-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/footer.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/yamamoto/work-details-mobile.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "Yamamoto is part of the Doner Partners Network (DPN), an Ad Age A-List micro-network founded on the belief that great brands don't just exist—they matter. After the entire digital team from DonerNorth was merged with Yamamoto, I spent the remainder of my time in Canada working there before eventually deciding to move back to my home country of Australia. I am grateful to have done the build for their official website.",
+      "highlights": "The Yamamoto website boasts a modern design that I helped enhance through animations and transitions using Vue.js and GSAP. I applied a modular approach with a custom WordPress theme and ACF (Advanced Custom Fields) to ensure the build was both flexible and scalable. Accessibility and responsiveness were key priorities, as always with my work. One of the fun touches was implementing the lightning bolt screen wipe effect on the mobile navigation reveal, adding a unique flair to the user experience."
+    },
+    {
+      "id": "union-creative",
+      "colorMain": "#b7cf39",
+      "title": "Union Creative",
+      "logo": "/imgs/portfolio/union/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/union/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/union/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/union/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2019"
+      },
+      "status": "Offline",
+      "workplace": "Union Creative",
+      "link": {
+        "url": "",
+        "label": ""
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "html",
+        "css",
+        "less",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/union/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/statement.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/nav.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/capabilities-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/what-we-do.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/work-detail.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/our-clients-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/news.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/union/work-detail-mobile.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "UNION Creative (UNION Advertising Canada LP) was a successful advertising agency with offices in Toronto and Montreal. I worked at UNION for many years, initially on a long-term contract and later as a full-time employee. Eventually, UNION merged with another agency, 6 Degrees, to become Doner North.",
+      "highlights": "As the most experienced Front End Developer on the team, I was entrusted with building UNION Creative's official agency website. Collaborating closely with the design team, we crafted a unique concept featuring animated content transitions inspired by a blueprint/construction motif, which would transform into the final content. This engaging pattern was carried throughout the site. Another standout feature was the main navigation, which showcased a diagonally swiping reveal and alternating diagonal image transitions on link rollovers. Although the site is no longer live, I have preserved a local copy for viewing."
+    },
+    {
+      "id": "6-degrees",
+      "colorMain": "#009ec9",
+      "title": "6 Degrees",
+      "logo": "/imgs/portfolio/6deg/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/6deg/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/6deg/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/6deg/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2020"
+      },
+      "status": "Offline",
+      "workplace": "Union Creative",
+      "link": {
+        "url": "#",
+        "label": ""
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "html",
+        "css",
+        "less",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/6deg/home-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/nav-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/work.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/home-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/what-we-do.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/who-is-6deg.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/work-detail-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/work-detail.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/nav.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/who-is-6deg-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/home-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/6deg/work-mobile.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "6Degrees Integrated Communications was a full-service communications agency based in Toronto and New York. They eventually merged with its partner agency, UNION Advertising Canada, to form Doner North, operating under the umbrella of Stagwell Global.",
+      "highlights": "With a striking and colorful design, I was tasked with creating a build that was equally eye-catching and dynamic. Key features included a full-screen custom homepage slider with video playback support, a custom work selection slider with flowing accordion-style transitions, and a circular screen wipe that revealed the site's main navigation—directly inspired by 6Degrees' branding. The case study pages required particular attention to responsiveness, ensuring the modules remained flexible for use across various pages while maintaining the integrity of the original designs. Although the site is no longer live, I've preserved a local copy for viewing."
+    },
+    {
+      "id": "media-assembly",
+      "colorMain": "#ff0072",
+      "title": "Media Assembly",
+      "logo": "/imgs/portfolio/media-assembly/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/media-assembly/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/media-assembly/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/media-assembly/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Years",
+        "value": "2019"
+      },
+      "status": "Offline",
+      "workplace": "Union Creative",
+      "link": {
+        "url": "https://web.archive.org/web/20190713065510/https://www.media-assembly.com/",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "typescript",
+        "html",
+        "css",
+        "less",
+        "net",
+        "agility",
+        "contentful",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "figma",
+        "xd",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/media-assembly/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/careers-hero.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/our-work.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/our-work-hero.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/platforms.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/careers.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/definition.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/clients-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/culture.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/what-we-do-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/leaders.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/location.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/mobile-home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/what-we-do.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/media-assembly/values.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "Assembly is a global omnichannel agency with over 1,500 team members delivering cutting-edge media, data, technology, and business consultancy solutions to brands worldwide.",
+      "highlights": "The brief for this complete rebuild was to create a seamless, single-page application (SPA)-style website that was engaging, dynamic, and most intriguingly, broke away from traditional navigation. Collaborating closely with the designer, we developed the concept of a homepage as a 'hub,' where scrolling and clicking on sections would cause entire pages to slide into view—similar to the smooth transitions seen in mobile apps like Instagram. To complement the striking visuals, I incorporated scroll-based transitions, enhancing the overall user experience with motion design. While the original site is no longer live, a *mostly intact* and functional archive version remains available for viewing."
+    },
+    {
+      "id": "club-penguin",
+      "colorMain": "#0d6efd",
+      "title": "Club Penguin",
+      "logo": "/imgs/portfolio/club-penguin/logo.png",
+      "heroImage": {
+        "url": "/imgs/portfolio/club-penguin/hero.jpg",
+        "alt": ""
+      },
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/club-penguin/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/club-penguin/selected-works-3d.png",
+        "alt": ""
+      },
+      "years": {
+        "label": "Years",
+        "value": "2009-12"
+      },
+      "status": "Offline",
+      "workplace": "Disney Online Studios",
+      "link": {
+        "url": "",
+        "label": ""
+      },
+      "techStackIds": [
+        "flash",
+        "gsap",
+        "javascript",
+        "html",
+        "css",
+        "jira",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/club-penguin/home-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/card-jitsu-page-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/home-03.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/card-jitsu-page-03.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/start-screen-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/home-04.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/card-jitsu-page-01.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/home-05.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/start-screen-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/club-penguin/penguins.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "Disney's Club Penguin was a massively multiplayer online game (2005-2017) set in an Antarctic-themed virtual world. Catering to a young audience, players used cartoon penguin avatars to explore the world and participate in various online games and activities. The game placed a stringent focus on player safety due to the age of its audience.",
+      "highlights": "Impressed by my freelance work in Vancouver, Canada and knowledge of design patterns, I was hired onto the Club Penguin web team as a Flash/ActionScript Developer at Disney Online Studios Canada. Over 3+ years, I collaborated with developers, designers, editorial staff, and marketing teams to brainstorm, develop, and maintain all aspects of the Club Penguin website. I also implemented a variety of marketing initiatives, including micro-sites, landing pages, billboards, emails, and Flash banners, significantly enhancing user engagement and brand visibility. While I thoroughly enjoyed my time at Club Penguin, I eventually felt the pull of Toronto's energy and made the move, leaving Kelowna, and Club Penguin behind."
+    },
+    {
+      "id": "underground-digital",
+      "colorMain": "#fb4f14",
+      "title": "Underground Digital",
+      "logo": "/imgs/portfolio/ugd/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/ugd/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/ugd/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/ugd/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2022"
+      },
+      "status": "Online",
+      "workplace": "Doner North",
+      "link": {
+        "url": "https://theunderground.digital/",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "html",
+        "css",
+        "less",
+        "wordpress",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "figma"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/ugd/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/work-detail.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/imagination.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/nav__desktop.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/work.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/clients.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/footer.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/expertise-mobile-02.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/more-case-studies.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/ugd/nav__mobile.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "Underground Digital, not to be confused with the seminal alternative Hip-Hop group Digital Underground, is a full-service digital agency that's part of the Doner Partners Network, under the larger umbrella of Stagwell Global.",
+      "highlights": "As the Lead Front End Developer, I was entrusted with bringing Underground Digital’s sleek, modern design to life. Built on a WordPress CMS, the project had a strong emphasis on responsiveness and accessibility. My goal was to ensure the site was flexible, looked great on any device, and was accessible to the widest range of users possible. To add that extra polish and modern feel, I leveraged Vue and GSAP to create animations and smooth transitions throughout the site."
+    },
+    {
+      "id": "doner-north-dpn",
+      "colorMain": "#646b44",
+      "title": "DonerNorth / Doner Partners Network",
+      "logo": "/imgs/portfolio/doner-north-dpn/logo.webp",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/doner-north-dpn/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/doner-north-dpn/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/doner-north-dpn/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2022"
+      },
+      "status": "Online",
+      "workplace": "DonerNorth",
+      "link": {
+        "url": "https://donernorth.com/",
+        "label": "Visit"
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "gsap",
+        "html",
+        "css",
+        "less",
+        "wordpress",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "figma"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dn-home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dpn-home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dn-what-we-believe.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dpn-agencies.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dn-work.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dn-menu-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dn-menu.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dn-what-we-believe-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dn-what-we-do.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dpn-agencies-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dpn-leaders.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/doner-north-dpn/dpn-menu-mobile.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "DonerNorth is a Toronto- and Montreal-based communication agency that I worked at for a number of years that was formed after the merger UNION Creative and 6 Degrees. Doner Partners Network is an agency collective that was formed by Stagwell Global.",
+      "highlights": "I have put both DonerNorth and Doner Partners Network under the same entry as they both fundamentally use the same custom Wordpress template that I created and they both have a strong focus on accesibility and responsiveness. One of the most effective and visually interesting elements of the DonerNorth site is the use of masked videos. These videos are integrated throughout various pages, adding dynamic movement and creating a more engaging experience for visitors."
+    },
+    {
+      "id": "sprouts-farmers-market",
+      "colorMain": "#1f772e",
+      "title": "Sprouts Farmers Market",
+      "logo": "/imgs/portfolio/sprouts/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/sprouts/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/sprouts/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/sprouts/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Years",
+        "value": "2013-14"
+      },
+      "status": "Offline",
+      "workplace": "Havas Worldwide",
+      "link": {
+        "url": "https://web.archive.org/web/20141011145821/https://www.sprouts.com/",
+        "label": ""
+      },
+      "techStackIds": [
+        "javascript",
+        "gsap",
+        "html",
+        "css",
+        "sass",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/sprouts/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sprouts/home-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sprouts/healthy-resources.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sprouts/products.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/sprouts/produce.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "Sprouts Farmers Market is a supermarket chain headquartered in Phoenix, Arizona, known for offering a wide selection of natural and organic foods. With over 35,000 employees, Sprouts operates more than 400 stores across 23 states, providing customers with healthy and sustainable food options.",
+      "highlights": "Havas Worldwide brought me on for a long-term contract to play a key role in the complete redesign of the Sprouts Farmers Market website. I collaborated closely with the design team to create visually appealing layouts that effectively showcased the products and promotions, staying true to the brand's commitment to organic and fresh food. The redesigned site emphasized easy browsing, clean visuals, and a smooth, user-friendly experience on any device, ensuring customers could easily find and explore Sprouts' wide range of natural and organic offerings. It was incredibly rewarding to contribute to a site that reflected Sprouts' focus on healthy living and sustainability. While the site I worked on has been replaced over the years, the homepage remains intact and can be accessed through the Web Archive link I've provided."
+    },
+    {
+      "id": "interval-house-the-way-to-live",
+      "colorMain": "#a5cbce",
+      "title": "The Way to Live",
+      "logo": "/imgs/portfolio/interval-house/logo.png",
+      "selectedWorks": {
+        "thumbnailMain": "/imgs/portfolio/interval-house/selected-works.jpg",
+        "thumbnail3d": "/imgs/portfolio/interval-house/selected-works-3d.png",
+        "alt": ""
+      },
+      "heroImage": {
+        "url": "/imgs/portfolio/interval-house/hero.jpg",
+        "alt": ""
+      },
+      "years": {
+        "label": "Year",
+        "value": "2021"
+      },
+      "status": "Offline",
+      "workplace": "Union Creative",
+      "link": {
+        "url": "",
+        "label": ""
+      },
+      "techStackIds": [
+        "vue-js",
+        "javascript",
+        "html",
+        "css",
+        "less",
+        "jira",
+        "bitbucket",
+        "accessibility",
+        "photoshop"
+      ],
+      "caseStudyImages": [
+        {
+          "url": "/imgs/portfolio/interval-house/home.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/interval-house/home-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/interval-house/home-alt.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/interval-house/home-alt-mobile.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/imgs/portfolio/interval-house/award.jpg",
+          "alt": ""
+        }
+      ],
+      "overview": "Interval House, a shelter dedicated to helping abused women, partnered with Union Creative to develop a unique website designed to be both a lifestyle resource and a lifeline.",
+      "highlights": "A small site with a powerful message. It was designed to initially appear as a typical beauty and fashion blog, but with a crucial twist. At the click of the “escape” button, the entire website would seamlessly transform into a life-saving resource. It would provide women with emergency advice, practical tips, and vital contact information. For example, articles like 'Essentials for Everyday Life' would instantly change to 'Essentials When Running for Your Life,' offering crucial guidance for women in dangerous situations. It was awarded gold at the 2021 Marketing Awards (Strategy Online)."
+    }
+  ],
+  "labels": {
+    "client": "Client",
+    "years": "Year",
+    "status": "Status",
+    "workplace": "Agency",
+    "technology": "Technology",
+    "overview": "Overview",
+    "highlights": "Highlights"
+  },
+  "techStack": [
+    {
+      "id": "agility",
+      "title": "Agility CMS",
+      "icon": {
+        "type": "svg",
+        "src": "agility"
+      }
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "icon": {
+        "type": "fas",
+        "src": "universal-access"
+      }
+    },
+    {
+      "id": "bitbucket",
+      "title": "Bitbucket",
+      "icon": {
+        "type": "fab",
+        "src": "bitbucket"
+      }
+    },
+    {
+      "id": "contentful",
+      "title": "Contentful CMS",
+      "icon": {
+        "type": "svg",
+        "src": "contentful"
+      }
+    },
+    {
+      "id": "css",
+      "title": "CSS 3",
+      "icon": {
+        "type": "fab",
+        "src": "css3-alt"
+      }
+    },
+    {
+      "id": "figma",
+      "title": "Figma",
+      "icon": {
+        "type": "fab",
+        "src": "figma"
+      }
+    },
+    {
+      "id": "flash",
+      "title": "Flash",
+      "icon": {
+        "type": "svg",
+        "src": "flash"
+      }
+    },
+    {
+      "id": "gsap",
+      "title": "GSAP",
+      "icon": {
+        "type": "svg",
+        "src": "gsap"
+      }
+    },
+    {
+      "id": "html",
+      "title": "Html 5",
+      "icon": {
+        "type": "fab",
+        "src": "html5"
+      }
+    },
+    {
+      "id": "javascript",
+      "title": "Javascript",
+      "icon": {
+        "type": "fab",
+        "src": "js"
+      }
+    },
+    {
+      "id": "jira",
+      "title": "Jira",
+      "icon": {
+        "type": "fab",
+        "src": "jira"
+      }
+    },
+    {
+      "id": "less",
+      "title": "Less",
+      "icon": {
+        "type": "fab",
+        "src": "less"
+      }
+    },
+    {
+      "id": "lottie",
+      "title": "LottieFiles",
+      "icon": {
+        "type": "svg",
+        "src": "lottie"
+      }
+    },
+    {
+      "id": "net",
+      "title": ".NET",
+      "icon": {
+        "type": "svg",
+        "src": "net"
+      }
+    },
+    {
+      "id": "photoshop",
+      "title": "Photoshop",
+      "icon": {
+        "type": "svg",
+        "src": "psd"
+      }
+    },
+    {
+      "id": "php",
+      "title": "PHP",
+      "icon": {
+        "type": "fab",
+        "src": "php"
+      }
+    },
+    {
+      "id": "typescript",
+      "title": "TypeScript",
+      "icon": {
+        "type": "svg",
+        "src": "ts"
+      }
+    },
+    {
+      "id": "vue-js",
+      "title": "VueJs",
+      "icon": {
+        "type": "fab",
+        "src": "vuejs"
+      }
+    },
+    {
+      "id": "wordpress",
+      "title": "Wordpress",
+      "icon": {
+        "type": "fab",
+        "src": "wordpress"
+      }
+    },
+    {
+      "id": "xd",
+      "title": "AdobeXD",
+      "icon": {
+        "type": "svg",
+        "src": "xd"
+      }
+    }
+  ]
+}

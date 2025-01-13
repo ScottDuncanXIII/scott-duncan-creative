@@ -1,0 +1,147 @@
+.preloader {
+  background-color: #060606;
+  height: 100svh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .preloader-count {
+    color: var(--color--a);
+    font-family: var(--font-family--quinary);
+    font-weight: 500;
+    font-size: 25vw;
+    max-height: 80svh;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .preloader-bar {
+    align-items: flex-end;
+    bottom: clamp(30px, 2.344vw, 60px);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    right: clamp(50px, 3.125vw, 80px);
+    z-index: 10;
+
+    @media (max-width: 1024px) {
+      bottom: 50px;
+      right: 6%;
+    }
+
+    @media (max-width: 768px) {
+      align-items: center;
+      right: auto;
+      width: 100%;
+    }
+  }
+
+  .preloader-bar__heading {
+    animation: loadingAnim 2s linear infinite;
+    color: white;
+    font-family: var(--font-family--primary);
+    font-weight: 300;
+    font-size: clamp(1.8rem, 0.938vw, 2.4rem);
+    letter-spacing: 10px;
+    line-height: 1;
+    margin: 0 -8px 0 0;
+    overflow: hidden;
+    text-align: right;
+    text-transform: uppercase;
+    z-index: 2;
+
+    .word {
+      overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+      text-align: center;
+      width: 100%;
+    }
+
+    @media (max-width: 480px) {
+      margin: 0 -16px 0 0;
+    }
+  }
+
+  .preloader-bar__bar-wrapper {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    overflow: hidden;
+    padding: 8px 0;
+    z-index: 1;
+
+    @media (max-width: 1920px) {
+      gap: 4px;
+    }
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+
+    @media (max-width: 480px) {
+      gap: 3px;
+    }
+  }
+
+  .preloader-bar__bar-wrapper-inner {
+    display: flex;
+    gap: 5px;
+    padding: 0 12px;
+
+    @media (max-width: 1920px) {
+      gap: 4px;
+    }
+  }
+
+  .preloader-bar__dots {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    @media (max-width: 1920px) {
+      gap: 4px;
+    }
+  }
+
+  .preloader-bar__dot {
+    background-color: #333333;
+    height: 5px;
+    width: 5px;
+
+    @media (max-width: 1920px) {
+      height: 4px;
+      width: 4px;
+    }
+  }
+}
+
+@keyframes loadingAnim {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

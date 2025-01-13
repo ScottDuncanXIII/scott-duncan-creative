@@ -1,0 +1,176 @@
+.intro {
+  height: 100svh;
+  position: relative;
+  z-index: 10;
+}
+
+.intro-wrapper {
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.intro-content {
+  align-items: flex-end;
+  display: flex;
+  filter: drop-shadow(black 2px 4px 6px);
+  flex-direction: column;
+  justify-content: flex-end;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  @media (max-width: 768px) {
+    top: 40%;
+  }
+}
+
+.intro-content__inner-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(12px, 0.586vw, 15px);
+  width: max-content;
+}
+
+.intro-content__heading {
+  font-size: clamp(2rem, 1.25vw, 3.2rem);
+  font-family: var(--font-family--secondary);
+  font-weight: 100;
+  letter-spacing: clamp(8px, 0.586vw, 15px);
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+
+  .word {
+    overflow: clip;
+  }
+}
+
+.intro-content__subheading {
+  font-size: 3.6rem;
+  font-size: clamp(2.1rem, 1.406vw, 3.6rem);
+  font-family: var(--font-family--primary);
+  font-weight: 400;
+  letter-spacing: clamp(3px, 0.195vw, 5px);
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.intro-content__horizontal-line {
+  background-color: #aaaa;
+  height: 1px;
+  width: 115%;
+}
+
+.intro-content-pattern {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-block-start: clamp(16px, 0.781vw, 20px);
+  transform: translate(-3%, 0);
+  width: 75%;
+}
+
+.intro-content-pattern__line {
+  background-color: #b46e12;
+  height: clamp(40px, 2.344vw, 60px);
+  rotate: 35deg;
+  transform-origin: right center;
+  width: clamp(3.5px, 0.176vw, 4.5px);
+}
+
+.intro-scroll {
+  bottom: 20%;
+  position: absolute;
+  right: 20%;
+
+  @media (max-width: 768px) {
+    bottom: 30%;
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+}
+
+.intro-scroll__polygon {
+  aspect-ratio: 1;
+  background-color: #565656;
+  clip-path: polygon(
+    100% 50%,
+    85.36% 85.36%,
+    50% 100%,
+    14.64% 85.36%,
+    0% 50%,
+    14.64% 14.64%,
+    50% 0%,
+    85.36% 14.64%,
+    100% 50%,
+    calc(85.36% - 1.41px) calc(14.64% - -1.41px),
+    calc(50% - 0px) calc(0% - -2px),
+    calc(14.64% - -1.41px) calc(14.64% - -1.41px),
+    calc(0% - -2px) calc(50% - 0px),
+    calc(14.64% - -1.41px) calc(85.36% - 1.41px),
+    calc(50% - 0px) calc(100% - 2px),
+    calc(85.36% - 1.41px) calc(85.36% - 1.41px),
+    calc(100% - 2px) calc(50% - 0px),
+    calc(85.36% - 1.41px) calc(14.64% - -1.41px)
+  );
+  position: relative;
+  width: clamp(50px, 2.344vw, 60px);
+  z-index: 0;
+}
+
+.intro-scroll__line {
+  background-color: #565656;
+  content: "";
+  height: 150px;
+  left: 25%;
+  position: absolute;
+  width: 2px;
+  top: -20%;
+  z-index: 0;
+
+  @media (max-width: 768px) {
+    height: 120px;
+  }
+
+  &:before,
+  &:after {
+    background-color: #565656;
+    bottom: 0;
+    content: "";
+    height: 10px;
+    position: absolute;
+    transform: translate(-25%, 0) rotate(45deg);
+    transform-origin: center bottom;
+    width: 2px;
+    z-index: 0;
+  }
+
+  &:after {
+    transform-origin: center bottom;
+    transform: translate(25%, 0) rotate(-45deg);
+  }
+}
+
+.intro-scroll__label {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: clamp(1rem, 0.508vw, 1.3rem);
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  line-height: 1;
+  padding: 6px 15px 5px 8px;
+  position: absolute;
+  left: 60%;
+  text-align: center;
+  text-transform: uppercase;
+  top: 40%;
+  z-index: 1;
+
+  @media (max-width: 768px) {
+    right: -120%;
+  }
+}

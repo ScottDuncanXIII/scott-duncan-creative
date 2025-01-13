@@ -1,0 +1,22 @@
+.edge-links__email,
+.edge-links__linkedin {
+  color: #848484;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1;
+  position: fixed;
+  right: 2px;
+  top: 50%;
+  z-index: 10;
+  writing-mode: tb;
+  rotate: 180deg;
+}
+
+.edge-links__email {
+  bottom: 10%;
+}
+
+.edge-links__linkedin {
+  bottom: 40%;
+}

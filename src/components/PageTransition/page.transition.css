@@ -1,0 +1,27 @@
+.page-transition {
+  display: none;
+  flex-wrap: wrap;
+  position: fixed;
+  gap: 0;
+  top: 0;
+  left: 0;
+  height: 100svh;
+  width: 100vw;
+  z-index: 99;
+}
+
+.page-transition__tile {
+  background-color: var(--color--a);
+  background-color: #060606 !important;
+  display: block;
+  height: 10svh;
+  opacity: 1;
+  transform: scale(1, 1);
+  transform-origin: center;
+  visibility: hidden;
+  width: 10vw;
+}
+
+.page-transition-node-ref {
+  background-color: inherit;
+}

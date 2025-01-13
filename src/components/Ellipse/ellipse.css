@@ -1,0 +1,20 @@
+.ellipse {
+  overflow: clip;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.ellipse__content {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid #2c2c2c;
+  height: 150svh;
+  left: 30%;
+  position: absolute;
+  top: 0%;
+  transform: translate(0, -60%);
+}

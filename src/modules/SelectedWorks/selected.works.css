@@ -1,0 +1,20 @@
+.selected-works {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+/* .selected-works__heading {
+  top: 18%;
+  font-family: var(--font-family--primary);
+  font-size: 56px;
+  letter-spacing: 0.6vw;
+  line-height: 1;
+  margin: 0 0 0 5%;
+  text-transform: uppercase;
+
+  .word {
+    overflow-y: clip;
+  }
+} */

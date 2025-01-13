@@ -1,0 +1,25 @@
+.parallax-background {
+  overflow: clip;
+  position: relative;
+}
+
+.parallax-background__overlay {
+  height: 100%;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.parallax-background__image {
+  background-color: var(--color--a);
+  background-size: auto 150%;
+  background-position: 50% 0%;
+  height: 100%;
+  mix-blend-mode: soft-light;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}

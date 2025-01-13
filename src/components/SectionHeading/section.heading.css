@@ -1,0 +1,103 @@
+.section-heading {
+  bottom: 50px;
+  display: inline-block;
+  left: 40px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.section-heading__stripes-heading-container {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.section-heading__heading-wrapper {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.section-heading__heading-container {
+}
+
+.section-heading__heading {
+  color: #ffffff;
+  font-family: var(--font-family--primary);
+  font-kerning: none;
+  font-size: clamp(3.2rem, 2.188vw, 5.6rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.9;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    background-color: #ffffff;
+    content: "";
+    height: 2px;
+    left: -40px;
+    position: absolute;
+    top: 56%;
+    width: 375%;
+    z-index: 10;
+  }
+}
+
+.section-heading__tertiary-heading-wrapper {
+  position: relative;
+  transform: translate(-140px, 0);
+
+  &:before {
+    background-color: #ffffff;
+    bottom: 0;
+    content: "";
+    height: 420px;
+    left: 0;
+    position: absolute;
+    rotate: 45deg;
+    transform: translate(1px, 90px);
+    transform-origin: bottom;
+    width: 2px;
+  }
+}
+
+.section-heading__tertiary-heading {
+  background-color: #ffffff;
+  color: #000000;
+  clip-path: polygon(125px 0%, 100% 0%, 100% 100%, 0% 100%);
+  display: inline-block;
+  font-family: var(--font-family--primary);
+  font-kerning: none;
+  font-size: clamp(4.6rem, 3.594vw, 9.2rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.9;
+  padding: 22px 15px 18px 45px;
+  text-transform: uppercase;
+  z-index: 0;
+}
+
+.section-heading__heading-texture-a {
+  bottom: -180px;
+  left: 0;
+  position: absolute;
+  width: 660px;
+  z-index: 0;
+}
+
+.section-heading__heading-texture-a-image {
+  display: block;
+  width: 100%;
+}
+
+.section-heading__tertiary-heading-texture {
+  mix-blend-mode: screen;
+  position: absolute;
+  right: 0;
+  transform: translate(99%, -42%);
+  height: 220%;
+}

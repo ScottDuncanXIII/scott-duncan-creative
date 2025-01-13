@@ -1,0 +1,108 @@
+.scroll-gallery {
+  align-items: center;
+  display: flex;
+  min-height: 100svh;
+  overflow: hidden;
+  position: relative;
+  z-index: 6;
+}
+
+.scroll-gallery__heading {
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  font-family: var(--font-family--primary);
+  font-size: 56px;
+  letter-spacing: 0.6vw;
+  line-height: 1;
+  text-transform: uppercase;
+
+  .word {
+    overflow-y: clip;
+  }
+}
+
+.scroll-gallery__list {
+  display: inline-flex;
+  gap: 80px;
+  margin: 0;
+  padding-inline: clamp(120px, 7.813vw, 200px);
+  z-index: 10;
+
+  .selected-works-tile__link {
+    height: 35svh;
+  }
+}
+
+.scroll-gallery__list--init {
+  flex-direction: row;
+
+  .selected-works-tile__link {
+    height: 50svh;
+  }
+}
+
+.scroll-gallery__image-wrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+
+  &:before {
+    background: #000;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.1) 50%,
+      #000
+    );
+    background-size: 100% 4px;
+    content: "";
+    height: 100%;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &:after {
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(0, 0, 0, 0.75) 100%
+    );
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.scroll-gallery__image-overlay {
+  height: 100%;
+  mix-blend-mode: multiply;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.scroll-gallery__image {
+  background-size: cover;
+  background-position: 50% 0;
+  background-attachment: fixed;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.6) inset;
+  display: block;
+  filter: grayscale(1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
