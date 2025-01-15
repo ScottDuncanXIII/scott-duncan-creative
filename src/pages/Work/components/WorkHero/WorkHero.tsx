@@ -10,6 +10,7 @@ import ParallaxImage from "../../../../components/ParallaxImage";
 import linkArrow from "/imgs/link-arrow.svg";
 
 import "./work.hero.css";
+import AccessibleText from "../../../../components/AccessibleText";
 
 export default function WorkHero({
   imagesLoaded,
@@ -218,48 +219,53 @@ export default function WorkHero({
         <div className="work-hero-details">
           <div className="work-hero-details__specs-wrapper" ref={specs}>
             <div className="work-hero-details__specs">
-              <h3
-                className="work-hero-details__specs-label"
-                ref={workplaceLabelEl}
-              >
-                {model?.workplaceLabel}
+              <h3 className="work-hero-details__specs-label">
+                <AccessibleText
+                  text={model?.workplaceLabel}
+                  reference={workplaceLabelEl}
+                />
               </h3>
-              <h4
-                className="work-hero-details__specs-heading"
-                ref={workplaceHeadingEl}
-              >
-                {model?.workplace}
+
+              <h4 className="work-hero-details__specs-heading">
+                <AccessibleText
+                  text={model?.workplace}
+                  reference={workplaceHeadingEl}
+                />
               </h4>
             </div>
 
             <div className="work-hero-details__specs-divider"></div>
 
             <div className="work-hero-details__specs">
-              <h3 className="work-hero-details__specs-label" ref={yearsLabelEl}>
-                {model?.years.label}
+              <h3 className="work-hero-details__specs-label">
+                <AccessibleText
+                  text={model?.years.label}
+                  reference={yearsLabelEl}
+                />
               </h3>
-              <h4
-                className="work-hero-details__specs-heading"
-                ref={yearsHeadingEl}
-              >
-                {model?.years.value}
+
+              <h4 className="work-hero-details__specs-heading">
+                <AccessibleText
+                  text={model?.years.value}
+                  reference={yearsHeadingEl}
+                />
               </h4>
             </div>
 
             <div className="work-hero-details__specs-divider"></div>
 
             <div className="work-hero-details__specs">
-              <h3
-                className="work-hero-details__specs-label"
-                ref={statusLabelEl}
-              >
-                {model?.statusLabel}
+              <h3 className="work-hero-details__specs-label">
+                <AccessibleText
+                  text={model?.statusLabel}
+                  reference={statusLabelEl}
+                />
               </h3>
-              <h4
-                className="work-hero-details__specs-heading"
-                ref={statusHeadingEl}
-              >
-                {model?.status}
+              <h4 className="work-hero-details__specs-heading">
+                <AccessibleText
+                  text={model?.status}
+                  reference={statusHeadingEl}
+                />
               </h4>
             </div>
           </div>

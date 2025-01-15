@@ -63,6 +63,8 @@ export default function Work() {
     setImagesPreloadComplete(true);
   }
 
+  console.log(loaderData);
+
   return (
     <section id="work" key={workId}>
       <Preloader
@@ -98,7 +100,7 @@ export default function Work() {
                 <img
                   className="work-scroll-gallery__image"
                   src={caseStudy.url}
-                  alt=""
+                  alt={caseStudy.alt}
                 />
               </li>
             ))}

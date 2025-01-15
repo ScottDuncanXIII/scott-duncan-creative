@@ -9,6 +9,7 @@ import { TechStackType } from "../../../../types/TechStackType";
 
 import "./work.tech.css";
 import { IconName } from "@fortawesome/fontawesome-svg-core";
+import AccessibleText from "../../../../components/AccessibleText";
 
 export default function WorkTech({
   color,
@@ -17,8 +18,8 @@ export default function WorkTech({
   techStack,
 }: {
   color: string;
-  heading: string | undefined;
-  techStackIds: string[] | undefined;
+  heading: string;
+  techStackIds: string[];
   techStack: TechStackType[];
 }) {
   const containerEl = useRef(null);
@@ -88,15 +89,15 @@ export default function WorkTech({
         );
       });
     },
-    { scope: containerEl.current! as HTMLElement }
+    { scope: containerEl }
   );
 
   return (
     <div className={"work-tech"} ref={containerEl}>
       <div className={"work-tech__wrapper"}>
-        <h3 className={"work-tech__heading"} ref={headingEl}>
-          {heading}
-        </h3>
+        <h2 className={"work-tech__heading"}>
+          <AccessibleText text={heading} reference={headingEl} />
+        </h2>
 
         <ul className={"work-tech__list"}>
           {techStackIds?.map((id) =>
@@ -115,7 +116,10 @@ export default function WorkTech({
                     )}
                   </span>
 
-                  <span className={"work-tech__item-label"}>{tech.title}</span>
+                  <span className={"work-tech__item-label"} aria-hidden="true">
+                    {tech.title}
+                  </span>
+                  <span className="sr-only">{tech.title}</span>
                 </li>
               ))
           )}

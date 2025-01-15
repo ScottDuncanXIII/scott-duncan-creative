@@ -14,6 +14,7 @@ import data from "../../../../data.json";
 import linkArrow from "/imgs/link-arrow.svg";
 
 import "./selected.works.slider.css";
+import AccessibleText from "../../../../components/AccessibleText";
 
 export default function SelectedWorksSlider({
   init = false,
@@ -98,17 +99,18 @@ export default function SelectedWorksSlider({
       });
     }
 
-    setTotalPages(tempArray.length);
-    setWorkSelectionArray(tempArray);
-
     setPaginationIndex(0);
 
+    setTotalPages(tempArray.length);
+    setWorkSelectionArray(tempArray);
     setCurrentPage(0);
   }, [itemsPerPage]);
 
   useGSAP(() => {
     if (!init || !workSelectionArray || workSelectionArray?.length === 0)
       return;
+
+    console.log(headingEl.current);
 
     const scrollGalleryHeadingSplit = new SplitType(headingEl.current!, {
       types: "words,chars",
@@ -518,6 +520,8 @@ export default function SelectedWorksSlider({
   }, [animateInNext, animateInPrev]);
 
   useGSAP(() => {
+    console.log("currentPage", currentPage);
+    console.log("paginationIndex", paginationIndex);
     if (
       !document.querySelector(
         ".selected-works-slider-nav__pagination-btn--active"
@@ -556,7 +560,7 @@ export default function SelectedWorksSlider({
         },
       }
     );
-  }, [paginationIndex, itemsPerPage]);
+  }, [paginationIndex]);
 
   const onPrevClick = contextSafe(
     (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
@@ -603,8 +607,8 @@ export default function SelectedWorksSlider({
 
   return (
     <div className="selected-works-slider" ref={containerEl}>
-      <div className="selected-works-slider__heading" ref={headingEl}>
-        Selected Works
+      <div className="selected-works-slider__heading">
+        <AccessibleText text="Selected Works" reference={headingEl} />
       </div>
 
       {workSelectionArray.length > 0 && (
@@ -619,13 +623,11 @@ export default function SelectedWorksSlider({
         <button
           className="selected-works-slider-nav__btn selected-works-slider-nav__btn--prev"
           onClick={(e) => onPrevClick(e)}
-          disabled={
-            paginationIndex === 0 /*|| animateOutNext || animateOutPrev  ||
-            animateInNext ||
-            animateInPrev */
-          }
+          disabled={paginationIndex === 0}
           type="button"
-          aria-label="Prev"
+          aria-label={`Display previous selected works slider page. Currently viewing page number ${
+            currentPage + 1
+          } of ${totalPages}.`}
           ref={sliderNavBtnPrev}
         >
           <img
@@ -650,6 +652,11 @@ export default function SelectedWorksSlider({
                     : ""
                 }`}
                 key={i}
+                aria-label={`Display selected works slider page number ${
+                  i + 1
+                } of ${totalPages}. Currently viewing page number ${
+                  currentPage + 1
+                }.`}
                 type="button"
               >
                 {[...Array(workSelection.length).keys()].map((key) => (
@@ -683,15 +690,11 @@ export default function SelectedWorksSlider({
         <button
           className="selected-works-slider-nav__btn"
           onClick={(e) => onNextClick(e)}
-          disabled={
-            paginationIndex === totalPages! - 1 /* ||
-            animateOutNext ||
-            animateOutPrev  ||
-            animateInNext ||
-            animateInPrev */
-          }
+          disabled={paginationIndex === totalPages! - 1}
           type="button"
-          aria-label="Next"
+          aria-label={`Display next selected works slider page. Currently viewing page number ${
+            currentPage + 1
+          } of ${totalPages}.`}
           ref={sliderNavBtnNext}
         >
           <img

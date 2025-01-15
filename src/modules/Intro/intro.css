@@ -40,6 +40,7 @@
   font-weight: 100;
   letter-spacing: clamp(8px, 0.586vw, 15px);
   line-height: 1;
+  position: relative;
   text-align: center;
   text-transform: uppercase;
 
@@ -55,6 +56,7 @@
   font-weight: 400;
   letter-spacing: clamp(3px, 0.195vw, 5px);
   line-height: 1;
+  position: relative;
   text-align: center;
   text-transform: uppercase;
 }

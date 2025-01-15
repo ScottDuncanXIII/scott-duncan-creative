@@ -7,6 +7,7 @@ import SplitType from "split-type";
 import data from "../../data.json";
 
 import "./intro.css";
+import AccessibleText from "../../components/AccessibleText";
 
 export default function Intro({ initAnimations }: { initAnimations: boolean }) {
   const PATTERN_ITEM_COUNT = 22;
@@ -183,14 +184,17 @@ export default function Intro({ initAnimations }: { initAnimations: boolean }) {
         <div className="intro-wrapper">
           <div className="intro-content">
             <div className="intro-content__inner-wrapper">
-              <h1 className="intro-content__heading" ref={headingName}>
-                Scott Duncan
+              <h1 className="intro-content__heading">
+                <AccessibleText text="Scott Duncan" reference={headingName} />
               </h1>
 
               <div id="line" className="intro-content__horizontal-line"></div>
 
-              <h2 className="intro-content__subheading" ref={headingRoleA}>
-                Creative&nbsp;Developer
+              <h2 className="intro-content__subheading">
+                <AccessibleText
+                  text="Creative&nbsp;Developer"
+                  reference={headingRoleA}
+                />
               </h2>
 
               <div className="intro-content-pattern">

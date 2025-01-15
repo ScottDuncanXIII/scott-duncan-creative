@@ -6,6 +6,7 @@ import SplitType from "split-type";
 import Ellipse from "../../components/Ellipse";
 import SkewedStripes from "../../components/SkewedStripes";
 import "./overview.css";
+import AccessibleText from "../../components/AccessibleText";
 
 export default function Overview({
   color,
@@ -129,7 +130,7 @@ export default function Overview({
         "<+=20%"
       );
     },
-    { scope: containerEl.current! }
+    { scope: containerEl }
   );
 
   return (
@@ -141,21 +142,34 @@ export default function Overview({
         <div className="overview-content__heading-wrapper">
           <h2 className={"overview-content__heading"}>
             {headingA && (
-              <span className="overview-content__heading--a" ref={headingAEl}>
+              <span
+                className="overview-content__heading--a"
+                ref={headingAEl}
+                aria-hidden="true"
+              >
                 {headingA}
               </span>
             )}
             {headingB && (
-              <span className="overview-content__heading--b" ref={headingBEl}>
+              <span
+                className="overview-content__heading--b"
+                ref={headingBEl}
+                aria-hidden="true"
+              >
                 {headingB}
               </span>
             )}
 
             {headingC && (
               <>
-                <span className="overview-content__heading--c" ref={headingCEl}>
+                <span
+                  className="overview-content__heading--c"
+                  ref={headingCEl}
+                  aria-hidden="true"
+                >
                   {headingC}
                 </span>
+
                 <div className="overview-content__dots">
                   <div className="overview-content__dot"></div>
                   <div className="overview-content__dot"></div>
@@ -163,6 +177,10 @@ export default function Overview({
                 </div>
               </>
             )}
+
+            <span className="sr-only">{`${
+              headingA ? headingA : ""
+            } ${headingB} ${headingC}`}</span>
           </h2>
         </div>
 
@@ -172,9 +190,16 @@ export default function Overview({
           {paragraphs &&
             paragraphs.length > 0 &&
             paragraphs.map((paragraph, index) => (
-              <p className={"overview-content__paragraph"} key={index}>
-                {paragraph}
-              </p>
+              <>
+                <p
+                  className={"overview-content__paragraph"}
+                  key={index}
+                  aria-hidden="true"
+                >
+                  {paragraph}
+                </p>
+                <p className={"sr-only"}>{paragraph}</p>
+              </>
             ))}
         </div>
 

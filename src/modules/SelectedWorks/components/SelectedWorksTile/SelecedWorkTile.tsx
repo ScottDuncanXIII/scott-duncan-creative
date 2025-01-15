@@ -74,7 +74,7 @@ export default function SelecedWorkTile({ ...selectedWork }: SelectedWorkType) {
         <img
           className={"selected-works-tile__logo"}
           src={selectedWork.logo}
-          alt=""
+          alt={`${selectedWork.title} logo`}
           ref={logo}
         />
 
@@ -102,8 +102,17 @@ export default function SelecedWorkTile({ ...selectedWork }: SelectedWorkType) {
         <div className="selected-works-tile__content" ref={content}>
           <h3 className={"selected-works-tile__title"}>{selectedWork.title}</h3>
           <h4 className={"selected-works-tile__year"}>
-            {selectedWork.years?.value} //{" "}
-            <span style={{ color: selectedWork.colorMain }}>::::</span>
+            {selectedWork.years?.value}{" "}
+            <span aria-hidden="true" role="presentation">
+              //
+            </span>{" "}
+            <span
+              style={{ color: selectedWork.colorMain }}
+              aria-hidden="true"
+              role="presentation"
+            >
+              ::::
+            </span>
           </h4>
 
           <div
