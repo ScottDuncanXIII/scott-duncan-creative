@@ -8,7 +8,7 @@
   );
   position: fixed;
   bottom: 0;
-  height: 10vh;
+  height: 10svh;
   mix-blend-mode: lighten;
   pointer-events: none;
   width: 100%;
