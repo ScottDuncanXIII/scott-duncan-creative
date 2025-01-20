@@ -8,6 +8,7 @@
 }
 
 .selected-works-tile__link {
+  aspect-ratio: 15 / 20;
   background: none;
   background-size: cover;
   background-position: 50% 50%;
@@ -23,8 +24,6 @@
   transform-style: preserve-3d;
   transform: perspective(2000px) rotateX(0deg) rotateY(0deg);
   will-change: transform;
-
-  aspect-ratio: 15 / 20;
   width: 100%;
 
   @media (max-width: 768px) {

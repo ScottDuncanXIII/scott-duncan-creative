@@ -4,15 +4,13 @@ import { useGSAP } from "@gsap/react";
 
 import "./scroll.gallery.css";
 import Scanlines from "../Scanlines";
+import { ImageType } from "../../types/ImageType";
 
 export default function ScrollGallery({
-  children,
-  heading,
+  imageArray,
 }: {
-  children: ReactNode;
-  heading?: string;
+  imageArray: ImageType[];
 }) {
-  const scrollGalleryHeading = useRef(null);
   const scrollGallery = useRef(null);
   const scrollGalleryList = useRef<HTMLUListElement | null>(null);
   const scrollerPin = useRef<GSAPTimeline | null>(null);
@@ -23,7 +21,7 @@ export default function ScrollGallery({
     scrollerPin.current = gsap.timeline();
 
     /* setTimeout(() => { */
-    console.log("Init Scroller Pin");
+    /* console.log("Init Scroller Pin");
     scrollerPin.current?.to(scrollGalleryList.current, {
       x:
         -(scrollGalleryList.current as HTMLUListElement).offsetWidth +
@@ -42,7 +40,7 @@ export default function ScrollGallery({
           ((scrollGalleryList.current as HTMLUListElement).offsetWidth -
             innerWidth),
       },
-    });
+    }); */
     /* }, 2000); */
 
     return () => {
@@ -53,15 +51,18 @@ export default function ScrollGallery({
 
   return (
     <div className="scroll-gallery" ref={scrollGallery}>
-      {heading && (
-        <div className="scroll-gallery__heading" ref={scrollGalleryHeading}>
-          {heading}
-        </div>
-      )}
-
       <ul className={`scroll-gallery__list`} ref={scrollGalleryList}>
-        {children}
+        {imageArray.map((caseStudy, index) => (
+          <li className="scroll-gallery__item" key={index}>
+            <img
+              className="scroll-gallery__image"
+              src={caseStudy.url}
+              alt={caseStudy.alt}
+            />
+          </li>
+        ))}
       </ul>
+
       <Scanlines />
     </div>
   );

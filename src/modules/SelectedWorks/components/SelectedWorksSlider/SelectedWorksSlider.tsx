@@ -611,13 +611,12 @@ export default function SelectedWorksSlider({
         <AccessibleText text="Selected Works" reference={headingEl} />
       </div>
 
-      {workSelectionArray.length > 0 && (
-        <ul className={"selected-works-slider__list"} ref={sliderListEl}>
-          {workSelectionArray[currentPage].map((selectedWork) => (
+      <ul className={"selected-works-slider__list"} ref={sliderListEl}>
+        {workSelectionArray.length > 0 &&
+          workSelectionArray[currentPage].map((selectedWork) => (
             <SelecedWorkTile {...selectedWork} key={selectedWork.id} />
           ))}
-        </ul>
-      )}
+      </ul>
 
       <div className="selected-works-slider-nav">
         <button

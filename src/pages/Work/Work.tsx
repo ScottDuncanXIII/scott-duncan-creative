@@ -115,17 +115,7 @@ export default function Work() {
             imageUrl="/imgs/background-work-scroll.jpg"
             overlayColor={loaderData?.colorMain}
           >
-            <ScrollGallery>
-              {loaderData?.caseStudyImages.map((caseStudy, index) => (
-                <li className="work-scroll-gallery__item" key={index}>
-                  <img
-                    className="work-scroll-gallery__image"
-                    src={caseStudy.url}
-                    alt={caseStudy.alt}
-                  />
-                </li>
-              ))}
-            </ScrollGallery>
+            <ScrollGallery imageArray={loaderData?.caseStudyImages} />
           </ParallaxBackground>
         )}
 

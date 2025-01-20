@@ -54,7 +54,7 @@ export default function Overview({
       const tl = gsap.timeline({
         scrollTrigger: {
           //markers: true,
-          start: "top 65%",
+          start: "top 75%",
           end: "bottom 40%",
           trigger: containerEl.current,
           onEnter: () => {
@@ -80,15 +80,11 @@ export default function Overview({
         });
       }
 
-      tl.from(
-        headingBElSplit.chars,
-        {
-          duration: 0.5,
-          yPercent: -100,
-          stagger: { each: 0.1 },
-        },
-        "<+=50%"
-      );
+      tl.from(headingBElSplit.chars, {
+        duration: 0.5,
+        yPercent: -100,
+        stagger: { each: 0.1 },
+      });
 
       tl.from(
         headingCElSplit.chars,
@@ -97,7 +93,7 @@ export default function Overview({
           yPercent: 100,
           stagger: { each: 0.1, from: "random" },
         },
-        ">-=50%"
+        "<+=40%"
       );
 
       tl.from(
@@ -106,7 +102,7 @@ export default function Overview({
           duration: 2,
           opacity: 0,
         },
-        "<+=50%"
+        "<+=10%"
       );
 
       tl.from(
@@ -128,7 +124,7 @@ export default function Overview({
             autoAlpha: 0,
             stagger: { each: 0.001, from: "random" },
           },
-          "<+=40%"
+          "<"
         );
       });
 
