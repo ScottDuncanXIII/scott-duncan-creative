@@ -79,7 +79,7 @@ export default function Work() {
   }
 
   function handlePreloadComplete() {
-    console.log("handlePreloadComplete");
+    //console.log("handlePreloadComplete");
     setImagesPreloadComplete(true);
   }
 
@@ -115,6 +115,18 @@ export default function Work() {
             imageUrl="/imgs/background-work-scroll.jpg"
             overlayColor={loaderData?.colorMain}
           >
+            {/* <ScrollGallery>
+              {loaderData?.caseStudyImages.map((caseStudy, index) => (
+                <li className="scroll-gallery__item" key={index}>
+                  <img
+                    className="scroll-gallery__image"
+                    src={caseStudy.url}
+                    alt={caseStudy.alt}
+                  />
+                </li>
+              ))}
+            </ScrollGallery> */}
+
             <ScrollGallery imageArray={loaderData?.caseStudyImages} />
           </ParallaxBackground>
         )}

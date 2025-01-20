@@ -2,7 +2,7 @@ import gsap from "gsap";
 import data from "../data.json";
 
 export const homeLoader = async () => {
-  console.log("Home Loader Init ----------------");
+  //console.log("Home Loader Init ----------------");
   document.body.style.overflow = "hidden";
 
   if (document.querySelector(".page-transition")) {
@@ -29,7 +29,7 @@ export const homeLoader = async () => {
     pageTransitionTimeline.play();
 
     await pageTransitionTimeline.then(() => {
-      console.log("Home Loader Transition Done");
+      //console.log("Home Loader Transition Done");
       pageTransitionTimeline?.kill();
       pageTransitionTimeline = null;
     });
@@ -44,7 +44,7 @@ export const homeLoader = async () => {
         imagesToPreload.push(work.selectedWorks.thumbnail3d);
       });
 
-      console.log("Home Loader promise");
+      //console.log("Home Loader promise");
 
       setTimeout(() => {
         resolve(imagesToPreload);

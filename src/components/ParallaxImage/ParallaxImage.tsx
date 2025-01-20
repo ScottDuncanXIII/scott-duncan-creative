@@ -15,7 +15,7 @@ export default function ParallaxImage({
 
   useGSAP(() => {
     if (!image.current) return;
-    ////console.log("Hero Gsap", image.current);
+    //////console.log("Hero Gsap", image.current);
     gsap.to(image.current, {
       backgroundPosition: `50% 100%`,
       scrollTrigger: {

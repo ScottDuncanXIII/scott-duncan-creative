@@ -164,12 +164,11 @@ export default {
       this.isLoaded = true
       this.$emit('asset-loaded')
 
-      
       setTimeout(() => {
-        const elements = document.querySelectorAll(".ce-interactive-scene__anim");
+        const elements = document.querySelectorAll('.ce-interactive-scene__anim')
         for (var i = 0; i <= elements.length; i++) {
-          //console.log(elements[i]);
-          //console.log(elements[i].querySelector("canvas").width)
+          ////console.log(elements[i]);
+          ////console.log(elements[i].querySelector("canvas").width)
           //elements[i].querySelector("canvas").width = "100%";
           //elements[i].style.width = "100%";
         }
@@ -288,11 +287,7 @@ export default {
           this.$refs?.animation?.play()
         }
 
-        if (
-          this.soundArray &&
-          this.soundArray.length > 0 &&
-          !this.soundSettings.isMuted
-        ) {
+        if (this.soundArray && this.soundArray.length > 0 && !this.soundSettings.isMuted) {
           this.soundArray.forEach((sound) => {
             sound.pause()
           })

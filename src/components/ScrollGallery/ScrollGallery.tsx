@@ -1,4 +1,4 @@
-import { ReactNode, useRef } from "react";
+import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -9,39 +9,53 @@ import { ImageType } from "../../types/ImageType";
 export default function ScrollGallery({
   imageArray,
 }: {
-  imageArray: ImageType[];
+  imageArray?: ImageType[];
 }) {
   const scrollGallery = useRef(null);
   const scrollGalleryList = useRef<HTMLUListElement | null>(null);
   const scrollerPin = useRef<GSAPTimeline | null>(null);
+  const imageArrayData = useRef(imageArray);
 
   useGSAP(() => {
     //if (scrollerPin.current || !scrollGalleryList.current) return;
-    console.log("Init Scroll Gllery", scrollGalleryList.current);
-    scrollerPin.current = gsap.timeline();
+    //console.log("imageArrayData.current", imageArrayData.current);
+    //console.log("Init Scroll Gllery", scrollGalleryList.current);
 
-    /* setTimeout(() => { */
-    /* console.log("Init Scroller Pin");
-    scrollerPin.current?.to(scrollGalleryList.current, {
-      x:
+    gsap.delayedCall(0.5, initScrollPin);
+
+    function initScrollPin() {
+      //console.log("scrollerPin", scrollerPin);
+      if (scrollerPin.current) return;
+
+      //console.log("Init Scroller Pin");
+      /* console.log(
+        "scrollGalleryList.current as HTMLUListElement).offsetWidth - innerWidth",
         -(scrollGalleryList.current as HTMLUListElement).offsetWidth +
-        innerWidth / 1.5,
-      ease: "none",
-      scrollTrigger: {
-        trigger: scrollGallery.current,
-        pin: true,
-        pinType: "transform",
-        start: "top top",
-        scrub: 1,
-        markers: true,
-        anticipatePin: 1,
-        end: () =>
-          "+=" +
-          ((scrollGalleryList.current as HTMLUListElement).offsetWidth -
-            innerWidth),
-      },
-    }); */
-    /* }, 2000); */
+          innerWidth
+      ); */
+
+      scrollerPin.current = gsap.timeline();
+
+      scrollerPin.current?.to(scrollGalleryList.current, {
+        x:
+          -(scrollGalleryList.current as HTMLUListElement).offsetWidth +
+          innerWidth,
+        ease: "none",
+        scrollTrigger: {
+          trigger: scrollGallery.current,
+          pin: true,
+          pinType: "transform",
+          start: "top top",
+          scrub: 1,
+          //markers: true,
+          anticipatePin: 1,
+          end: () =>
+            "+=" +
+            ((scrollGalleryList.current as HTMLUListElement).offsetWidth -
+              innerWidth),
+        },
+      });
+    }
 
     return () => {
       scrollerPin.current?.kill();
@@ -52,7 +66,7 @@ export default function ScrollGallery({
   return (
     <div className="scroll-gallery" ref={scrollGallery}>
       <ul className={`scroll-gallery__list`} ref={scrollGalleryList}>
-        {imageArray.map((caseStudy, index) => (
+        {imageArrayData.current?.map((caseStudy, index) => (
           <li className="scroll-gallery__item" key={index}>
             <img
               className="scroll-gallery__image"
@@ -61,6 +75,7 @@ export default function ScrollGallery({
             />
           </li>
         ))}
+        {/* {children} */}
       </ul>
 
       <Scanlines />

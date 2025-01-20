@@ -43,7 +43,7 @@ export default function Home() {
 
   useGSAP(() => {
     if (!preloadComplete) return;
-    console.log("Home: preloadComplete Init");
+    //console.log("Home: preloadComplete Init");
 
     pageTransitionTimeline.fromTo(
       ".page-transition__tile",

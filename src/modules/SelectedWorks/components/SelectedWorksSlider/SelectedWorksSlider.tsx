@@ -110,7 +110,7 @@ export default function SelectedWorksSlider({
     if (!init || !workSelectionArray || workSelectionArray?.length === 0)
       return;
 
-    console.log(headingEl.current);
+    //console.log(headingEl.current);
 
     const scrollGalleryHeadingSplit = new SplitType(headingEl.current!, {
       types: "words,chars",
@@ -146,7 +146,7 @@ export default function SelectedWorksSlider({
     });
 
     function handleSelectedWorksEnter() {
-      console.log("handleSelectedWorksEnter");
+      //console.log("handleSelectedWorksEnter");
       tl?.clear();
       tl = gsap.timeline({});
 
@@ -256,7 +256,7 @@ export default function SelectedWorksSlider({
     }
 
     function handleSelectedWorksLeave() {
-      console.log("handleSelectedWorksLeave");
+      //console.log("handleSelectedWorksLeave");
       tl?.clear();
       tl = gsap.timeline({});
 
@@ -477,7 +477,7 @@ export default function SelectedWorksSlider({
       } 100%, 0% 100%)`,
       stagger: { each: 0.1, from: animateInNext ? "end" : "start" },
       onComplete: () => {
-        console.log("Transition Complete");
+        //console.log("Transition Complete");
         isTransitionActive.current = false;
       },
     });
@@ -489,7 +489,7 @@ export default function SelectedWorksSlider({
         autoAlpha: 1,
         stagger: { each: 0.1, from: animateInNext ? "end" : "start" },
         onComplete: () => {
-          console.log("Transition Complete 2");
+          //console.log("Transition Complete 2");
         },
       },
       "<+=60%"
@@ -502,7 +502,7 @@ export default function SelectedWorksSlider({
         autoAlpha: 1,
         stagger: { each: 0.1, from: animateInNext ? "end" : "start" },
         onComplete: () => {
-          console.log("Transition Complete 3");
+          //console.log("Transition Complete 3");
         },
       },
       "<+=10%"
@@ -520,8 +520,8 @@ export default function SelectedWorksSlider({
   }, [animateInNext, animateInPrev]);
 
   useGSAP(() => {
-    console.log("currentPage", currentPage);
-    console.log("paginationIndex", paginationIndex);
+    //console.log("currentPage", currentPage);
+    //console.log("paginationIndex", paginationIndex);
     if (
       !document.querySelector(
         ".selected-works-slider-nav__pagination-btn--active"
