@@ -1,0 +1,24 @@
+.button {
+    .paragraph__secondary--1();
+    border: none;
+    box-sizing: border-box;
+    color: @color__white;
+    cursor: pointer;
+    line-height: 1;
+    padding: 25px 50px;
+    text-decoration: none;
+
+    @media @bp__mobile {
+        padding: 20px 30px;
+    }
+}
+
+.button--dark {
+    .button();
+    background-color: @color__black;
+}
+
+.button--light {
+    .button();
+    background-color: @color__primary;
+}

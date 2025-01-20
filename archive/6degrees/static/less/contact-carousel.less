@@ -1,0 +1,45 @@
+.contact-carousel {
+    filter: grayscale(1);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    .contact-carousel__logo-link {
+        display: inline-block;
+        left: 80px;
+        position: absolute;
+        top: 80px;
+        z-index: 2;
+
+        @media @bp__desktop {
+            left: 50px;
+            top: 50px;
+        }
+
+        @media @bp__mobile {
+            left: 30px;
+            top: 35px;
+        }
+
+        @media @bp__mobile--small {
+            left: 30px;
+            top: 35px;
+        }
+    }
+
+    .contact-carousel__logo {
+        display: block;
+        width: 100%;
+    }
+
+    .contact-carousel__item {
+        position: relative;
+        width: 100%;
+    }
+    
+    .contact-carousel__image {
+        display: block;
+        width: 100%;
+    }
+}
+

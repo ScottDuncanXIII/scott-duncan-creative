@@ -1,0 +1,48 @@
+.case-study-video {
+    background-color: @color__white;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100%;
+    padding: 0 150px 200px;
+    z-index: 1;
+
+    @media @breakpoint__desktop--medium {
+        padding: 0 100px 200px;
+    }
+
+    @media @breakpoint__desktop--small {
+        padding: 0 45px 150px;
+    }
+    
+    @media @breakpoint__tablet {
+        padding: 0 25px 80px;
+    }
+
+    @media @breakpoint__mobile--small {
+        padding: 0 25px 50px;
+    }
+
+    .case-study-video__container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0; overflow: hidden;
+        opacity: 0;
+        max-width: 100%; height: auto;
+        transition: 0.6s all;
+
+        &.anim-in {
+            opacity: 1;
+        }
+    }
+
+    .case-study-video__container iframe,
+    .case-study-video__container object,
+    .case-study-video__container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+

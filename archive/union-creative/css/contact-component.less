@@ -1,0 +1,180 @@
+.contact-component {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+
+  .contact-component__container,
+  .contact-component__container--b {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: @max-site-width;
+    padding: 200px 150px;
+    position: relative;
+    width: 100%;
+
+    @media @breakpoint__desktop--medium {
+      padding: 100px;
+    }
+
+    @media @breakpoint__desktop--small {
+      padding: 80px 45px;
+    }
+
+    @media @breakpoint__mobile {
+      padding: 60px 45px;
+    }
+
+    @media @breakpoint__mobile--small {
+      padding: 50px 25px;
+    }
+  }
+
+  .contact-component__heading-container {
+    box-sizing: content-box;
+    padding-right: 1%;
+    position: relative;
+    transition: 0.6s all;
+    width: 350px;
+
+    &:after {
+      background-color: @color__primary;
+      content: "";
+      position: absolute;
+      height: 0;
+      right: 0;
+      top: 0;
+      transition: 0.6s all;
+      width: 2px;
+
+      @media @breakpoint__tablet--large {
+        content: none;
+      }
+    }
+
+    &.anim-in {
+      &:after {
+        height: 100%;
+      }
+    }
+
+    @media @breakpoint__desktop--large {
+      width: 300px;
+    }
+
+    @media @breakpoint__desktop--medium {
+      padding-right: 0;
+      width: 240px;
+    }
+
+    @media @breakpoint__desktop--small {
+      width: 235px;
+    }
+
+    @media @breakpoint__tablet--large {
+      border-right: none;
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+
+  .contact-component__heading {
+    .heading__3();
+    .animate-text-in(@color__secondary);
+    padding: 0;
+
+    @media @breakpoint__tablet--large {
+      border: none;
+      display: inline-block;
+      font-size: 5.6rem;
+      margin-bottom: 40px;
+      width: auto;
+    }
+
+    &:before {
+      padding: 0 0 0 0;
+    }
+  }
+
+  .contact-component-info {
+    display: flex;
+    flex-grow: 1;
+    padding: 8px 0 0 6%;
+    transition: 0.6s all;
+    vertical-align: top;
+
+    @media @breakpoint__desktop--small {
+      width: 65%;
+    }
+
+    @media @breakpoint__tablet--large {
+      padding: 0;
+      width: 100%;
+    }
+
+    @media @breakpoint__mobile {
+      display: block;
+    }
+  }
+
+  .contact-component-info__container {
+    vertical-align: top;
+    width: 50%;
+
+    @media @breakpoint__mobile {
+      width: 100%;
+
+      &:first-of-type {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .contact-component-info__wrapper {
+    .animate-block-in();
+  }
+
+  .contact-component-info__city-name {
+    .heading__5();
+    .animate-text-in(@color__secondary);
+    margin: 0 0 20px;
+  }
+
+  .contact-component-info__phone-number {
+    .paragraph__1();
+    align-items: center;
+    display: flex;
+    margin: 0 0 15px;
+
+    a {
+      .paragraph__1();
+      display: inline-block;
+      text-decoration: none;
+    }
+  }
+
+  .contact-component-info__email {
+    .paragraph__1();
+    align-items: center;
+    display: flex;
+    margin: 0 0 20px;
+
+    a {
+      .paragraph__1();
+      display: inline-block;
+      text-decoration: none;
+    }
+  }
+
+  .contact-component-info__address {
+    .paragraph__1();
+    font-style: normal;
+  }
+
+  .contact-component-info__icon {
+    color: @color__primary;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

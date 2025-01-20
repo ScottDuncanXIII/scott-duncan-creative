@@ -1,0 +1,95 @@
+.capabilities {
+    background-color: #fafafa;
+    position: relative;
+    width: 100%;
+
+    .capabilities__container {
+        box-sizing: border-box;
+        margin: 0 auto;
+        max-width: @max-site-width;
+        padding: 115px 150px;
+        width: 100%;
+    
+        @media @breakpoint__desktop--medium {
+            padding: 115px 100px;
+        }
+    
+        @media @breakpoint__desktop--small {
+            padding: 115px 45px;
+        }
+    
+        @media @breakpoint__tablet--large {
+            padding: 115px 45px;
+        }
+    
+        @media @breakpoint__mobile--small {
+            padding: 50px 25px;
+        }
+    }
+
+    .capabilities__heading {
+        .heading__3();
+        .animate-text-in(@color__secondary);
+        margin-bottom: 50px;
+        max-width: 630px;
+        width: 100%;
+    }
+
+    .capabilities-capability {
+        align-items: center;
+        display: flex;
+        margin-bottom: 90px;
+        max-width: 1200px;
+        position: relative;
+        width: 100%;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    .capabilities-capability__icon-container {
+        box-sizing: border-box;
+        flex-shrink: 0;
+        padding-right: 100px;
+        position: relative;
+
+        @media @breakpoint__desktop--medium {
+            padding-right: 50px;
+        }
+
+        @media @breakpoint__tablet {
+            padding-right: 25px;
+        }
+
+        @media @breakpoint__mobile{
+            padding-right: 15px;
+        }
+    }
+
+    .capabilities-capability__icon {
+        .animate-image-in();
+        display: block;
+        position: relative;
+        width: 100%;
+
+        @media @breakpoint__mobile{
+            width: 100px;
+        }
+    }
+
+    .capabilities-capability__content-container {
+        flex: 1;
+    }
+
+    .capabilities-capability__content-heading {
+        .heading__5();
+        .animate-text-in(@color__primary);
+        margin-bottom: 25px;
+    }
+
+    .capabilities-capability__content-paragraph {
+        .paragraph__1();
+        .animate-text-in(@color__secondary);
+    }
+}

@@ -7,7 +7,7 @@
   padding-inline: clamp(40px, 5.859vw, 150px);
   position: relative;
   justify-content: center;
-  z-index: 2;
+  z-index: 10;
 }
 
 .work-tech__wrapper {

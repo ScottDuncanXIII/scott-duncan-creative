@@ -1,0 +1,22 @@
+.logo {
+    display: inline-block;
+    left: 80px;
+    position: absolute;
+    top: 65px;
+    width: 60px;
+    z-index: 2;
+
+    @media @bp__desktop {
+        left: 50px;
+        top: 40px;
+    }
+
+    @media @bp__mobile {
+        display: none;
+    }
+
+    .logo__image {
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,110 @@
+.global-footer {
+    background-color: #000000;
+    padding: 40px 0 25px;
+    position: relative;
+    width: 100%;
+
+    .global-footer__link-list {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .global-footer__link-item {
+        margin: 0 20px 25px;
+
+        @media @breakpoint__mobile--small {
+            margin: 0 15px 25px;
+        }
+
+        &:first-of-type {
+            @media @breakpoint__mobile {
+                display: none;
+            }
+        }
+    }
+    
+    .global-footer__link-logo {
+        border-right: 2px solid #b7cf39;
+        padding-right: 40px;
+        width: 85px;
+
+        @media @breakpoint__mobile {
+            border-right: none;
+            padding-right: 0;
+        }
+    }
+    
+    .global-footer__link {
+        color: #ffffff;
+        display: block;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        line-height: 1;
+        text-decoration: none;
+        transition: color 0.3s;
+    
+        &:hover {
+            color: #b7cf39;
+        }
+    }
+
+    .global-footer__logo--mobile {
+        display: none;
+
+        @media @breakpoint__mobile {
+            display: flex;
+            margin: 0 auto 15px;
+            width: 45px;
+        }
+    }
+    
+    .global-footer__social-link-list {
+        margin: 0 0 35px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .global-footer__social-link-item {
+        display: inline-block;
+        margin-right: 30px;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    
+    .global-footer__social-link {
+        display: block;
+    }
+    
+    .global-footer__legal {
+        color: #717171;
+        font-size: 14px;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    
+    .fas {
+        color: @color__primary;
+        display: inline;
+        margin-right: 5px;
+    }
+    
+    .fab {
+        color: @color__white;
+        font-size: 38px;
+        transition: 0.3s color;
+    }
+    
+    .fab:hover {
+        color: @color__primary;
+    }
+}
+

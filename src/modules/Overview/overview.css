@@ -6,7 +6,7 @@
   justify-content: space-between;
   position: relative;
   width: 100%;
-  z-index: 6;
+  z-index: 10;
 
   &.overview--box-shadow {
     box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);

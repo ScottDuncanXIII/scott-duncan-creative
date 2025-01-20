@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Cera Pro Light';
+    src: url('../fonts/CeraPro-Light.eot');
+    src: url('../fonts/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraPro-Light.woff') format('woff'),
+    url('../fonts/CeraPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url('../fonts/CeraPro-Regular.eot');
+    src: url('../fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraPro-Regular.woff') format('woff'),
+    url('../fonts/CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro Medium';
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraPro-Medium.woff') format('woff'),
+    url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro Bold';
+    src: url('../fonts/CeraPro-Bold.eot');
+    src: url('../fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraPro-Bold.woff') format('woff'),
+    url('../fonts/CeraPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heading {
+    font-family: 'Cera Pro Bold';
+    font-weight: 700;
+    letter-spacing: -0.25rem;
+    line-height: 1;
+}
+
+.heading__primary {
+    .heading();
+    font-size: 16rem;
+    line-height: 0.9;
+
+    @media @bp__desktop--x-large {
+        font-size: 14em;
+    }
+
+    @media @bp__desktop--large {
+        font-size: 12.6rem;
+    }
+
+    @media @bp__desktop {
+        font-size: 10.6rem;
+    }
+
+    @media @bp__desktop--small {
+        //font-size: 8rem;
+    }
+    
+    @media @bp__tablet {
+        font-size: 10rem;
+    }
+
+    @media @bp__mobile {
+        font-size: 7.8rem;
+        line-height: 1;
+    }
+
+    @media @bp__mobile--small {
+        font-size: 6.6rem;
+    }
+}
+
+.heading__secondary {
+    .heading();
+    font-size: 12rem;
+}
+
+.heading__tertiary {
+    .heading();
+    font-size: 8rem;
+
+    @media @bp__desktop--x-large {
+        font-size: 6rem;
+    }
+
+    @media @bp__desktop--large {
+        font-size: 5.6rem;
+    }
+
+    @media @bp__desktop {
+        font-size: 5rem;
+    }
+
+    @media @bp__mobile {
+        font-size: 4.6rem;
+    }
+
+    @media @bp__mobile--small {
+        font-size: 3rem;
+    }
+}
+
+.heading__quaternary {
+    .heading();
+    font-size: 6rem;
+
+    @media @bp__desktop--x-large {
+        font-size: 5.4rem;
+    }
+
+    @media @bp__desktop--large {
+        font-size: 5rem;
+    }
+
+    @media @bp__desktop {
+        font-size: 4.6rem;
+    }
+
+    @media @bp__mobile {
+        font-size: 3.2rem;
+    }
+
+    @media @bp__mobile--small {
+        font-size: 2.4rem;
+    }
+}
+
+.paragraph__primary--1,
+.paragraph__secondary--1,
+.paragraph__tertiary--1,
+.paragraph__quaternary--1 {
+    font-family: 'Cera Pro Bold';
+    font-weight: 700;
+}
+
+.paragraph__primary--2,
+.paragraph__secondary--2,
+.paragraph__tertiary--2,
+.paragraph__quaternary--2 {
+    font-family: 'Cera Pro Medium';
+    font-weight: 500;
+}
+
+.paragraph__primary--3,
+.paragraph__secondary--3,
+.paragraph__tertiary--3,
+.paragraph__quaternary--3 {
+    font-family: 'Cera Pro Regular';
+    font-weight: 400;
+}
+
+.paragraph__primary--4,
+.paragraph__secondary--4,
+.paragraph__tertiary--4,
+.paragraph__quaternary--4 {
+    font-family: 'Cera Pro Light';
+    font-weight: 100;
+}
+
+.paragraph__primary--1,
+.paragraph__primary--2,
+.paragraph__primary--3,
+.paragraph__primary--4 {
+    font-size: 3.7rem;
+    letter-spacing: -0.1rem;
+    line-height: 4rem;
+
+    @media @bp__desktop {
+        //font-size: 2.6rem;
+        line-height: 3.8rem;
+    }
+
+    @media @bp__mobile {
+        font-size: 3.6rem;
+        //font-size: 2.4rem;
+        //line-height: 3.2rem;
+    }
+}
+
+.paragraph__secondary--1,
+.paragraph__secondary--2,
+.paragraph__secondary--3,
+.paragraph__secondary--4 {
+    font-size: 2.4rem;
+    letter-spacing: -0.1rem;
+    line-height: 3rem;
+
+    @media @bp__desktop {
+        font-size: 2rem;
+    }
+
+    @media @bp__mobile--small {
+        font-size: 1.8rem;
+    }
+}
+
+.paragraph__tertiary--1,
+.paragraph__tertiary--2,
+.paragraph__tertiary--3,
+.paragraph__tertiary--4 {
+    font-size: 2rem;
+    letter-spacing: -0.1rem;
+    line-height: 3.2rem;
+
+    @media @bp__desktop {
+        font-size: 2rem;
+    }
+
+    @media @bp__mobile--small {
+        font-size: 1.8rem;
+    }
+}
+
+.paragraph__quaternary--1,
+.paragraph__quaternary--2,
+.paragraph__quaternary--3,
+.paragraph__quaternary--4 {
+    font-size: 1.5rem;
+    letter-spacing: -0.1rem;
+    line-height: 2.4rem;
+}

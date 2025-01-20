@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="msapplication-TileColor" content="#b7cf39" />
+    <meta name="theme-color" content="#b7cf39" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#b7cf39" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap"
+    />
+    <link rel="stylesheet" href="css/_main.css" />
+    <title>Union | Work</title>
+  </head>
+  <body>
+    <div id="union" role="main">
+      <global-navigation></global-navigation>
+      <global-hero-component></global-hero-component>
+      <work-thumbnail-grid></work-thumbnail-grid>
+      <contact-component></contact-component>
+      <global-footer></global-footer>
+
+      <script
+        type="text/x-template"
+        id="union-creative-main-navigation-template"
+      >
+        <header id="global-navigation" class="global-navigation">
+            <a class="global-navigation-logo" href="index.html" v-on:click="clickMainLogo()">
+                <img class="global-navigation-logo__image" src="images/union-logo.svg" alt="Union Creative Logo">
+            </a>
+
+            <button id="global-navigation-menu" class="global-navigation-menu" v-on:click="onClickNavigationMenuButton($event)" :class="{'active' : isNavigationMenuOpen}">
+                <div class="global-navigation-menu__top"></div>
+
+                <div class="global-navigation-menu__middle">
+                    <div class="global-navigation-menu__middle--one"></div>
+                    <div class="global-navigation-menu__middle--two"></div>
+                </div>
+
+                <div class="global-navigation-menu__bottom"></div>
+            </button>
+
+            <nav id="global-navigation-overlay" class="global-navigation-overlay">
+                <div id="global-navigation-overlay__wrapper" class="global-navigation-overlay__wrapper">
+                    <ul class="global-navigation-overlay__list">
+                        <li class="global-navigation-overlay__item">
+                            <a class="global-navigation-overlay__link" href="about.html" v-on:mouseover="onMouseOverNavigation('about')" v-on:mouseleave="onMouseLeaveNavigation()" v-on:focus="onMouseOverNavigation('about')" v-on:blur="onMouseLeaveNavigation()">About</a>
+                        </li>
+
+                        <li class="global-navigation-overlay__item">
+                            <a class="global-navigation-overlay__link" href="work.html" v-on:mouseover="onMouseOverNavigation('work')" v-on:mouseleave="onMouseLeaveNavigation()" v-on:focus="onMouseOverNavigation('work')" v-on:blur="onMouseLeaveNavigation()">Work</a>
+                        </li>
+
+                        <li class="global-navigation-overlay__item">
+                            <a class="global-navigation-overlay__link" href="our-clients.html" v-on:mouseover="onMouseOverNavigation('clients')" v-on:mouseleave="onMouseLeaveNavigation()" v-on:focus="onMouseOverNavigation('clients')" v-on:blur="onMouseLeaveNavigation()">Clients</a>
+                        </li>
+
+                        <li class="global-navigation-overlay__item">
+                            <a class="global-navigation-overlay__link" href="capabilities.html" v-on:mouseover="onMouseOverNavigation('capabilities')" v-on:mouseleave="onMouseLeaveNavigation()" v-on:focus="onMouseOverNavigation('capabilities')" v-on:blur="onMouseLeaveNavigation()">Capabilities</a>
+                        </li>
+
+                        <li class="global-navigation-overlay__item">
+                            <a class="global-navigation-overlay__link" href="contact.html" v-on:mouseover="onMouseOverNavigation('contact')" v-on:mouseleave="onMouseLeaveNavigation()" v-on:focus="onMouseOverNavigation('contact')" v-on:blur="onMouseLeaveNavigation()">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="global-navigation-overlay__images">
+                        <div class="global-navigation-overlay__image" :class="{active : currentNavHightlight === 'about'}">
+                            <div class="global-navigation-overlay__image--a global-navigation-overlay__image-about--a"></div>
+                            <div class="global-navigation-overlay__image--b global-navigation-overlay__image-about--b"></div>
+                        </div>
+
+                        <div class="global-navigation-overlay__image" :class="{active : currentNavHightlight === 'work'}">
+                            <div class="global-navigation-overlay__image--a global-navigation-overlay__image-work--a"></div>
+                            <div class="global-navigation-overlay__image--b global-navigation-overlay__image-work--b"></div>
+                        </div>
+
+                        <div class="global-navigation-overlay__image" :class="{active : currentNavHightlight === 'clients'}">
+                            <div class="global-navigation-overlay__image--a global-navigation-overlay__image-clients--a"></div>
+                            <div class="global-navigation-overlay__image--b global-navigation-overlay__image-clients--b"></div>
+                        </div>
+
+                        <div class="global-navigation-overlay__image" :class="{active : currentNavHightlight === 'capabilities'}">
+                            <div class="global-navigation-overlay__image--a global-navigation-overlay__image-capabilities--a"></div>
+                            <div class="global-navigation-overlay__image--b global-navigation-overlay__image-capabilities--b"></div>
+                        </div>
+
+                        <div class="global-navigation-overlay__image" :class="{active : currentNavHightlight === 'contact'}">
+                            <div class="global-navigation-overlay__image--a global-navigation-overlay__image-contact--a"></div>
+                            <div class="global-navigation-overlay__image--b global-navigation-overlay__image-contact--b"></div>
+                        </div>
+
+                        <div class="global-navigation-overlay__image--main"></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+      </script>
+
+      <script type="text/x-template" id="union-creative-hero-template">
+        <div class="global-hero global-hero__color--dark">
+            <div class="global-hero__wrapper">
+                <div class="global-hero__heading-container">
+                    <h1 class="global-hero__heading"><span class="global-hero__heading--a" data-content="What we">What we</span><span class="global-hero__heading--b" data-content="do best.">do best.</span></h1>
+                    <img class="global-hero__heading-strip" src="images/pattern-strip-small.png" alt="">
+                </div>
+            </div>
+        </div>
+      </script>
+
+      <script
+        type="text/x-template"
+        id="union-creative-work-thumbnail-grid-template"
+      >
+        <div class="work-thumbnail-grid">
+            <div class="work-thumbnail-grid__container">
+                <ul class="work-thumbnail-grid__list">
+                    <li v-for="workThumbnail in workThumbnailArray" class="work-thumbnail-grid__item">
+                        <a class="work-thumbnail-grid__link" :href=workThumbnail.url>
+                            <div class="work-thumbnail-grid-content__container">
+                                <h2 class="work-thumbnail-grid-content__heading" v-html=workThumbnail.heading></h2>
+                            </div>
+
+                            <div class="work-thumbnail-grid__image-wrapper">
+                                <img class="work-thumbnail-grid__image" :src=workThumbnail.image alt="">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </script>
+
+      <script
+        type="text/x-template"
+        id="union-creative-contact-component-template"
+      >
+        <div class="contact-component" style="background-color: #f2f2f2">
+            <div class="contact-component__container">
+                <div class="contact-component__heading-container">
+                    <h2 class="contact-component__heading" data-content="WANT TO CONNECT?">WANT TO CONNECT?</h2>
+                </div>
+
+                <div class="contact-component-info">
+                    <div class="contact-component-info__container">
+                        <h3 class="contact-component-info__city-name" data-content="Toronto">Toronto</h3>
+
+                        <div class="contact-component-info__wrapper">
+                            <div class="contact-component-info__phone-number" data-content="###-###-####">
+                                <i class="fas fa-phone contact-component-info__icon"></i>
+                                <a href="#">###-###-####</a>
+                            </div>
+
+                            <div class="contact-component-info__email">
+                                <i class="fas fa-envelope contact-component-info__icon"></i>
+                                <a href="#">xxxx@xxxxxxxxxxxxx.xx</a>
+                            </div>
+
+                            <address class="contact-component-info__address">
+                                340 King Street East, Suite 402 <br/>
+                                Toronto, ON<br/>
+                                M5A 1K8
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="contact-component-info__container">
+                        <h3 class="contact-component-info__city-name" data-content="Montréal">Montr&eacute;al</h3>
+
+                        <div class="contact-component-info__wrapper">
+                            <!--<div class="contact-component-info__phone-number">
+                                <i class="fas fa-phone contact-component-info__icon"></i>
+                                <a href="#">###-###-####</a>
+                            </div>-->
+
+                            <div class="contact-component-info__email">
+                                <i class="fas fa-envelope contact-component-info__icon"></i>
+                                <a href="#">xxxx@xxxxxxxxxxxxx.xx</a>
+                            </div>
+
+                            <!--<address class="contact-component-info__address">
+                                3510,  Boul. St-Laurent, #410<br />
+                                Montr&eacute;al, QC<br />
+                                H2X 2V2
+                            </address>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </script>
+
+      <script type="text/x-template" id="union-creative-global-footer-template">
+        <footer class="global-footer">
+            <ul class="global-footer__link-list">
+                <li class="global-footer__link-item">
+                    <a href="index.html" class="global-footer__link">
+                        <img class="global-footer__link-logo" src="images/union-logo.svg" alt="Union Creative Logo">
+                    </a>
+                </li>
+
+                <li class="global-footer__link-item">
+                    <a href="about.html" class="global-footer__link">About</a>
+                </li>
+
+                <li class="global-footer__link-item">
+                    <a href="work.html" class="global-footer__link">Work</a>
+                </li>
+
+                <li class="global-footer__link-item">
+                    <a href="our-clients.html" class="global-footer__link">Our Clients</a>
+                </li>
+
+                <li class="global-footer__link-item">
+                    <a href="capabilities.html" class="global-footer__link">Capabilities</a>
+                </li>
+
+                <li class="global-footer__link-item">
+                    <a href="contact.html" class="global-footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="global-footer__social-link-list">
+                <li class="global-footer__social-link-item">
+                    <a href="#" class="global-footer__social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+
+                <li class="global-footer__social-link-item">
+                    <a href="#" class="global-footer__social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <p class="global-footer__legal">&copy;2021 Union</p>
+        </footer>
+      </script>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

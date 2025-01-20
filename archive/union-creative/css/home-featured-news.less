@@ -1,0 +1,269 @@
+.home-featured-news {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+
+    @media @breakpoint__desktop--small {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    @supports (-ms-ime-align:auto) {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .home-featured-news-container {
+        background-size: cover;
+        background-position: 50%;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transform: translateZ(0);
+        transition: 0.4s all;
+        width: 100%;
+        z-index: 0;
+
+        &.active {
+            z-index: 10;
+
+            .home-featured-news-content {
+                transform: scale(1.5);
+
+                @media @breakpoint__desktop--small {
+                    transform: scale(1);
+                }
+
+                @supports (-ms-ime-align:auto) {
+                    transform: scale(1);
+                }
+            }
+        }
+
+        &.passive {
+            .home-featured-news-content{
+                opacity: 0;
+
+                @media @breakpoint__desktop--small {
+                    opacity: 1;
+                }
+
+                @supports (-ms-ime-align:auto) {
+                    opacity: 1;
+                }
+            }
+        }
+
+        @media @breakpoint__desktop--small {
+            align-items: center;
+            box-sizing: border-box;
+            flex: 1;
+            height: auto;
+            padding: 150px 45px;
+            position: relative;
+            width: 50%;
+        }
+
+        @supports (-ms-ime-align:auto) {
+            align-items: center;
+            box-sizing: border-box;
+            flex: 1;
+            height: auto;
+            padding: 150px 45px;
+            position: relative;
+            width: 50%;
+        }
+
+        @media @breakpoint__tablet {
+            flex: none;
+            width: 100%;
+        }
+
+        @media @breakpoint__mobile {
+            padding: 150px 45px;
+        }
+
+        @media @breakpoint__mobile--small {
+            padding: 100px 25px;
+        }
+
+        .home-featured-news-content {
+            transition: 0.6s all;
+            z-index: 10;
+
+            @media @breakpoint__desktop--small {
+                position: relative;
+            }
+
+            @supports (-ms-ime-align:auto) {
+                position: relative;
+            }
+        }
+    }
+
+    .home-featured-news-container--a {
+        .home-featured-news-container();
+        clip-path: polygon(0 0, 100% 0, 0 100%);
+        transform-origin: top left;
+
+        &.active {
+            clip-path: polygon(0 0, 130% 0, 0 130%);
+
+            @media @breakpoint__desktop--small {
+                clip-path: none;
+            }
+
+            @supports (-ms-ime-align:auto) {
+                clip-path: none;
+            }
+        }
+
+        @media @breakpoint__desktop--small {
+            clip-path: none;
+        }
+
+        .home-featured-news-content {
+            transform-origin: top left;
+        }
+    }
+
+    .home-featured-news-container--b {
+        .home-featured-news-container();
+        clip-path: polygon(0 100%, 100% 0, 100% 100%);
+
+        &.active {
+            clip-path: polygon(-30% 100%, 100% -30%, 100% 100%);
+            z-index: 10;
+
+            @media @breakpoint__desktop--small {
+                clip-path: none;
+            }
+
+            @supports (-ms-ime-align:auto) {
+                clip-path: none;
+            }
+        }
+
+        @media @breakpoint__desktop--small {
+            clip-path: none;
+        }
+
+        @supports (-ms-ime-align:auto) {
+            clip-path: none;
+        }
+
+        .home-featured-news-wrapper {
+            bottom: 0;
+            text-align: right;
+
+            @media @breakpoint__tablet {
+                text-align: left;
+            }
+
+            @supports (-ms-ime-align:auto) {
+                text-align: left;
+            }
+        }
+
+        .home-featured-news-content {
+            text-align: left;
+            transform-origin: bottom right;
+        }
+    }
+
+    .home-featured-news-wrapper {
+        padding : 15% 150px;
+        position: absolute;
+        width: 100%;
+
+        @media @breakpoint__desktop--medium {
+            padding : 22% 110px;
+        }
+
+        @media @breakpoint__desktop--small {
+            padding : 0;
+            position: relative;
+            top: 0;
+        }
+
+        @supports (-ms-ime-align:auto) {
+            padding: 0;
+            position: relative;
+        }
+    }
+
+    .home-featured-news-content {
+        clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+        display: inline-block;
+        max-width: 380px;
+        text-decoration: none;
+        width: 100%;
+
+        &.animIn {
+            animation: animMaskRevealIn 0.4s linear forwards;
+
+            .home-featured-news-content__headline {
+                animation: animMaskRevealIn 0.4s linear forwards;
+
+                &:before {
+                    animation: animMaskRevealIn 0.4s linear forwards 0.4s;
+                }
+            }
+
+            .home-featured-news-content__brand {
+                animation: animMaskRevealIn 0.4s linear forwards;
+
+                &:before {
+                    animation: animMaskRevealIn 0.4s linear forwards 0.4s;
+                }
+            }
+
+            .home-featured-news-content__campaign-name {
+                animation: animMaskRevealIn 0.4s linear forwards;
+
+                &:before {
+                    animation: animMaskRevealIn 0.4s linear forwards 0.4s;
+                }
+            }
+        }
+    }
+
+    .home-featured-news-content__headline {
+        .heading__3();
+        .animate-text-in(@color__white);
+        padding: 0 0 50px;
+
+        &:after {
+            content: '';
+            background: @color__primary;
+            bottom: 25px;
+            height: 2px;
+            left: 0;
+            position: absolute;
+            width: 60%;
+        }
+    }
+
+    .home-featured-news-content__brand,
+    .home-featured-news-content__campaign-name {
+        .heading__7();
+        .animate-text-in(@color__white);
+        display: inline-block;
+    }
+
+    .home-featured-news-content__brand {
+        margin: 0 10px 0 0;
+    }
+
+    .home-featured-news-content__campaign-name {
+        &:before {
+            background-color: @color__primary;
+        }
+    }
+}
+

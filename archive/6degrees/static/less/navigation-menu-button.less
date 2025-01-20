@@ -1,0 +1,131 @@
+.navigation-menu-button {
+    .paragraph__quaternary--1();
+    background-color: @color__primary;
+    border: 10px solid @color__white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: @color__white;
+    cursor: pointer;
+    display: inline-block;
+    height: 100px;
+    left: 50%;
+    line-height: 1;
+    position: absolute;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    transition: 0.4s all;
+    width: 100px;
+    z-index: 9;
+
+    @media @bp__mobile--small {
+        border: 5px solid @color__white;
+        height: 50px;
+        width: 50px;
+    }
+
+    .navigation-menu-button__label {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transition: 0.2s all;
+        transform: translate(-50%, -50%);
+
+        @media @bp__mobile--small {
+            display: none;
+        }
+    }
+
+    &:hover {
+        background-color: @color__black;
+        //transform: translateX(-50%) scale(1.1);
+
+        @media @bp__mobile--small {
+            background-color: @color__primary;
+        }
+    }
+
+    &.active {
+        background-color: @color__black;
+
+        .navigation-menu-button__label {
+            opacity: 0;
+        }
+
+        .navigation-menu-button__mobile-hamburger {
+            opacity: 0;
+        }
+
+        &:before,
+        &:after {
+            opacity: 1;
+
+            @media @bp__mobile--small {
+                width: 22px;
+            }
+        }
+
+        &:before {
+            transform: translate(-50%) rotate(-45deg);
+        }
+
+        &:after {
+            transform: translate(-50%) rotate(45deg);
+        }
+    }
+
+    &:before,
+    &:after {
+        background-color: @color__white;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%);
+        transition: 0.2s opacity, 0.5s transform, width 0.5s;
+        width: 38px;
+
+        @media @bp__mobile--small {
+            opacity: 1;
+            width: 15px;
+        }
+    }
+
+    .navigation-menu-button__mobile-hamburger {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transition: 0.2s all;
+        transform: translate(-50%, -50%);
+
+        &:before,
+        &:after {
+            background-color: @color__white;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%);
+            transition: 0.2s opacity, 0.5s transform, width 0.5s;
+            width: 38px;
+
+            @media @bp__mobile--small {
+                opacity: 1;
+                width: 20px;
+            }
+        }
+
+        &:before {
+            margin-top: -6px;
+        }
+
+        &:after {
+            margin-top: 6px;
+        }
+    }
+}

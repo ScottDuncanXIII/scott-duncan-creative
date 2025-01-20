@@ -1,0 +1,176 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Scott Duncan Creative | Archive | 6Degrees</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="static/css/main.css">
+
+<body>
+    <script type="text/x-template" id="navigation-dock-template">
+        <div class="navigation-dock">
+            <a class="logo" href="./index.html">
+                <img class="logo__image" src="static/img/icon__six-degrees-logo.svg" alt="">
+            </a>
+
+            <div class="navigation-menu-button" v-on:click=onMenuButtonClick() :class="{active : isMenuOpen}">
+                <span class="navigation-menu-button__label">Menu</span>
+                <span class="navigation-menu-button__mobile-hamburger"></span>
+            </div>
+
+            <ul class="social-navigation">
+                <li class="social-navigation__item">
+                    <a class="social-navigation__link" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+
+                <li class="social-navigation__item">
+                    <a class="social-navigation__link" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </script>
+
+    <script type="text/x-template" id="navigation-overlay-template">
+        <div class="navigation-overlay" :class="{active : isMenuOpen}">
+            <a class="navigation-overlay__logo-link" href="./index.html">
+                <img class="navigation-overlay__logo" src="static/img/icon__six-degrees-logo.svg" alt="">
+            </a>
+
+            <div class="navigation-overlay__container">
+                <div class="navigation-overlay__wrapper">
+                    <ul class="navigation-overlay__nav-list">
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'about')}" href="./about.html">about</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'services')}" href="./services.html">services</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'work')}" href="./work.html">the work</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'contact')}" href="./contact.html">contact us</a>
+                        </li>
+                    </ul>
+
+                    <div class="navigation-overlay__address-container">
+                        <address class="navigation-overlay__address">
+                            121 Bloor St. E. Suite 300<br>
+                            Toronto, ON  M4W 1A9
+                        </address>
+
+                        <address class="navigation-overlay__address">
+                            One World Trade Center, Floor 65<br>
+                            New York, NY 10007
+                        </address>
+                    </div>
+
+                    <ul class="navigation-overlay__contact-list">
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#">###.###.####</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="navigation-overlay__legal">6DEGREES® INTEGRATED COMMUNICATIONS CORP. © 2021</div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <body id="home" class="home">
+        <div id="six-degrees">
+            <div class="homepage">
+                <a class="logo" href="./index.html">
+                    <img class="logo__image" src="/static/img/icon__six-degrees-logo.svg" alt="">
+                </a>
+        
+                <homepage-content></homepage-content>
+        
+                <navigation-dock></navigation-dock>
+        
+                <navigation-overlay></navigation-overlay>
+            </div>
+        </div>
+        
+        <script type="text/x-template" id="homepage-content-template">
+            <div class="homepage-container">
+                <ul class="homepage-navigation__list">
+                    <li v-for="(data, index) in homepageData" class="homepage-navigation__item">
+                        <button class="homepage-navigation__btn" v-on:click="onHomepageNavClick(index)"><span class="homepage-navigation__btn-highlight" :style="{backgroundColor: data.btnHighlightColor}" :class="{active : btnDataValue === index}"></span></button>
+                    </li>
+                </ul>
+        
+                <ul class="homepage-bg-image__list" tag="li">
+                    <li v-for="(imageBg, index) in imageBgArray" class="homepage-bg-image__item">
+                        <div v-if="imageBg.imageType === 'image'" class="homepage-bg-image" :style="{backgroundImage : `url(${imageBg.desktop})`}"></div>
+        
+                        <div v-else class="homepage-bg-video">
+                            <iframe class="homepage-bg-video__iframe" :src=imageBg.desktop width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+                        </div>
+                        
+                        <picture>
+                            <source media="(max-width: 640px)" :srcset="imageBg.mobile">
+                            <img class="homepage-bg-image--mobile" :src="imageBg.mobile" alt="">
+                        </picture>
+                    </li>
+                </ul>
+        
+                <div class="homepage-content-block">
+                    <a :href=url class="homepage-content-block__cta">
+                        <div class="homepage-content-block__container" :style="{backgroundColor: bgColor}"> 
+                            <h1 class="homepage-content-block__heading">{{heading}} <span :style="{color: headingSubColor}">{{headingSub}}</span></h1>
+                            <p class="homepage-content-block__paragraph" v-html=paragraph></p>
+                            <div class="homepage-content-block__cta-container">
+                                <img class="homepage-content-block__cta-container-icon" src="/static/img/icon__ellipsis.svg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIm7qNC7zXDF8RAm-_KR1xF2n5_kRZaQU" type="text/javascript"></script>
+    <script src="static/js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="static/js/plugins.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>

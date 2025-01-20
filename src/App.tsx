@@ -1,6 +1,7 @@
 import { Outlet, ScrollRestoration } from "react-router";
 import PageTransition from "./components/PageTransition";
 import EdgeDistortion from "./components/EdgeDistortion";
+import { PreloaderActiveProvider } from "./context/PreloaderActiveContext";
 
 import "./App.css";
 
@@ -10,7 +11,9 @@ function App() {
       <ScrollRestoration />
 
       <main className="page-wrapper">
-        <Outlet />
+        <PreloaderActiveProvider>
+          <Outlet />
+        </PreloaderActiveProvider>
       </main>
 
       <PageTransition />

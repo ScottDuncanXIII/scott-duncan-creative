@@ -14,31 +14,41 @@ export default function ScrollGallery({
 }) {
   const scrollGalleryHeading = useRef(null);
   const scrollGallery = useRef(null);
-  const scrollGalleryList = useRef(null);
+  const scrollGalleryList = useRef<HTMLUListElement | null>(null);
+  const scrollerPin = useRef<GSAPTimeline | null>(null);
 
   useGSAP(() => {
-    const scrollerPin = gsap.timeline();
+    //if (scrollerPin.current || !scrollGalleryList.current) return;
+    console.log("Init Scroll Gllery", scrollGalleryList.current);
+    scrollerPin.current = gsap.timeline();
 
-    scrollerPin.to(scrollGalleryList.current, {
+    /* setTimeout(() => { */
+    console.log("Init Scroller Pin");
+    scrollerPin.current?.to(scrollGalleryList.current, {
       x:
-        -(scrollGalleryList.current! as HTMLElement).offsetWidth +
+        -(scrollGalleryList.current as HTMLUListElement).offsetWidth +
         innerWidth / 1.5,
       ease: "none",
-      delay: 2,
       scrollTrigger: {
         trigger: scrollGallery.current,
         pin: true,
         pinType: "transform",
         start: "top top",
         scrub: 1,
-        //markers: true,
+        markers: true,
         anticipatePin: 1,
         end: () =>
           "+=" +
-          ((scrollGalleryList.current! as HTMLElement).offsetWidth -
+          ((scrollGalleryList.current as HTMLUListElement).offsetWidth -
             innerWidth),
       },
     });
+    /* }, 2000); */
+
+    return () => {
+      scrollerPin.current?.kill();
+      scrollerPin.current = null;
+    };
   }, []);
 
   return (
@@ -49,12 +59,7 @@ export default function ScrollGallery({
         </div>
       )}
 
-      <ul
-        className={`scroll-gallery__list ${
-          !heading ? "scroll-gallery__list--gap" : ""
-        }`}
-        ref={scrollGalleryList}
-      >
+      <ul className={`scroll-gallery__list`} ref={scrollGalleryList}>
         {children}
       </ul>
       <Scanlines />

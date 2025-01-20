@@ -1,0 +1,264 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Scott Duncan Creative | Archive | 6Degrees</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="../static/css/main.css">
+
+<body>
+    <script type="text/x-template" id="navigation-dock-template">
+        <div class="navigation-dock">
+            <a class="logo" href="../index.html">
+                <img class="logo__image" src="../static/img/icon__six-degrees-logo.svg" alt="">
+            </a>
+
+            <div class="navigation-menu-button" v-on:click=onMenuButtonClick() :class="{active : isMenuOpen}">
+                <span class="navigation-menu-button__label">Menu</span>
+                <span class="navigation-menu-button__mobile-hamburger"></span>
+            </div>
+
+            <ul class="social-navigation">
+                <li class="social-navigation__item">
+                    <a class="social-navigation__link" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+
+                <li class="social-navigation__item">
+                    <a class="social-navigation__link" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </script>
+
+    <script type="text/x-template" id="navigation-overlay-template">
+        <div class="navigation-overlay" :class="{active : isMenuOpen}">
+            <a class="navigation-overlay__logo-link" href="./index.html">
+                <img class="navigation-overlay__logo" src="../static/img/icon__six-degrees-logo.svg" alt="">
+            </a>
+
+            <div class="navigation-overlay__container">
+                <div class="navigation-overlay__wrapper">
+                    <ul class="navigation-overlay__nav-list">
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'about')}" href="../about.html">about</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'services')}" href="../services.html">services</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'work')}" href="../work.html">the work</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'contact')}" href="../contact.html">contact us</a>
+                        </li>
+                    </ul>
+
+                    <div class="navigation-overlay__address-container">
+                        <address class="navigation-overlay__address">
+                            121 Bloor St. E. Suite 300<br>
+                            Toronto, ON  M4W 1A9
+                        </address>
+
+                        <address class="navigation-overlay__address">
+                            One World Trade Center, Floor 65<br>
+                            New York, NY 10007
+                        </address>
+                    </div>
+
+                    <ul class="navigation-overlay__contact-list">
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#">###.###.####</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="navigation-overlay__legal">6DEGREES® INTEGRATED COMMUNICATIONS CORP. © 2021</div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+
+    
+
+    <div id="six-degrees">
+        <case-studies></case-studies>
+        
+        <navigation-dock></navigation-dock>
+    
+        <navigation-overlay></navigation-overlay>
+    </div>
+    
+    <script type="text/x-template" id="case-studies-template">
+        <div class="case-studies">
+            <a class="logo" href="../index.html">
+                <img class="logo__image" src="../static/img/icon__six-degrees-logo.svg" alt="">
+            </a>
+    
+            <div class="case-studies-hero" style="background-color: #d55893">
+                <picture>
+                    <source media="(max-width: 960px)" srcset="../static/img/work/jamieson/case-study__hero--mobile.jpg">
+                    <img class="case-studies-hero__image case-studies-hero__image--transition-a" src="../static/img/work/jamieson/case-study__hero.jpg" alt="">
+                </picture>
+    
+                <div class="case-studies-hero__heading-container case-studies-hero__heading-container--transition-a" style="background-color: transparent">
+                    <div class="case-studies-hero__heading-wrapper">
+                        <h1 class="case-studies-hero__heading">Jamieson Laboratories</h1>
+                        <h2 class="case-studies-hero__sub-heading" style="color: #000000">Smart Solutions</h2>
+                        <div class="case-studies-hero__hr" style="background-color: #ffffff"></div>
+                        <p class="case-studies-hero__paragraph">Translating the cult following into a mass scale.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="case-studies-two-column" style="background-color: #ffffff">
+                <div class="case-studies-two-column__image-container--left">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="../static/img/work/jamieson/case-study__section-1--mobile.jpg">
+                        <img class="case-studies-two-column__image" src="../static/img/work/jamieson/case-study__section-1.jpg" alt="">
+                    </picture>
+                </div>
+                
+                <div class="case-studies-two-column__content-container--right">
+                    <div class="case-studies-two-column__content-wrapper">
+                        <h2 class="case-studies-two-column__heading">The Ask</h2>
+                        <div class="case-studies-two-column__hr" style="background-color: #d5046e"></div>
+                        <p class="case-studies-two-column__paragraph">Although a leader in women's health and wellness solutions, Lorna VanderHaeghe brand has struggled to break through in mass retailers. The current branding and packaging elements present points of friction: difficulty identifying SKUs, recessive brand name, no explanation of&nbsp;benefits.</p>
+                            
+                        <p class="case-studies-two-column__paragraph">Our task was to translate the cult following into a mass scale, evolving the brand into one consumers can easily identify at shelf and add to basket, without alienating those that currently love and trust the&nbsp;brand.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="case-studies-two-column case-studies-two-column__font-color--light" style="background-color: #d5046e">
+                <div class="case-studies-two-column__image-container--right case-studies-two-column__image-container--top">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="../static/img/work/jamieson/case-study__section-2--mobile.jpg">
+                        <img class="case-studies-two-column__image" src="../static/img/work/jamieson/case-study__section-2.jpg" alt="">
+                    </picture>
+                </div>
+                
+                <div class="case-studies-two-column__content-container--left">
+                    <div class="case-studies-two-column__content-wrapper">
+                        <h2 class="case-studies-two-column__heading">The Solution</h2>
+                        <div class="case-studies-two-column__hr" style="background-color: #ffffff"></div>
+                        <p class="case-studies-two-column__paragraph">To create a more branded, shoppable package, we knew we had to communicate three main&nbsp;points:</p>
+    
+                        <ol class="case-studies-two-column__ordered-list">
+                            <li class="case-studies-two-column__ordered-item">The brand - Smart Solutions</li>
+                            <li class="case-studies-two-column__ordered-item">The category of product/solutions (i.e. Age-Well vs Beauty)</li>
+                            <li class="case-studies-two-column__ordered-item">The specific SKU</li>
+                        </ol>
+                        
+                        <p class="case-studies-two-column__paragraph">We leveraged the most identifiable brand asset - the bold pink colour. The kinetic pink dots were also created as a new brand asset that can exist across the brand, not only on the packaging. The SKU is clear, the benefits front and centre, and the brand is clean and&nbsp;uncluttered.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="case-studies-two-column case-studies-two-column--list-b" style="background-color: #f39fc7">
+                <div class="case-studies-two-column__image-container--left case-studies-two-column__image-container--bottom">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="../static/img/work/jamieson/case-study__section-3.jpg">
+                        <img class="case-studies-two-column__image" src="../static/img/work/jamieson/case-study__section-3.jpg" alt="">
+                    </picture>
+                </div>
+                
+                <div class="case-studies-two-column__content-container--right">
+                    <div class="case-studies-two-column__content-wrapper">
+                        <div class="case-studies-two-column__list-container">
+                            <h3 class="case-studies-two-column__list-heading">What We Did</h3>
+                            <div class="case-studies-two-column__hr" style="background-color: #d5046e"></div>
+                            <ul class="case-studies-two-column__list">
+                                <li class="case-studies-two-column__item">Packaging Design</li>
+                                <li class="case-studies-two-column__item">Production</li>
+                                <li class="case-studies-two-column__item">Consumer Testing & Research</li>
+                            </ul>
+                        </div>
+    
+                        <div class="case-studies-two-column__list-container">
+                            <h3 class="case-studies-two-column__list-heading">Where We Did&nbsp;It</h3>
+                            <div class="case-studies-two-column__hr" style="background-color: #d5046e"></div>
+                            <ul class="case-studies-two-column__list">
+                                <li class="case-studies-two-column__item">In store</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="case-studies-contact">
+                <div class="case-studies-contact__container">
+                    <h2 class="case-studies-contact__heading">Let's work together</h2>
+                    <a href="../contact.html" class="case-studies-contact__cta">Connect with us</a>
+                </div>
+            </div>
+    
+            <case-studies-related limit="3" title="jamieson"></case-studies-related>
+        </div>
+    </script>
+    
+    <script type="text/x-template" id="case-studies-related-template">
+        <div class="case-studies-related" >
+            <div v-for="caseStudiesRelated in caseStudiesRelatedData" class="case-studies-related__content-container" :style="{backgroundColor: caseStudiesRelated.bgColor}">
+                <a class="case-studies-related__link" :style="{backgroundColor: caseStudiesRelated.bgColor}" :href="'../' + caseStudiesRelated.url">
+                    <img class="case-studies-related__list-image" :src="'../' + caseStudiesRelated.imageRelated" alt="">
+    
+                    <div class="case-studies-related__content-wrapper" :style="{backgroundColor: caseStudiesRelated.bgColor}">
+                        <h3 class="case-studies-related__heading" v-html="caseStudiesRelated.heading"></h3>
+    
+                        <h4 class="case-studies-related__heading" v-html="caseStudiesRelated.headingSub" :style="{color: caseStudiesRelated.headingSubColor}"></h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIm7qNC7zXDF8RAm-_KR1xF2n5_kRZaQU"
+        type="text/javascript"></script>
+    <script src="../static/js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../static/js/plugins.js"></script>
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>

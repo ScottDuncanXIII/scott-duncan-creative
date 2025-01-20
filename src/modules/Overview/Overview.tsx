@@ -6,7 +6,6 @@ import SplitType from "split-type";
 import Ellipse from "../../components/Ellipse";
 import SkewedStripes from "../../components/SkewedStripes";
 import "./overview.css";
-import AccessibleText from "../../components/AccessibleText";
 
 export default function Overview({
   color,
@@ -81,11 +80,15 @@ export default function Overview({
         });
       }
 
-      tl.from(headingBElSplit.chars, {
-        duration: 0.5,
-        yPercent: -100,
-        stagger: { each: 0.1 },
-      });
+      tl.from(
+        headingBElSplit.chars,
+        {
+          duration: 0.5,
+          yPercent: -100,
+          stagger: { each: 0.1 },
+        },
+        "<+=50%"
+      );
 
       tl.from(
         headingCElSplit.chars,
@@ -95,6 +98,15 @@ export default function Overview({
           stagger: { each: 0.1, from: "random" },
         },
         ">-=50%"
+      );
+
+      tl.from(
+        ".ellipse",
+        {
+          duration: 2,
+          opacity: 0,
+        },
+        "<+=50%"
       );
 
       tl.from(
@@ -190,16 +202,12 @@ export default function Overview({
           {paragraphs &&
             paragraphs.length > 0 &&
             paragraphs.map((paragraph, index) => (
-              <>
-                <p
-                  className={"overview-content__paragraph"}
-                  key={index}
-                  aria-hidden="true"
-                >
+              <div key={index}>
+                <p className={"overview-content__paragraph"} aria-hidden="true">
                   {paragraph}
                 </p>
                 <p className={"sr-only"}>{paragraph}</p>
-              </>
+              </div>
             ))}
         </div>
 

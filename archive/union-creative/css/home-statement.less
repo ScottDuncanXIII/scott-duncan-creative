@@ -1,0 +1,111 @@
+.home-statement {
+    background-attachment: fixed;
+    background-position: 50%;
+    background-image: url("../images/union-statement-bg-min.jpg");
+    background-size: cover;
+    font-size: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+
+    &:before {
+        content: '';
+        background-color: #b7cf39;
+        height: 100%;
+        left: 0;
+        mix-blend-mode: multiply;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+
+        @supports (-ms-ime-align:auto) {
+            background-color: #869f00;
+            opacity: 0.7;
+        }
+    }
+
+    .home-statement-container {
+        background-position: 50%;
+        background-image: url("../images/union-statement-bg-min.jpg");
+        background-size: cover;
+    }
+    
+    .home-statement__heading {
+        .heading();
+        color: #ffffff;
+        font-size: 9rem;
+        font-weight: 500;
+        left: 50%;
+        line-height: 1;
+        max-width: 1125px;
+        min-height: 235px;
+        padding: 0 150px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        z-index: 1;
+
+        @media @breakpoint__desktop--medium {
+            padding: 0 100px;
+        }
+
+        @media @breakpoint__desktop--small {
+            padding: 0 45px;
+        }
+
+        @media @breakpoint__tablet--large {
+            font-size: 7rem;
+        }
+
+        @media @breakpoint__mobile {
+            font-size: 6rem;
+        }
+
+        @media @breakpoint__mobile--small {
+            padding: 0 25px;
+        }
+    
+        .char {
+            opacity: 0;
+        }
+    
+        &.animIn {
+            .char {
+                animation: splitting 0.3s forwards;
+                animation-delay: calc(~'0.03s * var(--char-index)');
+            }
+        }
+    }
+
+    .home-statement__video {
+        height: auto;
+        left: 50%;
+        min-height: 100%; 
+        min-width: 100%; 
+        position: fixed;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: auto;
+        z-index: 0;
+    }
+    
+    .parallax-container {
+        height: 100%;
+    }
+    
+    .parallax {
+        img {
+            width: 100%;
+        }
+    }
+    
+    .home-statement__image {
+        width: 100%;
+    }
+}
+

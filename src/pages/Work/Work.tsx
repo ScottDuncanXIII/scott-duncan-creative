@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { useParams, useLoaderData } from "react-router";
 
 import gsap from "gsap";
@@ -18,6 +18,7 @@ import data from "../../data.json";
 
 import "./work.css";
 import { WorkHeroType } from "../../types/WorkHeroType";
+import { PreloaderActiveContext } from "../../context/PreloaderActiveContext";
 
 export default function Work() {
   const { workId } = useParams();
@@ -25,10 +26,29 @@ export default function Work() {
   const labels = useRef(data.labels);
   const loaderData = useLoaderData() as SelectedWorkType;
   const [imagesPreloadComplete, setImagesPreloadComplete] = useState(false);
+  const [skipPreload, setSkipPreload] = useState(false);
+  const preloaderActiveContext = useContext(PreloaderActiveContext);
 
   useEffect(() => {
-    gsap.set(workDetails.current, { autoAlpha: 0 });
-    gsap.set(".page-transition", { display: "none" });
+    if (preloaderActiveContext?.preloaderActiveArray.includes(loaderData?.id)) {
+      setSkipPreload(true);
+      handlePreloadComplete();
+      gsap.fromTo(
+        ".page-transition__tile",
+        { autoAlpha: 1 },
+        {
+          duration: 1,
+          autoAlpha: 0,
+          onComplete: () => {
+            gsap.set(".page-transition", { display: "none" });
+          },
+        }
+      );
+    } else {
+      gsap.set(workDetails.current, { autoAlpha: 0 });
+      gsap.set(".page-transition", { display: "none" });
+      preloaderActiveContext?.pushItemToArray(loaderData?.id);
+    }
   }, []);
 
   useEffect(() => {
@@ -63,15 +83,15 @@ export default function Work() {
     setImagesPreloadComplete(true);
   }
 
-  console.log(loaderData);
-
   return (
     <section id="work" key={workId}>
-      <Preloader
-        color={loaderData?.colorMain as string}
-        imagesArray={loaderData?.caseStudyImages.map((image) => image.url)}
-        handlePreloadComplete={handlePreloadComplete}
-      />
+      {!skipPreload && (
+        <Preloader
+          color={loaderData?.colorMain as string}
+          imagesArray={loaderData?.caseStudyImages.map((image) => image.url)}
+          handlePreloadComplete={handlePreloadComplete}
+        />
+      )}
 
       <div className={"work"} ref={workDetails}>
         <WorkHero imagesLoaded={imagesPreloadComplete} model={getHeroModel()} />
@@ -90,22 +110,24 @@ export default function Work() {
           techStack={data.techStack as TechStackType[]}
         />
 
-        <ParallaxBackground
-          imageUrl="/imgs/background-work-scroll.jpg"
-          overlayColor={loaderData?.colorMain}
-        >
-          <ScrollGallery>
-            {loaderData?.caseStudyImages.map((caseStudy, index) => (
-              <li className="work-scroll-gallery__item" key={index}>
-                <img
-                  className="work-scroll-gallery__image"
-                  src={caseStudy.url}
-                  alt={caseStudy.alt}
-                />
-              </li>
-            ))}
-          </ScrollGallery>
-        </ParallaxBackground>
+        {imagesPreloadComplete && (
+          <ParallaxBackground
+            imageUrl="/imgs/background-work-scroll.jpg"
+            overlayColor={loaderData?.colorMain}
+          >
+            <ScrollGallery>
+              {loaderData?.caseStudyImages.map((caseStudy, index) => (
+                <li className="work-scroll-gallery__item" key={index}>
+                  <img
+                    className="work-scroll-gallery__image"
+                    src={caseStudy.url}
+                    alt={caseStudy.alt}
+                  />
+                </li>
+              ))}
+            </ScrollGallery>
+          </ParallaxBackground>
+        )}
 
         <Footer />
       </div>

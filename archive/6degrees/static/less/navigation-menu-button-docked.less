@@ -1,0 +1,42 @@
+.navigation-menu-button-docked {
+    background-color: @color__black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 25px 20px;
+
+    @media @bp__mobile--small {
+        padding: 14px 10px;
+    }
+
+    .navigation-menu-button-docked__bar {
+        background-color: @color__primary;
+        height: 4px;
+        margin-bottom: 6px;
+        width: 35px;
+
+        @media @bp__mobile--small {
+            height: 2px;
+            margin-bottom: 3px;
+            width: 17.5px;
+        }
+    }
+
+    .navigation-menu-button-docked__bar--top,
+    .navigation-menu-button-docked__bar--middle,
+    .navigation-menu-button-docked__bar--bottom {
+        .navigation-menu-button-docked__bar();
+    }
+
+    .navigation-menu-button-docked__bar--middle {
+        width: 25px;
+
+        @media @bp__mobile--small {
+            width: 12.5px;
+        }
+    }
+
+    .navigation-menu-button-docked__bar--bottom {
+        margin-bottom: 0;
+    }
+}

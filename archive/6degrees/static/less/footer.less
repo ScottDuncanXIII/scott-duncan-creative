@@ -1,0 +1,146 @@
+.footer {
+    background-color: @color__black;
+    box-sizing: border-box;
+    display: flex;
+    padding: 50px 95px;
+    z-index: 5;
+
+    @media @bp__tablet {
+        padding: 50px 50px;
+    }
+
+    @media @bp__mobile {
+        padding: 35px 30px 60px;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .footer-right {
+        display: flex;
+
+        @media @bp__mobile--small {
+            border-left: 2px solid #ffffff;
+            box-sizing: border-box;
+            flex-direction: column;
+            padding-left: 20px;
+        }
+    }
+
+    .footer__logo-container {
+        margin-right: 35px;
+        width: 65px;
+
+        @media @bp__mobile--small {
+            margin-right: 0;
+            width: 42px;
+        }
+    }
+
+    .footer__logo {
+        display: block;
+        width: 100%;
+    }
+
+    .footer__nav {
+        margin-top: 12px;
+
+        @media @bp__mobile {
+            display: none;
+        }
+    }
+
+    .footer__nav-link {
+        .paragraph__quaternary--2();
+        color: @color__white;
+        display: block;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: 0.4s color;
+
+        &:hover {
+            color: @color__primary;
+        }
+    }
+
+    .footer__social-nav {
+        border-right: 2px solid #ffffff;
+        display: flex;
+        padding-right: 18px;
+
+        @media @bp__tablet {
+            padding-right: 10px;
+        }
+
+        @media @bp__mobile--small {
+            border-right: none;
+            margin: 5px 0 20px;
+            padding-right: 0;
+        }
+    }
+
+    .footer__social-nav-item {
+        margin-right: 15px;
+    }
+
+    .footer-overlay__social-nav-link {
+        color: @color__white;
+        display: block;
+        line-height: 1;
+        font-size: 3.4rem;
+
+        .fa-instagram {
+            transition: 0.4s color;
+
+            &:hover {
+                color: #C13584;
+            }
+        }
+
+        .fa-facebook-f {
+            transition: 0.4s color;
+
+            &:hover {
+                color: #4267B2;
+            }
+        }
+    }
+
+    .footer__address-container {
+        display: flex;
+    }
+
+    .footer__address {
+        .paragraph__quaternary--2();
+        color: @color__white;
+        font-style: normal;
+        margin-left: 35px;
+
+        @media @bp__tablet {
+            margin-left: 25px;
+        }
+
+        @media @bp__mobile--small {
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .footer__address-heading {
+        .paragraph__secondary--1();
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+
+    .footer__address-link {
+        color: @color__white;
+        transition: 0.4s color;
+
+        &:hover {
+            color: @color__primary;
+        }
+    }
+}

@@ -118,7 +118,7 @@ export default function SelectedWorksSlider({
 
     let tl = gsap.timeline({});
 
-    tl.set(headingEl.current, {
+    tl.set(".selected-works-slider__heading", {
       opacity: 1,
     });
 

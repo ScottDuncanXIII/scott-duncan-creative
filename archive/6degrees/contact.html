@@ -1,0 +1,255 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Scott Duncan Creative | Archive | 6Degrees</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="static/css/main.css">
+
+<body>
+    <script type="text/x-template" id="navigation-dock-template">
+        <div class="navigation-dock">
+            <a class="logo" href="./index.html">
+                <img class="logo__image" src="static/img/icon__six-degrees-logo.svg" alt="">
+            </a>
+
+            <div class="navigation-menu-button" v-on:click=onMenuButtonClick() :class="{active : isMenuOpen}">
+                <span class="navigation-menu-button__label">Menu</span>
+                <span class="navigation-menu-button__mobile-hamburger"></span>
+            </div>
+
+            <ul class="social-navigation">
+                <li class="social-navigation__item">
+                    <a class="social-navigation__link" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+
+                <li class="social-navigation__item">
+                    <a class="social-navigation__link" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </script>
+
+    <script type="text/x-template" id="navigation-overlay-template">
+        <div class="navigation-overlay" :class="{active : isMenuOpen}">
+            <a class="navigation-overlay__logo-link" href="./index.html">
+                <img class="navigation-overlay__logo" src="static/img/icon__six-degrees-logo.svg" alt="">
+            </a>
+
+            <div class="navigation-overlay__container">
+                <div class="navigation-overlay__wrapper">
+                    <ul class="navigation-overlay__nav-list">
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'about')}" href="./about.html">about</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'services')}" href="./services.html">services</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'work')}" href="./work.html">the work</a>
+                        </li>
+
+                        <li class="navigation-overlay__nav-item">
+                            <a class="navigation-overlay__nav-link" :class="{active : (currentPath === 'contact')}" href="./contact.html">contact us</a>
+                        </li>
+                    </ul>
+
+                    <div class="navigation-overlay__address-container">
+                        <address class="navigation-overlay__address">
+                            121 Bloor St. E. Suite 300<br>
+                            Toronto, ON  M4W 1A9
+                        </address>
+
+                        <address class="navigation-overlay__address">
+                            One World Trade Center, Floor 65<br>
+                            New York, NY 10007
+                        </address>
+                    </div>
+
+                    <ul class="navigation-overlay__contact-list">
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a>
+                        </li>
+
+                        <li class="navigation-overlay__contact-item">
+                            <a class="navigation-overlay__contact-link" href="#">###.###.####</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="navigation-overlay__legal">6DEGREES® INTEGRATED COMMUNICATIONS CORP. © 2021</div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+
+    
+<div id="six-degrees">
+    <div class="contact">
+        <div class="content-container">
+            <contact-carousel></contact-carousel>
+
+            <contact-form></contact-form>
+        </div>
+
+        <navigation-dock></navigation-dock>
+
+        <navigation-overlay></navigation-overlay>
+    </div>
+</div>
+
+<script type="text/x-template" id="contact-carousel-template">
+    <div v-if="carouselVisible" class="contact-carousel">
+        <a class="logo" href="./index.html">
+            <img class="logo__image" src="/static/img/icon__six-degrees-logo.svg" alt="">
+        </a>
+
+        <div class="contact-carousel__container">
+            <div v-for="contactImage in contactImages">
+                <picture  >
+                    <source media="(max-width: 768px)" :srcset=contactImage.urlMobile>
+                    <source media="(min-width: 769px)" :srcset=contactImage.url>
+                    <img class="contact-carousel__image" :src=contactImage.url :alt=contactImage.label>
+                </picture>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-template" id="contact-form-template">
+    <div class="contact-details">
+        <div class="contact-get-in-touch">
+            <div class="contact-get-in-touch__container">
+                <h2 class="contact-get-in-touch__heading">Get in touch</h2>
+                <p class="contact-get-in-touch__paragraph">We'd love to hear from you, just fill in the form on the right or drop us a line at one of these email addresses:</p>
+                    
+                <ul class="contact-get-in-touch__list">
+                    <li class="contact-get-in-touch__item"><span class="contact-get-in-touch__email-title">New business:</span> <a class="contact-get-in-touch__email-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a></li>
+
+                    <li class="contact-get-in-touch__item"><span class="contact-get-in-touch__email-title">Careers:</span> <a class="contact-get-in-touch__email-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a></li>
+
+                    <li class="contact-get-in-touch__item"><span class="contact-get-in-touch__email-title">General inquiries:</span> <a class="contact-get-in-touch__email-link" href="#" rel="noreferrer noopener">xxxxxxx@xxxxxxx.xx</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-address--mobile">
+                <address class="contact-address__container">
+                    <h4 class="contact-address__heading">Toronto</h4>
+                    <a class="contact-address__link" href="#" target="_blank" v-on:mouseover="onAddressHover('toronto')">121 Bloor St. E.</a><br>
+                    Suite 300<br>
+                    Toronto, ON<br>
+                    M4W 1A9
+                </address>
+
+                <address class="contact-address__container">
+                    <h4 class="contact-address__heading">New York</h4>
+                    <a class="contact-address__link" href="#" target="_blank" v-on:mouseover="onAddressHover('new-york')">One World Trade Center</a><br>
+                    Floor 65<br>
+                    New York, NY<br>
+                    10007
+                </address>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2 class="contact-form__heading">Let's work together</h2>
+
+            <form v-if="formActive" class="contact-form-fields" v-on:submit.prevent="">
+                <div class="contact-form-fields__input-wrapper" :class="{error : formNameError}">
+                    <input v-model="formName" placeholder="*Full Name" class="contact-form-fields__input" :class="{error : formNameError}">
+                </div>
+
+                <div class="contact-form-fields__input-wrapper">
+                    <input v-model="formCompany" placeholder="Company Name" class="contact-form-fields__input">
+                </div>
+
+                <div class="contact-form-fields__input-wrapper" :class="{error : formEmailError}">
+                    <input v-model="formEmail" placeholder="*Email Address" class="contact-form-fields__input" :class="{error : formEmailError}">
+                </div>
+
+                <div class="contact-form-fields__input-wrapper" :class="{error : formPhoneError}">
+                    <input v-model="formPhone" placeholder="*Telephone Number" class="contact-form-fields__input" :class="{error : formPhoneError}">
+                </div>
+
+                <div class="contact-form-fields__input-wrapper">
+                    <textarea v-model="formMessage" placeholder="Enter a message" class="contact-form-fields__textarea"></textarea>
+                </div>
+
+                <div class="contact-form-fields__submit-wrapper">
+                    <button class="contact-form-fields__submit-btn">Send</button>
+                </div>
+            </form>
+
+            <div v-else class="contact-form-success-msg">
+                <p class="contact-form-success-msg__paragraph" :class="{'transition-in': !formActive}">Your comments have been sent. We'll get back to you&nbsp;shortly.</p>
+            </div>
+        </div>
+
+        <div class="contact-address">
+            <address class="contact-address__container">
+                <h4 class="contact-address__heading">Toronto</h4>
+                <a class="contact-address__link" href="#" target="_blank" v-on:mouseover="onAddressHover('toronto')">121 Bloor St. E.</a><br>
+                Suite 300<br>
+                Toronto, ON<br>
+                M4W 1A9
+            </address>
+
+            <address class="contact-address__container">
+                <h4 class="contact-address__heading">New York</h4>
+                <a class="contact-address__link" href="#" target="_blank" v-on:mouseover="onAddressHover('new-york')">One World Trade Center</a><br>
+                Floor 65<br>
+                New York, NY<br>
+                10007
+            </address>
+        </div>
+
+        <div class="contact-details-map"></div>
+    </div>
+</script>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIm7qNC7zXDF8RAm-_KR1xF2n5_kRZaQU"
+        type="text/javascript"></script>
+    <script src="static/js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="static/js/plugins.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>

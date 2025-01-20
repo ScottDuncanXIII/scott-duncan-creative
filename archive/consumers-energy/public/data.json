@@ -1,0 +1,2864 @@
+{
+  "Home": {
+    "Heading": "Explore Ways<br>to Save",
+    "Subheading": "Powered by Charles",
+    "SkipLabel": "Skip",
+    "PlayLabel": "Play",
+    "Video": {
+      "Desktop": "https://player.vimeo.com/video/892440457?h=bec0657b48",
+      "Mobile": "https://player.vimeo.com/video/892440351?h=21590e8c70"
+    }
+  },
+  "Outro": {
+    "SkipLabel": "Skip",
+    "Video": {
+      "Desktop": "https://player.vimeo.com/video/892440289?h=9ed0c21ae5",
+      "Mobile": "https://player.vimeo.com/video/892440289?h=9ed0c21ae5"
+    }
+  },
+  "ExploreSelectView": {
+    "Heading": "Select a Location to Explore",
+    "ReplayLabel": "Replay Video",
+    "Locations": {
+      "Residential": {
+        "Heading": "Residential",
+        "Image": {
+          "Url": {
+            "Desktop": "https://scottduncancreative.com/archive/consumers-energy/imgs/explore__residential.png",
+            "Mobile": "https://scottduncancreative.com/archive/consumers-energy/imgs/explore__residential--mobile.png"
+          },
+          "Alt": "Residential Image"
+        }
+      },
+      "SmallBusiness": {
+        "Heading": "Small Business",
+        "Image": {
+          "Url": {
+            "Desktop": "https://scottduncancreative.com/archive/consumers-energy/imgs/explore__small-business.png",
+            "Mobile": "https://scottduncancreative.com/archive/consumers-energy/imgs/explore__small-business--mobile.png"
+          },
+          "Alt": "Small Business Image"
+        }
+      },
+      "LargeBusiness": {
+        "Heading": "Large Business",
+        "Image": {
+          "Url": {
+            "Desktop": "https://scottduncancreative.com/archive/consumers-energy/imgs/explore__large-business.png",
+            "Mobile": "https://scottduncancreative.com/archive/consumers-energy/imgs/explore__large-business--mobile.png"
+          },
+          "Alt": "Large Business Image"
+        }
+      }
+    },
+    "Tutorial": {
+      "Heading": "Choose Your Location",
+      "Description": "Scroll to navigate and click the icon when you're ready."
+    }
+  },
+  "LocationSelector": {
+    "Exterior": "Exterior",
+    "Interior": "Interior",
+    "Residential": {
+      "Heading": "Residential",
+      "Exterior": {
+        "Url": "/explore/residential-exterior"
+      },
+      "Interior": {
+        "Url": "/explore/residential-interior"
+      }
+    },
+    "SmallBusiness": {
+      "Heading": "Small Business",
+      "Exterior": {
+        "Url": "/explore/small-business-exterior"
+      },
+      "Interior": {
+        "Url": "/explore/small-business-interior"
+      }
+    },
+    "LargeBusiness": {
+      "Heading": "Large Business",
+      "Exterior": {
+        "Url": "/explore/large-business-exterior"
+      },
+      "Interior": {
+        "Url": "/explore/large-business-interior"
+      }
+    }
+  },
+  "Explore": {
+    "AddToListLabel": "Add to Workbook",
+    "RemoveFromListLabel": "Added",
+    "ExportWorkbookLabel": "Download Your Workbook",
+    "ViewedProductsLabel": "Viewed Products:",
+    "InteriorLabel": "Interior",
+    "ExteriorLabel": "Exterior",
+    "Tutorials": {
+      "Hotspot": {
+        "Description": "Click on the <svg xmlns='http://www.w3.org/2000/svg' width='2.4vh' height='2.4vh' viewBox='0 0 26 26' fill='none'><path d='M8.3125 13C8.3125 10.3682 10.3682 8.3125 13 8.3125C15.5879 8.3125 17.6875 10.3682 17.6875 13C17.6875 15.5879 15.5879 17.6875 13 17.6875C10.3682 17.6875 8.3125 15.5879 8.3125 13ZM25.5 13C25.5 19.9043 19.9043 25.5 13 25.5C6.0957 25.5 0.5 19.9043 0.5 13C0.5 6.0957 6.0957 0.5 13 0.5C19.9043 0.5 25.5 6.0957 25.5 13ZM13 2.84375C7.38965 2.84375 2.84375 7.38965 2.84375 13C2.84375 18.6104 7.38965 23.1562 13 23.1562C18.6104 23.1562 23.1562 18.6104 23.1562 13C23.1562 7.38965 18.6104 2.84375 13 2.84375Z' fill='#0079C1'/></svg> to learn ways you can save money and&nbsp;energy. "
+      },
+      "ListBtn": {
+        "Heading": "Add Savings to Your List",
+        "Description": "Create your own Savings Workbook to print out later. Save up to thousands a year."
+      },
+      "List": {
+        "Heading": "Add Products & Navigate",
+        "Description": "This is where you’ll be able to <svg xmlns='http://www.w3.org/2000/svg' width='2.2vh' height='2.2vh' viewBox='6 6 20 20' fill='none'><path d='M21.1613 15.3548V16.6452C21.1613 16.9274 20.9194 17.129 20.6774 17.129H17.129V20.6774C17.129 20.9597 16.8871 21.1613 16.6452 21.1613H15.3548C15.0726 21.1613 14.871 20.9597 14.871 20.6774V17.129H11.3226C11.0403 17.129 10.8387 16.9274 10.8387 16.6452V15.3548C10.8387 15.1129 11.0403 14.871 11.3226 14.871H14.871V11.3226C14.871 11.0806 15.0726 10.8387 15.3548 10.8387H16.6452C16.8871 10.8387 17.129 11.0806 17.129 11.3226V14.871H20.6774C20.9194 14.871 21.1613 15.1129 21.1613 15.3548ZM26 16C26 21.5242 21.5242 26 16 26C10.4758 26 6 21.5242 6 16C6 10.4758 10.4758 6 16 6C21.5242 6 26 10.4758 26 16ZM24.0645 16C24.0645 11.5645 20.4355 7.93548 16 7.93548C11.5242 7.93548 7.93548 11.5645 7.93548 16C7.93548 20.4758 11.5242 24.0645 16 24.0645C20.4355 24.0645 24.0645 20.4758 24.0645 16Z' fill='#639D36'/></svg> add products to your workbook, navigate <svg width='2vh' height='2vh' viewBox='0 0 10 16' fill='#0079C1' xmlns='http://www.w3.org/2000/svg'><path d='M9.24026 7.60218C9.47427 7.83619 9.47427 8.16381 9.24026 8.39782L2.36039 15.3245C2.17318 15.5585 1.79877 15.5585 1.56476 15.3245L0.675523 14.3885C0.441513 14.1544 0.441513 13.8268 0.675523 13.5928L6.19814 7.9766L0.675523 2.40718C0.441513 2.17317 0.441513 1.79875 0.675523 1.61154L1.56476 0.675507C1.79877 0.441498 2.17318 0.441498 2.36039 0.675507L9.24026 7.60218Z' /></svg> to them, and download your workbook."
+      },
+      "LocationSelector": {
+        "Exterior": {
+          "Heading": "Congrats!",
+          "Description": "You’ve finished exploring the exterior. Click here to step inside and explore the interior."
+        },
+        "Interior": {
+          "Heading": "Congrats!",
+          "Description": "You’ve finished exploring the interior. Click here to step inside and explore the exterior."
+        }
+      }
+    },
+    "OverlayEmail": {
+      "Heading": "Don't Forget Your&nbsp;Savings",
+      "Description": "Your personalized Savings Workbook is ready",
+      "Placeholder": "Enter Email",
+      "DownloadButtonLabel": "Download Now",
+      "CloseButtonLabel": "Close Download Workbook Overlay"
+    },
+    "Pdf": {
+      "Heading": "Your Energy Savings Workbook",
+      "Subheading": "This personalized workbook includes all of your saved products and tips. It’s designed to help you keep track of all the ways you can save."
+    },
+    "Residential": {
+      "Exterior": {
+        "Heading": "Residential",
+        "Subheading": "Exterior",
+        "BackgroundSceneImages": [
+          {
+            "DepthX": "0.1",
+            "DepthY": "0",
+            "Scale": "1.02",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential__exterior--0.png",
+            "ZIndex": "0"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "Scale": "1.02",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential__exterior--1.png",
+            "ZIndex": "3"
+          },
+          {
+            "DepthX": "0.2",
+            "DepthY": "0.05",
+            "Scale": "1.1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential__exterior--2.png",
+            "ZIndex": "4"
+          },
+          {
+            "DepthX": "0.4",
+            "DepthY": "0.1",
+            "Scale": "1.13",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential__exterior--3.png",
+            "ZIndex": "6"
+          }
+        ],
+        "Hotspots": [
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "50.2%",
+            "LeftPos": "7.5%",
+            "Heading": "Room Air Conditioner",
+            "Subheading": "Cool Down with Savings",
+            "Savings": "Save <span><sup>$</sup>20</span> <span>with rebates*</span>",
+            "Overview": "Stay cool and save energy. ENERGY STAR certified room air conditioners use 9% less energy and, on average, cost about $70 per year to run.",
+            "SlideShow": {
+              "Heading": "Not sure which size AC you need?",
+              "Slides": [
+                {
+                  "Content": "When it comes to a room air conditioner, sizing is all about matching the room size to the air conditioner size."
+                },
+                {
+                  "Content": "A unit that is too big will be less effective and offer less air conditioner efficiency. If the unit is too large, it will cool the room before it has a chance to remove the humidity."
+                },
+                {
+                  "Content": "The most energy-efficient air conditioner is sized to the square footage of the space to be cooled. Getting the right size means getting the comfort and the energy efficiency right."
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "ENERGY STAR certified room air conditioners come with better materials and clearer instructions. This improves the sealing and insulation around the unit which minimizes uncomfortable air leaks which can be costly."
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "Legal": "*On qualifying Room AC.",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-exterior__air-conditioner.mp3"
+            ]
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "64%",
+            "LeftPos": "22%",
+            "Heading": "Central Air Conditioning",
+            "Subheading": "Cool Off with Savings",
+            "Savings": "Save up to <span><sup>$</sup>500</span> <span>with rebates*</span>",
+            "Overview": "Replacing your old central air conditioner with an ENERGY STAR certified model can cut your energy bill by nearly $140 every year. ENERGY STAR AC units use 8% less energy than other new models.<br><br>Want to save even more? Earn $8 in bill credits each month during the summer - $32 total - when you join our <a href='#' target='_blank'>AC Peak Cycling</a> program",
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "It may be time for a new AC unit if your equipment is more than 10 years old, or if it needs frequent repairs and your energy bills are going up. Change filters seasonally."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "Find a Contractor",
+              "Url": "#"
+            },
+            "Legal": "*On qualifying AC units.",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-exterior__air-conditioner.mp3"
+            ]
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "39%",
+            "LeftPos": "29%",
+            "Heading": "ENERGY STAR® Windows",
+            "Subheading": "A Window to Savings ",
+            "Savings": "Save <span><sup>$</sup>15</span> <span>per window**</span>",
+            "Overview": "Upgrading to ENERGY STAR certified windows lowers your energy bills by an average of 12%. Not only do these windows save energy, they also boost home comfort and raise the value of your home.<br><br>Choose ENERGY STAR and save about $270 a year when replacing single-pane windows.*",
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "So while new windows may not pay for themselves in energy savings alone, you can make up for much of the cost from a higher value home sale. It is typically cost effective to upgrade windows to ENERGY STAR certified models which save more on energy bills."
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Source: <a href='https://www.energystar.gov/' target='_blank'>energystar.gov</a>"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "28.8%",
+            "LeftPos": "39%",
+            "Heading": "Insulation",
+            "Subheading": "Stop Leaking Money",
+            "Overview": "Sealing air leaks around your home and adding insulation can help your home be more comfortable and energy efficient. This can get you up to 10% savings on your energy bills every year. Upgrade your insulation to save energy and money, and make your home more comfortable.",
+            "Savings": "Receive up to <span><sup>$</sup>475</span> <span>in rebates*</span>",
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "We’ll help you find an ENERGY STAR contractor who only uses insulation that has been certified by EPA-recognized third parties. These groups do independent testing to make sure products meet performance & safety standards."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "Find a Contractor",
+              "Url": "#"
+            },
+            "Legal": "*On qualifying insulation."
+          },
+          {
+            "DepthX": "0.3",
+            "DepthY": "0.05",
+            "TopPos": "71%",
+            "LeftPos": "45%",
+            "Heading": "ENERGY STAR® Appliances",
+            "Subheading": "",
+            "Overview": "ENERGY STAR certified products help you save today, tomorrow and for good. Save today with rebates and other deals on ENERGY STAR products. Save tomorrow with energy savings you'll see right in your home. And save for good by helping to create a healthier planet for you and your family.",
+            "Savings": "",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": ""
+          },
+          {
+            "DepthX": "0.22",
+            "DepthY": "0.05",
+            "TopPos": "60%",
+            "LeftPos": "60.4%",
+            "Heading": "Appliance Recycling Program",
+            "Subheading": "Save by Recycling",
+            "Overview": "Have an old, working refrigerator or freezer that’s wasting energy? It could be costing you more than $300 each year to run it. That’s why we’ll pick it up for free and give you $50 to recycle your old appliance.",
+            "Savings": "Receive <span><sup>$</sup>50</span> <span>for your old working fridge.</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "On average, an old fridge uses about 35% more energy than an ENERGY STAR model."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": ""
+          },
+          {
+            "DepthX": "0.21",
+            "DepthY": "0.05",
+            "TopPos": "67%",
+            "LeftPos": "64.6%",
+            "Heading": "EV Level 2 Charger",
+            "Subheading": "Charge Up with Savings",
+            "Overview": "Learn more about electric vehicles and how you could get a $500 rebate when you install a qualified home charger and outlet and earn up to $120 with the Smart Charging Incentive for charging overnight",
+            "Savings": "Save up to <span><sup>$</sup>500</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Charge your EV overnight for more savings on your energy bill."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*On a qualifying charger.",
+            "Sounds": []
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "69%",
+            "LeftPos": "78%",
+            "Heading": "Home Energy Analysis",
+            "Subheading": "Cool Off with Savings",
+            "Overview": "Schedule a Home Energy Analysis with us. After we inspect your home, we’ll provide you with a customized report with energy-saving tips.<br><br>With your approval, we’ll install high-efficiency LED bulbs, faucet aerators, pipe insulation and more at no cost to you. These installations are valued at $150. ",
+            "Savings": "Save up to <span><sup>$</sup>150<sup>*</sup></span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Started",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*From energy efficient upgrades."
+          }
+        ],
+        "HotspotLinks": [
+          {
+            "Type": "Link",
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "53.2%",
+            "LeftPos": "41%",
+            "Title": "Interior",
+            "Url": "/explore/residential-interior"
+          }
+        ],
+        "Animations": [
+          {
+            "DepthX": "0.3",
+            "DepthY": "0.07",
+            "HeightPercentage": "40%",
+            "LeftPercentage": "70%",
+            "TopPercentage": "45%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-exterior__van.json",
+            "ZIndex": "5"
+          },
+          {
+            "DepthX": "0.2",
+            "DepthY": "0.05",
+            "HeightPercentage": "32%",
+            "LeftPercentage": "42%",
+            "TopPercentage": "49%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-exterior__delivery-man.json",
+            "ZIndex": "5"
+          }
+        ]
+      },
+      "Interior": {
+        "Heading": "Residential",
+        "Subheading": "Interior",
+        "BackgroundSceneImages": [
+          {
+            "DepthX": "0",
+            "DepthY": "0",
+            "Scale": "1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential__interior--0.png",
+            "ZIndex": "0"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "Scale": "1.02",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential__interior--1.png",
+            "ZIndex": "1"
+          },
+          {
+            "DepthX": "0.05",
+            "DepthY": "0.05",
+            "Scale": "1.02",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential__interior--2.png",
+            "ZIndex": "2"
+          }
+        ],
+        "Hotspots": [
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "35%",
+            "LeftPos": "8.2%",
+            "Heading": "Water Heater",
+            "Subheading": "Turn Down the Heat, Turn Up the Savings",
+            "Overview": "Water heaters account for up to 20% of a typical home’s energy use. Lowering your water heater’s temperature from 140°F to 120°F can result in a 10% savings on water heating costs and help prevent scalding.",
+            "Savings": "Save up to <span>10<sup>%*</sup></span> <span>annually</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Instant Savings",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*On water heating costs."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "45%",
+            "LeftPos": "13.8%",
+            "Heading": "Furnace",
+            "Subheading": "Savings Are Heating Up ",
+            "Overview": "Certified gas furnaces in the northern half of the U.S. are labeled with the standard ENERGY STAR logo. These furnaces are up to 15% more energy efficient than baseline models and can save $80 a year in energy costs. If your heating source is electric heat, we also offer up to $350 for electric heat pumps.",
+            "Savings": "Save up to <span><sup>$</sup>500</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Heading": "",
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Although these products can be more expensive to purchase up front, the cost difference will be earned back over time through savings on your energy bills.<br><br>You can work with one of our participating contractors to get rebates for energy efficient furnaces to save even more."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "Find a Contractor",
+              "Url": "#"
+            },
+            "Legal": "*On qualifying furnaces."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "37.5%",
+            "LeftPos": "17.5%",
+            "Heading": "Home Performance with ENERGY STAR®",
+            "Subheading": "Home Savings from Top to Bottom",
+            "Overview": "Take a whole-house approach to improving your home's comfort and find ways to save. With Home Performance with ENERGY STAR, we first take a top-to-bottom look at your home. Then we suggest improvements that could lower your bill. These projects can save $500 per year on energy costs and improve comfort and air quality.<br><br>Hire one of our participating contractors to do a comprehensive home assessment. Make energy efficient upgrades and get even more rebates.",
+            "Savings": "Save up to <span><sup>$</sup>3,750</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Heading": "More Comfort",
+                  "Content": "Enjoy fewer drafts and a healthier home."
+                },
+                {
+                  "Heading": "More Savings",
+                  "Content": "Save up to 20% on your energy bill, and sometimes more."
+                },
+                {
+                  "Heading": "More Quality & Value",
+                  "Content": "Work performed by specially trained contractors."
+                },
+                {
+                  "Heading": "A Cleaner Environment",
+                  "Content": "Using less energy curbs pollution."
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "Find a Contractor",
+              "Url": "#"
+            },
+            "Legal": "*On qualifying projects."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "64%",
+            "LeftPos": "28.4%",
+            "Heading": "ENERGY STAR® Washing Machine",
+            "Subheading": "Savings Are in the Wash",
+            "Overview": "Over the lifetime of the product, models that have earned the ENERGY STAR can save nearly $360 in energy costs. Water heating consumes about 90% of the energy it takes to operate a clothes washer.",
+            "Savings": "Save up to <span><sup>$</sup>50</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Unless you’re dealing with oily stains, washing in cold water will generally do a good job of cleaning. Switching your temperature setting from hot to warm can cut energy use in half. "
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*On qualifying washing machines.",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__washing-machine.mp3"
+            ]
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "64%",
+            "LeftPos": "32.4%",
+            "Heading": "ENERGY STAR® Dryer",
+            "Subheading": "Savings to Dry For",
+            "Overview": "A full-size ENERGY STAR electric dryer saves around $190 in energy costs over the life of the product. About 80% of American homes have a clothes dryer, which means they have the chance to save.<br><br>If all clothes dryers sold in the U.S. were ENERGY STAR certified, Americans could save more than $1.5 billion each year in utility costs and prevent greenhouse gas emissions equal to those from more than 2 million vehicles.",
+            "Savings": "Save up to <span><sup>$</sup>75</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "ENERGY STAR clothes dryers tend to use lower temps than standard clothes dryers. When purchasing an ENERGY STAR clothes dryer, look for the cycle that uses the least amount of energy. This can sometimes be called the “energy-saving” option."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*On qualifying dryers.",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__dryer.mp3"
+            ]
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "55%",
+            "LeftPos": "39.8%",
+            "Heading": "ENERGY STAR® Refrigerator",
+            "Subheading": "Chill Out with Cool Savings",
+            "Overview": "Refrigerators over 15 years old could be costing you more than $80 per year to run than a newer ENERGY STAR certified model.<br><br>A typical ENERGY STAR certified refrigerator uses less energy than a 60-watt light bulb. Replace your old model with a new ENERGY STAR unit, to lower your energy costs. ",
+            "Savings": "Receive a <span><sup>$</sup>50</span> <span>rebate*</span>",
+            "SlideShow": {
+              "Heading": "Tips to Reduce Your Refrigerator Energy Use",
+              "Slides": [
+                {
+                  "Heading": "Set the right temperature.",
+                  "Content": "Keep your fridge at 35 to 38 degrees Fahrenheit."
+                },
+                {
+                  "Heading": "Place your fridge in a cool place.",
+                  "Content": "Position your refrigerator away from a heat source such as an oven, a dishwasher or direct sunlight from a window."
+                },
+                {
+                  "Heading": "Allow air circulation behind the fridge.",
+                  "Content": "Leave a few inches between the wall and the refrigerator and keep the condenser coils clean if you have an older model."
+                },
+                {
+                  "Heading": "Check the door seals.",
+                  "Content": "Make sure the refrigerator seals around the door are airtight. If not, replace them."
+                },
+                {
+                  "Heading": "Keep the door closed.",
+                  "Content": "Minimize the amount of time the refrigerator door is open. "
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "Recycle Your Old Fridge",
+              "Url": "#"
+            },
+            "Legal": "*On ENERGY STAR certified refrigerators."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "47.5%",
+            "LeftPos": "60.5%",
+            "Heading": "Smart Thermostat",
+            "Subheading": "Dial Up the Savings ",
+            "Overview": "Don’t pay for what you’re not using. Smart thermostats can learn your comfort settings and be adjusted so your home is exactly how you like it when you’re there — and working to save you money when you’re not.<br><br>On average, installing a smart thermostat can save you 8% on your heating and cooling costs or $50 per year. Plus you can get instant discounts on smart thermostats and earn rewards when you join the Smart Thermostat Program. Savings may be greater depending on climate, personal comfort preferences, occupancy, and/or heating/cooling (HVAC) equipment.**",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Heating and cooling can account for more than half of your home’s energy use. When you are away from home, adjust your temperature by 10°F to save energy."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Shop Smart Thermostats",
+              "Url": "https://consumersenergystore.com/Thermostats-and-Temperature/"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*On average. **Source: <a href='https://www.energystar.gov' target='_blank'>https://www.energystar.gov</a>"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "36%",
+            "LeftPos": "60.6%",
+            "Heading": "Energy Saving Tip",
+            "Subheading": "Turn Off Lights, Turn on Savings",
+            "Overview": "Help cut electricity costs by turning off lights when they’re not needed, and make it a habit every time you leave a room.<br><br>Lighting makes up about 12% of your energy bill every year. To understand how much you can save, use your electricity price — which you can find on your most recent energy bill — to see how much you’ll save for every hour the light is off.<br><br>In the case of the 40-watt bulb, if you pay an electricity rate of 10 cents per kWh, your savings by turning that bulb off for one hour would be 0.4 cents. These small amounts add up over time.",
+            "Savings": "",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "To help you remember to turn off the light, try leaving eye-catching reminders next to light switches and doorways."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "More Ways to Save",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__light-switch.mp3"
+            ]
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "72%",
+            "LeftPos": "64.1%",
+            "Heading": "ENERGY STAR® Dehumidifier",
+            "Subheading": "Less Humid Air, More Savings",
+            "Overview": "Running a standard dehumidifier all the time uses a lot of energy. In fact, it uses more energy than a fridge, clothes washer and dishwasher combined.<br><br>An ENERGY STAR certified dehumidifier removes the same amount of moisture as a unit of similar size. However, it uses 15% less energy since it has more efficient refrigeration coils, compressors and fans.<br><br>You can save around $175 over the life of an average ENERGY STAR certified dehumidifier.  That's enough to pay for the unit.",
+            "Savings": "Receive a  <span><sup>$</sup>20</span> <span>rebate*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "The larger the unit, the more energy efficient it is. If you are unsure about what size to buy, a good rule of thumb is to choose the larger model that comes with an adjustable humidity control."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Buy Now",
+              "Url": "https://consumersenergystore.com/Air-Quality/"
+            },
+            "CtaSecondary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "Legal": "*On qualifying dehumidifiers."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "79%",
+            "LeftPos": "75.4%",
+            "Heading": "Energy Saving Tip",
+            "Subheading": "Use Smart Power Strips ",
+            "Overview": "Many computers, TVs and other “vampire” devices use power even when they’re off. Plug these devices into an easy-to-reach power strip and turn it off when you’re not using them to save money on your energy bills.",
+            "Savings": "Save up to <span><sup>$</sup>100</span> <span>annually*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Buy Now",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*In energy costs."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "46%",
+            "LeftPos": "78.2%",
+            "Heading": "ENERGY STAR® TV",
+            "Subheading": "Big Screen Savings",
+            "Overview": "Did you know ENERGY STAR certified TVs are, on average, 25% more energy efficient than standard models? They use less energy in all use modes: sleep, idle and on.",
+            "Savings": "Save up to <span><sup>$</sup>75</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "Must-Have TV Features",
+              "Slides": [
+                {
+                  "Content": "High dynamic range (also known as HDR) for brighter highlights, a wider range of colors and better contrast levels."
+                },
+                {
+                  "Content": "Smart TV technology that connects to WiFi so you can access your favorite streaming services like Netflix or Hulu."
+                },
+                {
+                  "Content": "Ultra-high definition (also known as UHD), which brings crystal clear images to life."
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*On qualifying models."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "47%",
+            "LeftPos": "83.5%",
+            "Heading": "ENERGY STAR® Air Purifier",
+            "Subheading": "Savings Are in the Air",
+            "Overview": "Have an old air purifier? It could be using too much energy and costing you extra money each month! Air purifiers with the blue ENERGY STAR label are 25% more energy efficient than standard models and can save you more than $120 over the lifetime of the product.",
+            "Savings": "Save up to <span><sup>$</sup>50</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tips:",
+              "Paragraph": "Did you know where you place your air purifier in your room matters to achieve optimum performance? Keep air cleaners away from curtains and anything that might block airflow."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Buy Now",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "Legal": "*On qualifying air purifiers."
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.05",
+            "TopPos": "93%",
+            "LeftPos": "92.5%",
+            "Heading": "Lighting",
+            "Subheading": "Switch on Savings",
+            "Overview": "Make the switch to efficient LED bulbs. They use 75% less energy and last at least 15 times longer than ordinary bulbs. For a list of retailers offering instant discounts, visit us online. ",
+            "Savings": "Save up to <span><sup>$</sup>55<sup>*</sup></span> <span>in energy costs</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tips:",
+              "Paragraph": "Did you know where you place your air purifier in your room matters to achieve optimum performance? Keep air cleaners away from curtains and anything that might block airflow."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Buy Now",
+              "Url": "https://consumersenergystore.com/Lighting/"
+            },
+            "CtaSecondary": {
+              "Label": "Find a Retailer",
+              "Url": "https://consumersenergy-findaretailer.com/"
+            },
+            "Legal": "*One bulb saves about $55 in electricity costs over its lifetime. <a href='https://www.energystar.gov/products/light_bulbs' target='_blank'>https://www.energystar.gov/products/light_bulbs</a>"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "34%",
+            "LeftPos": "94.2%",
+            "Heading": "Energy Saving Tip",
+            "Subheading": "Open Shades in Winter, Close Shades in Summer",
+            "Overview": "Make sure to keep drapes open in the winter and closed in the summer. Sunlight passing through windows heats your home. That’s great on winter days but makes your air conditioner work harder in the summer.",
+            "Savings": "Save up to <span>33<sup>%</sup></span> <span>annually*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "More Ways to Save",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*In energy savings. Depending on the type of window covering. <a href='https://www.energy.gov' target='_blank'>https://www.energy.gov</a>"
+          }
+        ],
+        "HotspotLinks": [
+          {
+            "Type": "Link",
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "79%",
+            "LeftPos": "3.5%",
+            "Title": "Exterior",
+            "Url": "/explore/residential-exterior"
+          }
+        ],
+        "EasterEggs": [
+          {
+            "AnimSpeed": "1",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-interior__blender.json",
+            "DialogueBoxMessages": [
+              "Smooth move!",
+              "Blend or chop?",
+              "Smoothie time!",
+              "Mixology master!"
+            ],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "25%",
+            "HotspotPosX": "47%",
+            "HotspotPosY": "78%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "49.2%",
+            "PosTopPercentage": "32%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__blender.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "false",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "3"
+          },
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [
+              "Rock on!",
+              "Stay in tune!",
+              "Shred!",
+              "Play us a tune!",
+              "Go, Guitar Hero!"
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "73%",
+            "PosTopPercentage": "69%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__guitar-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__guitar-b.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__guitar-c.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__guitar-d.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__guitar-e.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Static",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "false",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "15.2%",
+            "HotspotPosX": "",
+            "HotspotPosY": "",
+            "ImageUrl": "https://scottduncancreative.com/archive/consumers-energy/imgs/residential-interior__tv.gif",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "75.7%",
+            "PosTopPercentage": "48%",
+            "Sounds": [],
+            "SoundType": "",
+            "Type": "Image",
+            "WidthPercentage": "5.2%",
+            "VidBorderRadius": "6px",
+            "VidHeight": "91%",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop": "true",
+            "VidUrlArray": [],
+            "VidWidth": "100%",
+            "ZIndex": "5"
+          },
+          {
+            "AnimUrl": "",
+            "AnimSpeed": "1",
+            "DialogueBoxMessages": [
+              "DJ, turn it up.",
+              "Put the needle on the record.",
+              "Who doesn’t love vinyl?"
+            ],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "13.8%",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "86%",
+            "PosTopPercentage": "55%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-b.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-c.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-d.mp3"
+            ],
+            "SoundType": "loop",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop": "true",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-interior__cat.json",
+            "DialogueBoxMessages": [
+              "That’s purrfect!",
+              "Furr-ever friends!",
+              "More pets, please.",
+              "Purr-haps behind my ears?"
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "18%",
+            "HotspotPosX": "80%",
+            "HotspotPosY": "10%",
+            "ParallaxDepthX": "0.05",
+            "ParallaxDepthY": "0.05",
+            "PosLeftPercentage": "80%",
+            "PosTopPercentage": "81%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__cat-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__cat-b.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__cat-c.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__cat-d.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-interior__toaster.json",
+            "DialogueBoxMessages": [
+              "What’s poppin’?",
+              "Jam or jelly?",
+              "Toasted to perfection.",
+              "Who’s got the bagels?"
+            ],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "14%",
+            "HotspotPosX": "45%",
+            "HotspotPosY": "65%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "42.7%",
+            "PosTopPercentage": "41.9%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__toaster.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "10"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "loop",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-interior__window.json",
+            "DialogueBoxMessages": [
+              "Our Clean Energy Plan focuses on increasing renewable energy  to meet Michigan’s energy needs as we work toward net zero carbon emissions by 2040."
+            ],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "31.8%",
+            "HotspotPosX": "50%",
+            "HotspotPosY": "75%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "21.3%",
+            "PosTopPercentage": "14%",
+            "Sounds": [],
+            "SoundType": "",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "3"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "loop",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-interior__fish-tank.json",
+            "DialogueBoxMessages": [
+              "Swim in the savings!",
+              "Fin-tastic rebates!",
+              "Hop in, the water’s fine!"
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "14.8%",
+            "HotspotPosX": "50%",
+            "HotspotPosY": "25%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "67.6%",
+            "PosTopPercentage": "45.5%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/residential-interior__fish-tank.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "3"
+          }
+        ],
+        "Animations": [
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "HeightPercentage": "40%",
+            "LeftPercentage": "26.2%",
+            "TopPercentage": "46%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-interior__laundry-machine.json",
+            "ZIndex": "3"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "HeightPercentage": "36.8%",
+            "LeftPercentage": "33.8%",
+            "TopPercentage": "-9%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/residential-interior__light-fan.json",
+            "ZIndex": "3"
+          }
+        ]
+      }
+    },
+    "SmallBusiness": {
+      "Exterior": {
+        "Heading": "Small Business",
+        "Subheading": "Exterior",
+        "BackgroundSceneImages": [
+          {
+            "DepthX": "0",
+            "DepthY": "0",
+            "Scale": "1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/small-business__exterior--0.png",
+            "ZIndex": "0"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.02",
+            "Scale": "1.03",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/small-business__exterior--1.png",
+            "ZIndex": "3"
+          },
+          {
+            "DepthX": "0.2",
+            "DepthY": "0.05",
+            "Scale": "1.05",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/small-business__exterior--2.png",
+            "ZIndex": "4"
+          }
+        ],
+        "Hotspots": [
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "69%",
+            "LeftPos": "29%",
+            "Heading": "EV Charging Stations",
+            "Subheading": "Attract More Customers with Electric Vehicle Charging",
+            "Overview": "Bring more EV drivers to your business by installing a charging station. Learn how you can save with rebates to help offset costs through our PowerMIDrive™ program.",
+            "Savings": "Save <span>50<sup>%</sup></span> <span>or more on installation with rebates*</span>",
+            "SlideShow": {
+              "Heading": "Rebates",
+              "Slides": [
+                {
+                  "Content": "$5,000 for Level 2 charger for lodging businesses"
+                },
+                {
+                  "Content": "$7,500 for Level 2 charger for multi-dwelling unit businesses"
+                },
+                {
+                  "Content": "$70,000 for DC Fast Charger for gas/convenience and grocery businesses"
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Rebates based on equipment installed and have limited availability."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "67.5%",
+            "LeftPos": "60.2%",
+            "Heading": "Small Business Energy Assessment",
+            "Subheading": "Everyone Loves Free Upgrades",
+            "Overview": "Schedule an energy assessment and get up to $500 in free energy efficiency equipment installed at no cost. You will even get a customized plan that maps out the next steps of your energy saving journey.",
+            "Savings": "",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Heading": "LED Light Bulbs",
+                  "Content": "Switching to LED light bulbs can help you reduce your energy use by up to 90% vs. comparable incandescent bulbs."
+                },
+                {
+                  "Heading": "Smart Thermostat",
+                  "Content": "A smart thermostat can save you up to 26% on heating and cooling costs."
+                },
+                {
+                  "Heading": "Faucet Aerator",
+                  "Content": "A faucet aerator can save you as much as $97 in energy and water costs each year."
+                },
+                {
+                  "Heading": "Efficient Showerhead",
+                  "Content": "An efficient showerhead saves as much as four gallons of hot water every shower taken and cuts enough energy waste each year to power a home for 11 days."
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Start Saving",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": ""
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "45%",
+            "LeftPos": "36%",
+            "Heading": "Exterior Lighting",
+            "Subheading": "Shine a Light on Safety",
+            "Overview": "Keep your employees and your customers safe and secure at all times by upgrading your motion lights, as well as lighting in entryways and parking lots.<br>Upgrading to LEDs can improve your business and performance. ",
+            "Savings": "Use up to <span>75<sup>%</sup></span> <span>less energy*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Heading": "LED Light Bulbs",
+                  "Content": "Provide the same brightness as traditional bulbs but use 90% less energy."
+                },
+                {
+                  "Heading": "LED Light Bulbs",
+                  "Content": "Last 15 times longer, which means big financial savings on operations and maintenance."
+                },
+                {
+                  "Heading": "LED Light Bulbs",
+                  "Content": "Produce very little heat compared to incandescent bulbs, which release 90% of their energy as heat."
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Ever heard of day burn? This is when you leave your exterior lighting systems on during daylight hours, wasting energy and money.<br><br>Prevent day burn by installing sensors that turn the lights on and off automatically based on daylight***."
+            },
+            "Rebate": {
+              "Heading": "Rebate",
+              "Paragraph": "**Rebate of up to $16.89 off per bulb available to qualified Consumers Energy business electric or combination (electric & natural gas) customers."
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "https://business.consumersenergystore.com/Lighting/"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Compared to incandescent light bulbs. **Limit 10 rebates per customer per year. ***<a href='https://www.energystar.gov/buildings/resources_audience/small_biz/restaurants' target='_blank'>Source</a>"
+          }
+        ],
+        "HotspotLinks": [
+          {
+            "Type": "Link",
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "67.2%",
+            "LeftPos": "45.8%",
+            "Title": "Interior",
+            "Url": "/explore/small-business-interior"
+          }
+        ],
+        "Animations": [
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "HeightPercentage": "32%",
+            "LeftPercentage": "58%",
+            "TopPercentage": "62%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-exterior__van.json",
+            "ZIndex": "5"
+          }
+        ]
+      },
+      "Interior": {
+        "Heading": "Small Business",
+        "Subheading": "Interior",
+        "BackgroundSceneImages": [
+          {
+            "DepthX": "0",
+            "DepthY": "0",
+            "Scale": "1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/small-business__interior--0.png",
+            "ZIndex": "0"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.02",
+            "Scale": "1.03",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/small-business__interior--1.png",
+            "ZIndex": "2"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "Scale": "1.05",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/small-business__interior--2.png",
+            "ZIndex": "3"
+          }
+        ],
+        "Hotspots": [
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.05",
+            "TopPos": "65.4%",
+            "LeftPos": "1.2%",
+            "Heading": "Faucet Aerators",
+            "Subheading": "Don’t Lose Money Down the Drain",
+            "Overview": "Replacing your business’s faucet aerators is a simple way to save costs on water and water heating. On average, more efficient aerators can save up to $90 a year. Shop energy smart products like these at a discounted price on our small business online store.",
+            "Savings": " Save up to <span>$90</span> <span>annually*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "With a durable design meant to last 10 years or more, each aerator you use can save you hundreds across its lifespan."
+            },
+            "Rebate": {
+              "Heading": "Rebate:",
+              "Paragraph": "Get one for as low as $0 after rebate.**"
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "https://business.consumersenergystore.com/Water-Fixtures/P-NIADUALNP.html"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*In water and heating costs. Savings calculated based on a 1.5 GPM aerator vs. a standard 2.2 GPM unit. **Shipping and tax may apply",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__sink-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__sink-b.mp3"
+            ]
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "50%",
+            "LeftPos": "23%",
+            "Heading": "Smart Power Strips",
+            "Subheading": "Plug into Savings",
+            "Overview": "Save big on smart strips on our business online store. When you plug electronics into a smart power strip, you can designate which electronics should always be on, and which ones do not need power when they're not in use.",
+            "Savings": "Save up to <span>10<sup>%</sup></span> <span>per month*</span>",
+            "SlideShow": {
+              "Heading": "Rebate:",
+              "Slides": [
+                {
+                  "Content": "The Advanced Power Strip Rebate gives back up to $15.00 to qualified Consumers Energy business electric or combination (electric & natural gas) customers."
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "When purchasing new office equipment, always look for ENERGY STAR qualified products. That way you know you’re saving energy and money."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "https://business.consumersenergystore.com/Power-Strips/"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*In energy costs."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "70%",
+            "LeftPos": "51.1%",
+            "Heading": "Air Purifier",
+            "Subheading": "Savings Are in the Air",
+            "Overview": "Get the latest tech to improve your indoor air quality and remove dust and other pollutants from your business.<br><br>Have an old air purifier? It could be using too much energy and costing you extra money each month. Air purifiers with the blue ENERGY STAR label are 25% more efficient than standard models and can save you more than $120 over the lifetime of the product.",
+            "Savings": "Save up to <span><sup>$</sup>80</span> <span>with rebates*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Reduce your costs even more by pairing the air purifier with a smart plug. This will allow you to link up with your operating schedule, monitor your energy use, and control the device from anywhere."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "https://business.consumersenergystore.com/Air-Quality/"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Available to qualified Consumers Energy business electric or combination (electric & natural gas) customers. Limit: 2 rebates per customer per year."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "22%",
+            "LeftPos": "51.2%",
+            "Heading": "Small Business Energy Efficiency",
+            "Subheading": "Save Big on Efficient Upgrades",
+            "Overview": "We have rebates to help small businesses save big money on lighting and refrigeration upgrades, such as installing new lighting controls. You could get up to $30,000 worth of energy efficient equipment and labor for a small copay of $1,100 or less. Plus, you don't have to pay a penny until the work is done.<br><br>Your efficiency contractor will fill out and file all the paperwork for you. ",
+            "Savings": "Save up to <span><sup>$</sup>30k</span> <span>for upgrading*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Most customers see a return on their investment in as little as one year."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Start Saving",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*To energy-efficient equipment."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "55%",
+            "LeftPos": "57%",
+            "Heading": "Small Business Online Store",
+            "Subheading": "Spend Less on Energy Saving Products",
+            "Overview": "Looking for more ways to save on energy?<br><br>Shop our online store for energy saving products at discounted prices. You can find light bulbs, thermostats, smart power strips and even more products to help your business run more efficiently.",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Heading": "Energy Star Certified Light Fixtures",
+                  "Content": "Last at least 15x longer and save about $55 in electricity costs over their lifetime."
+                },
+                {
+                  "Heading": "LED Exit Signs",
+                  "Content": "Save up to $36 annually in energy costs over incandescent exit signs."
+                },
+                {
+                  "Heading": "Energy Star Air Purifiers",
+                  "Content": "Save up to $15 annually in energy costs over non-Energy Star certified air purifiers"
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Start Saving",
+              "Url": "https://business.consumersenergystore.com/"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": ""
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "50%",
+            "LeftPos": "64.8%",
+            "Heading": "Lighting",
+            "Subheading": "Light Up with Savings",
+            "Overview": "Good lighting is essential to good business. Save up to $4 in energy costs per LED bulb — which are not only good for the environment — they're better for your bottom line too.<br><br>LEDs last longer and use less energy than other types of popular lighting, such as HIDs or fluorescents.<br><br>When you upgrade your lighting to brighter, more efficient bulbs, you can also improve the line of sight in your workplace. This makes areas safer for employees and more inviting for customers.",
+            "Savings": "Save up to <span><sup>$</sup>16.89</span> <span>per bulb*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "Schedule a free energy assessment of your facility and let us help you find more ways to save."
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "https://business.consumersenergystore.com/Lighting/"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Rebate of up to $16.89 off per bulb available to qualified Consumers Energy business electric or combination (electric & natural gas) customers. 10 rebates per customer per year."
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.05",
+            "TopPos": "18%",
+            "LeftPos": "83.4%",
+            "Heading": "Lighting Controls",
+            "Subheading": "Light Up with Savings",
+            "Overview": "Install occupancy sensors to automatically turn off lights when no one is present and turn back on when people return. Storage rooms, back-of-house spaces, meeting rooms and other low-traffic areas are often good places to start.",
+            "Savings": "Save up to <span>30<sup>%</sup></span> <span>per year*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "Tip",
+              "Paragraph": "LED bulbs, dimmers, timers and other improvements won’t just save you energy and money. You’ll also create a better lit, vibrant workplace for your employees and the important jobs they do. "
+            },
+            "Rebate": {
+              "Heading": "Rebate",
+              "Paragraph": "Receive a $0.20/connected watt rebate "
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Get Your Rebate",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*On lighting costs."
+          }
+        ],
+        "HotspotLinks": [
+          {
+            "Type": "Link",
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "50%",
+            "LeftPos": "82.8%",
+            "Title": "Exterior",
+            "Url": "/explore/small-business-exterior"
+          }
+        ],
+        "EasterEggs": [
+          {
+            "AnimSpeed": "1",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__bell.json",
+            "DialogueBoxMessages": ["Ding!", "Ring for savings.", "Be right there."],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "6%",
+            "HotspotPosX": "40%",
+            "HotspotPosY": "84%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "68%",
+            "PosTopPercentage": "56%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__desk-bell-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__desk-bell-b.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "10"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__bike-bench.json",
+            "DialogueBoxMessages": ["Wheel. Of. Savings.", "Weeeeee!", "Take a spin."],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "52%",
+            "HotspotPosX": "18%",
+            "HotspotPosY": "8%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "12.1%",
+            "PosTopPercentage": "46%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__bike.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "3"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__boom-box.json",
+            "DialogueBoxMessages": [
+              "Turn up the savings.",
+              "Kick out the jams.",
+              "Who’s got a cassingle?"
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "22.5%",
+            "HotspotPosX": "25%",
+            "HotspotPosY": "50%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "67.2%",
+            "PosTopPercentage": "34.2%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-b.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-c.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-d.mp3"
+            ],
+            "SoundType": "loop",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "4"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__dog.json",
+            "DialogueBoxMessages": [
+              "Good boy!",
+              "Who’s a good doggo?",
+              "Who’s the best boy?",
+              "BFF"
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "19%",
+            "HotspotPosX": "43%",
+            "HotspotPosY": "16%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "65.7%",
+            "PosTopPercentage": "84.3%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__dog-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__dog-b.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/small-business-interior__dog-c.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [
+              "The nation’s small business owners spend more than $60 billion a year on energy. Small businesses that invest strategically can cut utility costs 10 to 30 percent.<br><br><span>*Source: <a href='https://www.energystar.gov/sites/default/files/buildings/tools/SPP%20Sales%20Flyer%20for%20Small%20Business.pdf' target='_blank'>ENERGY STAR small business overview</a></span>"
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "86%",
+            "PosTopPercentage": "40.2%",
+            "Sounds": [],
+            "SoundType": "oneShot",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "10"
+          }
+        ],
+        "Animations": [
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.01",
+            "HeightPercentage": "42%",
+            "LeftPercentage": "90%",
+            "TopPercentage": "29.4%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__balloons.json",
+            "ZIndex": "3"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "HeightPercentage": "76%",
+            "LeftPercentage": "74.2%",
+            "TopPercentage": "23.5%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__bike-window.json",
+            "ZIndex": "1"
+          },
+          {
+            "DepthX": "0.2",
+            "DepthY": "0.01",
+            "HeightPercentage": "42.1%",
+            "LeftPercentage": "77.4%",
+            "TopPercentage": "-5%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__ribbon.json",
+            "ZIndex": "4"
+          }
+        ]
+      }
+    },
+    "LargeBusiness": {
+      "Exterior": {
+        "Heading": "Large Business",
+        "Subheading": "Exterior",
+        "BackgroundSceneImages": [
+          {
+            "DepthX": "0",
+            "DepthY": "0",
+            "Scale": "1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/large-business__exterior--0.png",
+            "ZIndex": "0"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "Scale": "1.02",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/large-business__exterior--1.png",
+            "ZIndex": "3"
+          },
+          {
+            "DepthX": "0.2",
+            "DepthY": "0.05",
+            "Scale": "1.1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/large-business__exterior--2.png",
+            "ZIndex": "4"
+          }
+        ],
+        "Hotspots": [
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.05",
+            "TopPos": "55.5%",
+            "LeftPos": "14.4%",
+            "Heading": "HVAC Rebates",
+            "Subheading": "Improve Comfort, Air Quality & Save Money",
+            "Overview": "Upgrading your heating and cooling equipment improves comfort and air quality, which can help you save money long-term on energy costs. Offset the incremental cost of your project up to 35% with rebates.*",
+            "Savings": "",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Save with HVAC Rebates",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "33%",
+            "LeftPos": "30.5%",
+            "Heading": "Building Envelope/Insulation Rebates",
+            "Subheading": "Enhance Air Quality & Improve Energy Efficiency",
+            "Overview": "Poor insulation and air leakage are leading causes of energy waste in commercial buildings. That’s why we work with you to support improvements to your insulation and building envelope.<br><br>Building wall, floor and roof insulation, window film, and coatings can help enhance air quality, keep your building comfortable and boost efficiency. Offset the incremental cost of your project up to 35% with rebates.*",
+            "Savings": "",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Save with Building Rebates",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "58%",
+            "LeftPos": "41.3%",
+            "Heading": "Efficient Lighting Rebates",
+            "Subheading": "Improve Energy Efficiency, Safety & Comfort of Your Facilities",
+            "Overview": "Upgrading to LED bulbs and fixtures is one of the easiest ways you can improve the energy efficiency, safety and comfort of your facilities. It's also a great way to create a better lit, more vibrant work environment for your employees.<br><br/>We can help you find a contractor and get started on your rebate application.",
+            "Savings": "Save up to <span>35<sup>%</sup></span> <span>of incremental project costs*</span>",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Save with Lighting Rebates",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "46.5%",
+            "LeftPos": "53.5%",
+            "Heading": "Agriculture Rebates",
+            "Subheading": "Reduce Costs, Increase Safety & Boost Productivity",
+            "Overview": "When you improve the efficiency of agricultural irrigation equipment, compressors, dryers, heat curtains, controls and ventilation, you'll see lower costs, better safety and boost the productivity of your business. Offset the incremental cost of your project up to 35% with rebates.",
+            "Savings": "",
+            "SlideShow": {
+              "Heading": "",
+              "Slides": [
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                },
+                {
+                  "Content": ""
+                }
+              ]
+            },
+            "Tip": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Rebate": {
+              "Heading": "",
+              "Paragraph": ""
+            },
+            "Image": {
+              "Alt": "",
+              "Url": ""
+            },
+            "CtaPrimary": {
+              "Label": "Save with AG Rebates",
+              "Url": "#"
+            },
+            "CtaSecondary": {
+              "Label": "",
+              "Url": ""
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          }
+        ],
+        "HotspotLinks": [
+          {
+            "Type": "Link",
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "70.2%",
+            "LeftPos": "24.9%",
+            "Title": "Interior",
+            "Url": "/explore/large-business-interior"
+          }
+        ],
+        "EasterEggs": [
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [
+              "By reducing energy use our customers have saved $4.7 billion on their energy bills since 2009."
+            ],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "74.6%",
+            "PosTopPercentage": "20%",
+            "Sounds": [],
+            "SoundType": "oneShot",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": ["Welcome to our little town of big savings."],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "95%",
+            "PosTopPercentage": "63%",
+            "Sounds": [],
+            "SoundType": "oneShot",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [
+              "We've pioneered wind power in Michigan and now have turbines turning shore-to-shore across the Lower Peninsula. "
+            ],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "63.5%",
+            "PosTopPercentage": "32%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/large-business-exterior__wind-turbine.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "1",
+            "AnimType": "loop",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-exterior__cows.json",
+            "DialogueBoxMessages": ["Grass-fed, baby!", "Spot the savings!", "Holy cow! "],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "8%",
+            "HotspotPosX": "43%",
+            "HotspotPosY": "74%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.03",
+            "PosLeftPercentage": "54.2%",
+            "PosTopPercentage": "73.4%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/large-business-exterior__cows-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/large-business-exterior__cows-b.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/large-business-exterior__cows-c.mp3"
+            ],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "4"
+          }
+        ],
+        "Animations": [
+          {
+            "DepthX": "0.075",
+            "DepthY": "0.03",
+            "HeightPercentage": "22%",
+            "LeftPercentage": "38%",
+            "TopPercentage": "63%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-exterior__forklift.json",
+            "ZIndex": "4"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "Speed": "1.3",
+            "HeightPercentage": "36%",
+            "LeftPercentage": "67.2%",
+            "TopPercentage": "13.5%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-exterior__windmills.json",
+            "ZIndex": "3"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.02",
+            "HeightPercentage": "38%",
+            "LeftPercentage": "60.2%",
+            "Speed": "1",
+            "TopPercentage": "8.5%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-exterior__windmills.json",
+            "ZIndex": "3"
+          }
+        ]
+      },
+      "Interior": {
+        "Heading": "Large Business",
+        "Subheading": "Interior",
+        "BackgroundSceneImages": [
+          {
+            "DepthX": "0",
+            "DepthY": "0",
+            "Scale": "1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/large-business__interior--0.png",
+            "ZIndex": "0"
+          },
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "Scale": "1.02",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/large-business__interior--1.png",
+            "ZIndex": "1"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.03",
+            "Scale": "1.1",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/imgs/large-business__interior--2.png",
+            "ZIndex": "2"
+          }
+        ],
+        "Hotspots": [
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "54%",
+            "LeftPos": "16.5%",
+            "Heading": "Refrigeration Rebates",
+            "Subheading": "Boost Performance & Energy Efficiency",
+            "Overview": "Boost the performance and energy efficiency of your crucial daily-use equipment and extend its life by improving controls, motors, lighting and compressors. Offset the incremental cost of your project up to 35% with rebates.<sup>*</sup>",
+            "CtaPrimary": {
+              "Label": "Save with Refrigeration Rebates",
+              "Url": "#"
+            },
+            "Legal": "<sup>*</sup>Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "26%",
+            "LeftPos": "35%",
+            "Heading": "Air Dist. / Energy Recovery Rebates",
+            "Subheading": "Improve Comfort, Extend Equipment Lifespan & Save Money",
+            "Overview": "Capture the excess heat or cold generated by your operations and redistribute it where it's needed. Energy recovery efforts can reduce energy and maintenance costs. Offset the incremental cost of your project up to 35% with rebates.<sup>*</sup>",
+            "CtaPrimary": {
+              "Label": "Save with Energy Recovery Rebates",
+              "Url": "#"
+            },
+            "Legal": "<sup>*</sup>Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "62%",
+            "LeftPos": "22.7%",
+            "Heading": "Lighting Control Rebates",
+            "Subheading": "Boost Productivity & Efficiency",
+            "Savings": "Save up to <span>35<sup>%</sup></span> <span>of incremental project costs*</span>",
+            "Overview": "Save energy and money while improving the work environment and decarbonizing your business. Network lighting controls can customize and automate lighting in real time — boosting productivity and efficiency for the job at hand.",
+            "CtaPrimary": {
+              "Label": "Save with Lighting Control Rebates",
+              "Url": "#"
+            },
+            "Legal": "<sup>*</sup>Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "89%",
+            "LeftPos": "27.7%",
+            "Heading": "Manufacturing Rebates",
+            "Subheading": "Improve Efficiency, Equipment Lifespan & Save Money",
+            "Overview": "Targeted upgrades to sensors, controls and chargers can help improve the efficiency of your manufacturing processes and lead to energy cost savings as well as enhanced productivity and longer equipment life. Offset the incremental project cost up to 35% with rebates.*",
+            "CtaPrimary": {
+              "Label": "Save with Manufacturing Rebates",
+              "Url": "#"
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "79%",
+            "LeftPos": "31%",
+            "Heading": "Demand Response Incentives",
+            "Subheading": "Lower Energy Use & Earn Cash",
+            "Savings": "Earn <span><sup>$</sup>11k</span> <span>per year*</span>",
+            "Overview": "Earn money toward your bottom line and help your community and state have more reliable energy. Enroll in our Demand Response Program.<br><br>This is also a great way to show your business's commitment to sustainable practices.",
+            "CtaPrimary": {
+              "Label": "Earn Your Incentives",
+              "Url": "#"
+            },
+            "Legal": "*On average. Based on average bill credits earned by Commercial & Industrial Demand Response participants in 2020."
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "81%",
+            "LeftPos": "48.5%",
+            "Heading": "Electric Management Rebates",
+            "Subheading": "Reduce Energy Waste, Save Money & Improve Equipment Lifespan",
+            "Overview": "Extend the lifespan of your equipment, reduce energy waste and save on energy costs year after year. Upgrade your power management equipment such as power strips, cogged V-belts and controls. Offset the incremental cost of your project up to 35% with rebates.*",
+            "CtaPrimary": {
+              "Label": "Save with Electric Rebates",
+              "Url": "#"
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "65%",
+            "LeftPos": "50%",
+            "Heading": "Building Automation Rebates",
+            "Subheading": "Improve Safety, Productivity & Save Money",
+            "Overview": "Improve the efficiency, safety and productivity of your facility — while saving money. Establish a full building network connection for systems that include HVAC, lighting, fire suppression and security. Offset the incremental cost of your project up to 35% with rebates.*",
+            "CtaPrimary": {
+              "Label": "Save with Building Automation Rebates",
+              "Url": "#"
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "32%",
+            "LeftPos": "72.8%",
+            "Heading": "Pipe/Ductwork Insulation Rebates",
+            "Subheading": "Improve Safety & Save Money",
+            "Overview": "When you upgrade the insulation for heating ductwork, space heating, water heaters and refrigeration, you are ensuring safety while saving on costs. Offset the incremental cost of your project up to 35% with rebates.*",
+            "CtaPrimary": {
+              "Label": "Save with Insulation Rebates",
+              "Url": "#"
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "59%",
+            "LeftPos": "73.5%",
+            "Heading": "Tune-Up/Maintenance Rebates",
+            "Subheading": "Improve Equipment Lifespan & Reduce Maintenance Costs",
+            "Overview": "Performing regular preventative maintenance and tune-ups on your current equipment and HVAC systems can reduce your maintenance costs and lengthen the lifespan of that equipment. In turn, you will improve your facility’s comfort, air quality and energy efficiency.<br><br>Equipment includes: boiler tune-ups, chiller tune-ups, outdoor air dampers, and steam trap monitoring systems. Offset the incremental cost of your project up to 35% with rebates.*",
+            "CtaPrimary": {
+              "Label": "Save with Maintenance Rebates",
+              "Url": "#"
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "78%",
+            "LeftPos": "71%",
+            "Heading": "Compressed Air Rebates",
+            "Subheading": "Improve Efficiency & Reduce Energy Waste",
+            "Overview": "Improve efficiency and reduce energy waste by upgrading your compressed air systems. Offset the incremental cost of your project up to 35% with rebates.*",
+            "CtaPrimary": {
+              "Label": "Save with CA Rebates",
+              "Url": "#"
+            },
+            "Legal": "*Savings based on average energy efficiency rebate savings"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "60%",
+            "LeftPos": "83%",
+            "Heading": "Variable Frequency Drive Rebates",
+            "Subheading": "Save Money, Reduce Energy Waste & Improve Equipment Lifespan",
+            "Savings": "Save up to <span><sup>$</sup>200</span> <span>per HP*</span>",
+            "Overview": "Save money, reduce energy waste and improve equipment lifespan with Variable Frequency Drives. These drives adjust the speed of your equipment's motors to reduce wear and optimize energy use. Offset the incremental cost of your project up to 35% with rebates.**",
+            "CtaPrimary": {
+              "Label": "Save with VFD Rebates",
+              "Url": "#"
+            },
+            "Legal": "*Some <a href='#' target='_blank'>restrictions</a> apply. **Savings based on average energy efficiency rebate savings."
+          }
+        ],
+        "HotspotLinks": [
+          {
+            "Type": "Link",
+            "DepthX": "0.15",
+            "DepthY": "0.05",
+            "TopPos": "70%",
+            "LeftPos": "43.5%",
+            "Title": "Exterior",
+            "Url": "/explore/large-business-exterior"
+          }
+        ],
+        "EasterEggs": [
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [
+              "Our Clean Energy Plan focuses heavily on increasing renewable energy and energy efficiency to reach net zero carbon emissions by 2040."
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "44.5%",
+            "PosTopPercentage": "45%",
+            "Sounds": [],
+            "SoundType": "oneShot",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [
+              "Whether it’s product quality, reducing production downtime or helping your staff work in greater comfort, energy efficiency improvements to equipment and processes can often boost overall productivity."
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "57%",
+            "PosTopPercentage": "91%",
+            "Sounds": [],
+            "SoundType": "oneShot",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/small-business-interior__boom-box.json",
+            "DialogueBoxMessages": [
+              "Sweet sounds of savings.",
+              "Soundtrack to savings.",
+              "You be jammin’!"
+            ],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "15%",
+            "HotspotPosX": "25%",
+            "HotspotPosY": "50%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "64.1%",
+            "PosTopPercentage": "60%",
+            "Sounds": [
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-a.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-b.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-c.mp3",
+              "https://scottduncancreative.com/archive/consumers-energy/sounds/global__song-d.mp3"
+            ],
+            "SoundType": "loop",
+            "Type": "Anim",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          },
+          {
+            "AnimSpeed": "3",
+            "AnimType": "oneShot",
+            "AnimUrl": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-interior__door-right.json",
+            "DialogueBoxMessages": [],
+            "DialogueBoxPos": "top",
+            "HeightPercentage": "72.1%",
+            "HotspotPosX": "48%",
+            "HotspotPosY": "91%",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "82.6%",
+            "PosTopPercentage": "29%",
+            "Sounds": [],
+            "SoundType": "oneShot",
+            "Type": "Anim",
+            "VidBorderRadius": "6px",
+            "VidHeight": "90%",
+            "VidPosX": "12%",
+            "VidPosY": "12%",
+            "VidLoop ": "false",
+            "VidUrlArray": [
+              "https://scottduncancreative.com/archive/consumers-energy/vids/large-business-interior__door-a.mp4",
+              "https://scottduncancreative.com/archive/consumers-energy/vids/large-business-interior__door-b.mp4",
+              "https://scottduncancreative.com/archive/consumers-energy/vids/large-business-interior__door-c.mp4",
+              "https://scottduncancreative.com/archive/consumers-energy/vids/large-business-interior__door-d.mp4"
+            ],
+            "VidWidth": "",
+            "ZIndex": "1"
+          },
+          {
+            "AnimSpeed": "",
+            "AnimUrl": "",
+            "DialogueBoxMessages": [
+              "Supporting Michigan businesses through corporate giving and sustainability programs, while employing thousands of Michiganders."
+            ],
+            "DialogueBoxPos": "bottom",
+            "HeightPercentage": "0",
+            "HotspotPosX": "0",
+            "HotspotPosY": "0",
+            "ParallaxDepthX": "0.1",
+            "ParallaxDepthY": "0.01",
+            "PosLeftPercentage": "94%",
+            "PosTopPercentage": "34%",
+            "Sounds": [],
+            "SoundType": "oneShot",
+            "Type": "Hotspot",
+            "VidBorderRadius": "",
+            "VidHeight": "",
+            "VidPosX": "",
+            "VidPosY": "",
+            "VidLoop ": "",
+            "VidUrlArray": [],
+            "VidWidth": "",
+            "ZIndex": "6"
+          }
+        ],
+        "Animations": [
+          {
+            "DepthX": "0.1",
+            "DepthY": "0.01",
+            "HeightPercentage": "97%",
+            "LeftPercentage": "54%",
+            "TopPercentage": "-2%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-interior__crane.json",
+            "ZIndex": "5"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.03",
+            "HeightPercentage": "45%",
+            "LeftPercentage": "25.2%",
+            "TopPercentage": "58.5%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-interior__press.json",
+            "ZIndex": "5"
+          },
+          {
+            "DepthX": "0.15",
+            "DepthY": "0.03",
+            "HeightPercentage": "19%",
+            "LeftPercentage": "24.1%",
+            "TopPercentage": "14%",
+            "Type": "Anim",
+            "Url": "https://scottduncancreative.com/archive/consumers-energy/anims/large-business-interior__vent-unit.json",
+            "ZIndex": "5"
+          }
+        ]
+      }
+    }
+  }
+}

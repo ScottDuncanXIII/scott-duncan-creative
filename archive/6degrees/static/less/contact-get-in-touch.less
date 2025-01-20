@@ -1,0 +1,134 @@
+.contact-get-in-touch {
+    box-sizing: border-box;
+    padding: 50px 6% 75px 80px;
+    width: 40%;
+
+    @media @bp__desktop--large {
+        padding-right: 8%;
+        width: 50%;
+    }
+
+    @media  @bp__desktop {
+        padding: 50px 6% 75px 50px;
+    }
+
+    @media  @bp__desktop--small {
+        padding: 50px 50px 75px 50px;
+        width: 100%;
+    }
+
+    @media @bp__tablet {
+        /*box-sizing: border-box;
+        margin-bottom: 60px;
+        padding: 0 50px;
+        width: 100%;*/
+    }
+
+    @media @bp__mobile--small {
+        padding: 25px;
+    }
+
+    .contact-get-in-touch__container {
+        @media  @bp__desktop--small {
+            margin: 0 0 60px;
+            padding-right: 0;
+            max-width: 465px;
+            width: 100%;
+        }
+
+        @media  @bp__mobile--small {
+            margin: 0 0 25px;
+            padding-right: 0;
+            max-width: 465px;
+            width: 100%;
+        }
+    }
+
+    .contact-get-in-touch__heading {
+        .heading__tertiary();
+        color: @color__primary;
+        margin-bottom: 20px;
+        opacity: 0;
+        transform: translateY(25px);
+        transition: 0.8s all;
+
+        &.transition-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .contact-get-in-touch__paragraph {
+        .paragraph__tertiary--4();
+        color: @color__white;
+        margin-bottom: 35px;
+        opacity: 0;
+        transform: translateY(25px);
+        transition: 0.8s all;
+
+        &.transition-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media @bp__desktop--small {
+        }
+
+        @media @bp__tablet {
+            margin-bottom: 50px;
+        }
+
+        @media @bp__mobile {
+            margin-bottom: 25px;
+        }
+
+        @media @bp__mobile--small {
+        }
+    }
+
+    .contact-get-in-touch__list {
+        opacity: 0;
+        transform: translateY(25px);
+        transition: 0.8s all;
+
+        &.transition-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        @media @bp__desktop--large {
+            margin-bottom: 50px;
+        }
+
+        @media @bp__mobile--small {
+            margin-bottom: 25px;
+        }
+    }
+
+    .contact-get-in-touch__item {
+        .paragraph__tertiary--3();
+        margin-bottom: 5px;
+
+        @media @bp__mobile--small {
+            margin-bottom: 12px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    .contact-get-in-touch__email-title {
+        color: @color__white;
+
+        @media @bp__mobile--small {
+            display: block;
+        }
+    }
+
+    .contact-get-in-touch__email-link {
+        color: @color__primary;
+        display: inline-block;
+        text-decoration: none;
+    }
+}

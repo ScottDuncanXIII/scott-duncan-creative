@@ -1,0 +1,58 @@
+.case-study-statement {
+    box-sizing: border-box;
+    display: flex;
+    padding: 250px 150px 250px;
+    margin: 0 auto;
+    max-width: @max-site-width;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+
+    @media @breakpoint__desktop--medium {
+        padding: 180px 100px;
+    }
+    
+    @media @breakpoint__desktop--small {
+        padding: 150px 45px;
+    }
+
+    @media @breakpoint__tablet {
+        padding: 100px 45px 100px;
+    }
+
+    @media @breakpoint__mobile {
+        padding: 60px 45px 60px;
+    }
+
+    @media @breakpoint__mobile--small {
+        padding: 60px 25px 80px;
+    }
+    
+    .case-study-statement__paragraph {
+        .heading__3();
+        color: @color__secondary;
+        font-weight: 500;
+        text-align: center;
+        width: 100%;
+
+        @media @breakpoint__mobile {
+            font-size: 3rem;
+        }
+
+        .char {
+            opacity: 0;
+        }
+    
+        &.anim-in {
+            .char {
+                animation: splitting 0.3s forwards;
+                animation-delay: calc(0.02s + (.012s * var(--char-index)));
+            }
+        }
+    }
+
+    .case-study-statement__highlight {
+        color: @color__primary;
+    }
+}
+

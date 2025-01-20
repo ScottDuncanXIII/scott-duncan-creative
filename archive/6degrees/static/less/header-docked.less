@@ -1,0 +1,38 @@
+.header-docked {
+    background-color: @color__primary;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    .header-docked__heading {
+        .paragraph__tertiary--1();
+        color: @color__white;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        @media @bp__mobile--small {
+            font-size: 1.1rem;
+        }
+    }
+
+    .header-docked__logo-link {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+
+        @media @bp__mobile--small {
+            right: 12px;
+            width: 22px;
+        }
+    }
+
+    .header-docked__logo {
+        display: block;
+        width: 100%;
+    }
+}

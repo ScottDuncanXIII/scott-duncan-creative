@@ -1,0 +1,288 @@
+.about-leadership {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: @max-site-width;
+  padding: 0 10%;
+  position: relative;
+  width: 100%;
+
+  @media @breakpoint__desktop--medium {
+    padding: 0px 100px;
+  }
+
+  @media @breakpoint__desktop--small {
+    padding: 0px 45px;
+  }
+
+  @media @breakpoint__mobile {
+    //padding: 0px 60px;
+  }
+
+  @media @breakpoint__mobile--small {
+    padding: 0px 30px;
+  }
+}
+
+.about-leadership-heading {
+  .heading__5();
+  margin-bottom: 50px;
+
+  @media @breakpoint__tablet--large {
+    margin-bottom: 30px;
+  }
+
+  span {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+
+    &:first-of-type {
+      color: @color__primary;
+
+      &.animation-in {
+        animation: animMaskRevealIn 0.4s linear forwards;
+
+        &:before {
+          animation: animMaskRevealIn 0.4s linear forwards 0.3s;
+        }
+      }
+    }
+
+    &:last-of-type {
+      color: @color__secondary;
+
+      &.animation-in {
+        animation: animMaskRevealIn 0.4s linear forwards;
+
+        &:before {
+          animation: animMaskRevealIn 0.4s linear forwards 0.3s;
+        }
+      }
+    }
+  }
+}
+
+.about-leadership-profile {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8.5%;
+  position: relative;
+  width: 100%;
+
+  @media @breakpoint__desktop--small {
+    margin-bottom: 60px;
+  }
+
+  &:nth-of-type(odd) {
+    .about-leadership-profile__image-container {
+      padding: 0 80px 0 0;
+      order: 0;
+
+      @media @breakpoint__desktop--medium {
+        padding: 0 6% 0 0;
+      }
+
+      @media @breakpoint__tablet {
+        padding: 0 30px 0 0;
+      }
+
+      @media @breakpoint__mobile--small {
+        padding: 0;
+      }
+    }
+
+    .about-leadership-profile__content {
+      order: 1;
+      text-align: left;
+    }
+  }
+
+  &:nth-of-type(even) {
+    .about-leadership-profile__image-container {
+      padding: 0 0 0 80px;
+      order: 1;
+
+      @media @breakpoint__desktop--medium {
+        padding: 0 0 0 6%;
+      }
+
+      @media @breakpoint__tablet {
+        padding: 0 0 0 30px;
+      }
+
+      @media @breakpoint__mobile--small {
+        order: 0;
+        padding: 0;
+      }
+    }
+
+    .about-leadership-profile__content {
+      order: 0;
+
+      @media @breakpoint__mobile--small {
+        order: 1;
+      }
+    }
+
+    .about-leadership-profile__content-paragraph,
+    .about-leadership-profile__content-name--first,
+    .about-leadership-profile__content-name--last,
+    .about-leadership-profile__content-title {
+      margin-left: auto;
+      margin-right: 0;
+      text-align: right;
+
+      @media @breakpoint__mobile {
+        margin-left: 0;
+        text-align: left;
+      }
+
+      @media @breakpoint__mobile--small {
+        margin-right: 6px;
+        text-align: left;
+      }
+    }
+  }
+
+  .about-leadership-profile__image-container {
+    width: 50%;
+
+    @media @breakpoint__tablet--large {
+      width: 45%;
+    }
+
+    @media @breakpoint__tablet {
+      width: 50%;
+    }
+
+    @media @breakpoint__mobile--small {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+
+  .about-leadership-profile__image-wrapper {
+    .animate-image-in();
+    padding-top: 128%;
+    position: relative;
+  }
+
+  .about-leadership-profile__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .about-leadership-profile__content {
+    color: #484848;
+    margin: -10px 0 0;
+    width: 50%;
+
+    @media @breakpoint__tablet--large {
+      margin: 0;
+      width: 55%;
+    }
+
+    @media @breakpoint__tablet {
+      width: 50%;
+    }
+
+    @media @breakpoint__mobile--small {
+      width: 100%;
+    }
+  }
+
+  .about-leadership-profile__content-name {
+    margin: 0 0 4.5%;
+    position: relative;
+
+    @media @breakpoint__tablet--large {
+      margin: 0 0 4%;
+    }
+  }
+
+  .about-leadership-profile__content-name--first,
+  .about-leadership-profile__content-name--last {
+    .heading__3();
+    .animate-text-in(@color__secondary);
+
+    @media @breakpoint__mobile--small {
+      display: inline-block;
+    }
+
+    &:before {
+      background-color: @color__secondary;
+    }
+
+    &.animation-in {
+      animation: animMaskRevealIn 0.4s linear forwards 0.4s;
+    }
+  }
+
+  .about-leadership-profile__content-name--first {
+    &.animation-in {
+      &:before {
+        animation: animMaskRevealIn 0.4s linear forwards 0.6s;
+      }
+    }
+
+    @media @breakpoint__mobile--small {
+      margin-right: 6px;
+    }
+  }
+
+  .about-leadership-profile__content-name--last {
+    &.animation-in {
+      &:before {
+        animation: animMaskRevealIn 0.4s linear forwards 0.8s;
+      }
+    }
+  }
+
+  .about-leadership-profile__content-title {
+    .paragraph__1();
+    .animate-text-in(@color__secondary);
+    font-weight: 700;
+    &.animation-in {
+      animation: animMaskRevealIn 0.4s linear forwards 0.7s;
+
+      &:before {
+        animation: animMaskRevealIn 0.4s linear forwards 0.8s;
+      }
+    }
+  }
+
+  .about-leadership-profile__content-paragraph {
+    .paragraph__1();
+    .animate-text-in(@color__secondary);
+    //margin-top: 50px;
+    margin-top: 7%;
+
+    @media @breakpoint__tablet--large {
+      margin-top: 5%;
+    }
+
+    @media @breakpoint__tablet {
+      display: none;
+    }
+
+    &.animation-in {
+      animation: animMaskRevealIn 0.4s linear forwards 0.8s;
+
+      &:before {
+        animation: animMaskRevealIn 0.5s linear forwards 0.9s;
+      }
+    }
+  }
+
+  .about-leadership-profile__content-paragraph--mobile {
+    .about-leadership-profile__content-paragraph();
+    display: none;
+    order: 3;
+
+    @media @breakpoint__tablet {
+      display: block;
+    }
+  }
+}

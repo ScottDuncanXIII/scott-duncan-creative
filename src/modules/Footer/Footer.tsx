@@ -22,16 +22,19 @@ export default function Footer() {
           </li>
 
           <li className="footer__contact-item">
-            <a className="footer__contact-link" href="">
+            <a
+              className="footer__contact-link"
+              href="https://www.linkedin.com/in/scduncan/"
+            >
               linkedin
             </a>
           </li>
 
-          <li className="footer__contact-item">
+          {/* <li className="footer__contact-item">
             <a className="footer__contact-link" href="">
               seek
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

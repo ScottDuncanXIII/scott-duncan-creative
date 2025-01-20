@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -110,7 +111,7 @@ export default function Preloader({
             );
 
             resolve(img);
-          }, (timer += 100));
+          }, (timer += 50));
         };
         img.onerror = reject;
       });

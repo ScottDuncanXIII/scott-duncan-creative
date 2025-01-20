@@ -1,0 +1,174 @@
+@font__primary: Oswald, sans-serif;
+@font__secondary: "Nunito", sans-serif;
+
+.heading {
+  box-sizing: border-box;
+  display: block;
+  font-family: @font__primary;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.heading__1 {
+  .heading();
+  font-size: 22rem;
+  font-weight: 500;
+  letter-spacing: -6px;
+  line-height: 1;
+  margin-left: -13px;
+
+  @media @breakpoint__desktop--large {
+    font-size: 16.6rem;
+    margin-left: -8px;
+  }
+
+  @media @breakpoint__desktop--medium {
+    font-size: 14.6rem;
+  }
+
+  @media @breakpoint__desktop--small {
+    margin-left: -7px;
+  }
+
+  @media @breakpoint__tablet--large {
+    margin-left: -6px;
+  }
+
+  @media @breakpoint__tablet {
+    font-size: 10.4rem;
+    margin-left: -5px;
+  }
+
+  @media @breakpoint__mobile {
+    //font-size: 7rem;
+  }
+
+  @media @breakpoint__mobile--small {
+    font-size: 8.5rem;
+    margin-left: -3px;
+  }
+}
+
+.heading__2 {
+  .heading();
+  font-size: 7.4rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-left: -1px;
+
+  @media @breakpoint__desktop--large {
+    font-size: 7.4rem;
+  }
+
+  @media @breakpoint__desktop--medium {
+    font-size: 6.5rem;
+  }
+
+  @media @breakpoint__mobile--small {
+    font-size: 3.8rem;
+    margin-left: 0;
+  }
+}
+
+.heading__3 {
+  .heading();
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 1.1;
+
+  @media @breakpoint__desktop--large {
+    font-size: 5.3rem;
+  }
+
+  @media @breakpoint__desktop--medium {
+    font-size: 4.3rem;
+  }
+
+  @media @breakpoint__desktop--small {
+    font-size: 4rem;
+  }
+
+  @media @breakpoint__tablet {
+    font-size: 3.5rem;
+  }
+}
+
+.heading__4 {
+  .heading();
+  font-size: 4.6rem;
+  line-height: 1.2;
+
+  @media @breakpoint__desktop--medium {
+    font-size: 4rem;
+  }
+
+  @media @breakpoint__mobile--small {
+    font-size: 3.5rem;
+  }
+}
+
+.heading__5 {
+  .heading();
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+
+  @media @breakpoint__desktop--large {
+    font-size: 2.4rem;
+  }
+}
+
+.heading__6 {
+  .heading();
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.heading__7 {
+  .heading();
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.paragraph {
+  box-sizing: border-box;
+  color: @color__secondary;
+  display: block;
+  font-family: @font__secondary;
+  margin: 0;
+  position: relative;
+}
+
+.paragraph__1 {
+  .paragraph();
+  font-size: 2.1rem;
+  font-weight: 300;
+  line-height: 1.6;
+
+  @media @breakpoint__desktop--large {
+    font-size: 2rem;
+  }
+
+  @media @breakpoint__desktop--medium {
+    font-size: 1.9rem;
+  }
+
+  @media @breakpoint__mobile {
+    font-size: 1.8rem;
+  }
+}
+
+.paragraph__2 {
+  .paragraph();
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.paragraph__3 {
+  .paragraph();
+  font-size: 2rem;
+  font-weight: 300;
+}

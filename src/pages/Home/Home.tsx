@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import { useLoaderData } from "react-router";
 
 import gsap from "gsap";
@@ -14,16 +14,29 @@ import Scanlines from "../../components/Scanlines";
 import Preloader from "../../components/Preloader";
 
 import "./home.css";
+import { PreloaderActiveContext } from "../../context/PreloaderActiveContext";
 
 export default function Home() {
   const isInitialPageLoad = useRef(true);
+  const [skipPreload, setSkipPreload] = useState(false);
   const [preloadComplete, setPreloadComplete] = useState(false);
   const loaderData = useLoaderData();
   const pageTransitionTimeline = gsap.timeline({ paused: true });
 
+  const preloaderActiveContext = useContext(PreloaderActiveContext);
+
   useGSAP(() => {
+    if (!isInitialPageLoad.current) return;
+
     gsap.set(".page-transition", { display: "flex" });
     gsap.set(".page-transition__tile", { autoAlpha: 1 });
+
+    if (preloaderActiveContext?.preloaderActiveArray.includes("home")) {
+      setSkipPreload(true);
+      handlePreloadComplete();
+    } else {
+      preloaderActiveContext?.pushItemToArray("home");
+    }
 
     return () => (isInitialPageLoad.current = false);
   }, []);
@@ -42,6 +55,7 @@ export default function Home() {
           amount: 1,
           grid: [10, 10],
         },
+        delay: 0.3,
       }
     );
 
@@ -61,11 +75,13 @@ export default function Home() {
 
   return (
     <>
-      <Preloader
-        color={"#b46e12"}
-        imagesArray={loaderData}
-        handlePreloadComplete={handlePreloadComplete}
-      />
+      {!skipPreload && (
+        <Preloader
+          color={"#b46e12"}
+          imagesArray={loaderData}
+          handlePreloadComplete={handlePreloadComplete}
+        />
+      )}
 
       <ParallaxBackground imageUrl={"/imgs/main-background.jpg"}>
         <Intro initAnimations={preloadComplete} />
@@ -79,7 +95,10 @@ export default function Home() {
       <a className="edge-links__email" href="">
         Email
       </a>
-      <a className="edge-links__linkedin" href="">
+      <a
+        className="edge-links__linkedin"
+        href="https://www.linkedin.com/in/scduncan/"
+      >
         Linkedin
       </a>
 

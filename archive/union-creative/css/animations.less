@@ -1,0 +1,181 @@
+@keyframes animMaskRevealIn {
+    0% {
+        clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+    }
+
+    50% {
+        clip-path: polygon(100% 0, 100% 0, 0 100%, 0 100%, 0 0);
+    }
+
+    100% {
+        clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 0);
+    }
+}
+
+@keyframes animMaskRevealOut {
+    0% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+
+    50% {
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+    }
+
+    100% {
+        clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%);
+    }
+}
+
+@keyframes introAnim {
+    0% {
+        filter: blur(0);
+        transform: translateX(0) scale(1);
+    }
+    25% {
+        filter: blur(5px);
+        transform: translateX(20%) scale(10);
+        opacity: 1;
+    }
+    100% {
+        filter: blur(10px);
+        transform: translateX(40%) scale(20);
+        opacity: 0;
+    }
+}
+
+@keyframes videoStillsAnimation {
+    0% {
+        opacity:1;
+      }
+      16% {
+        opacity:1;
+      }
+      33% {
+        opacity:0;
+      }
+      84% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+}
+
+@keyframes slide {
+    0%   {
+        transform: translate(-50%, -75%);
+        opacity: 0;
+    }
+
+    20%   {
+        transform: translate(-50%, -37.5%);
+        opacity: 1;
+    }
+
+    40%   {
+        transform: translate(-50%, 0%);
+        opacity: 1;
+    }
+
+    60%   {
+        transform: translate(-50%, 37.5%);
+        opacity: 1;
+    }
+
+    80% {
+        transform: translate(-50%, 75%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, 75%);
+        opacity: 0;
+    }
+}
+
+@keyframes splitting {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animStripIn {
+    0% {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    100% {
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    }
+}
+
+.animate-text-in(@bg-color: @color__white, @delay : 0s) { 
+    background-image: url(../images/green-stripe-tile.png);
+    -webkit-background-clip: text;
+    background-clip: text;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+    color: transparent;
+    display: table;
+    vertical-align: top;
+
+    &:before {
+        content: attr(data-content);
+        background-color: @bg-color;
+        clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    &.anim-in {
+        animation: animMaskRevealIn 0.4s linear forwards @delay;
+
+        &:before {
+            animation: animMaskRevealIn 0.4s linear forwards (@delay + 0.4s);
+        }
+    }
+}
+
+.animate-strip-in(@delay : 0s) { 
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+
+    &.anim-in {
+        animation: animStripIn 0.4s linear forwards @delay;
+    }
+}
+
+.animate-block-in(@delay : 0s) { 
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+
+    &.anim-in {
+        animation: animMaskRevealIn 0.4s linear forwards @delay;
+    }
+}
+
+.animate-image-in(@delay : 0s, @duration: 0.4s) { 
+    background: url(../images/green-stripe-tile.png);
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+
+    img,
+    video,
+    iframe {
+        clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0);
+    }
+
+    &.anim-in {
+        animation: animMaskRevealIn @duration linear forwards @delay;
+
+        img,
+        video,
+        iframe {
+            animation: animMaskRevealIn @duration linear forwards (@delay + @duration);
+        }
+    }
+} 
