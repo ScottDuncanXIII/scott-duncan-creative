@@ -275,6 +275,7 @@ export default function WorkHero({
               className="work-hero-details__link"
               href={model.link?.url}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="work-hero-details__link-text" ref={linkTextEl}>
                 {model.link?.label}

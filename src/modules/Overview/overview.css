@@ -93,6 +93,10 @@
   position: relative;
   width: 100%;
   z-index: 2;
+
+  @media (max-width: 480px) {
+    padding-block-end: clamp(60px, 8vw, 200px);
+  }
 }
 
 .overview-content__paragraph {

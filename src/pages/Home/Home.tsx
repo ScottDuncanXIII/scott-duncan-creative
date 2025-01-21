@@ -92,12 +92,17 @@ export default function Home() {
 
       <Footer />
 
-      <a className="edge-links__email" href="">
+      <a
+        className="edge-links__email"
+        href="mailto:scott@scottduncancreative.com"
+      >
         Email
       </a>
       <a
         className="edge-links__linkedin"
         href="https://www.linkedin.com/in/scduncan/"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Linkedin
       </a>

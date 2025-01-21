@@ -8,7 +8,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/consumers-energy/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/consumers-energy/selected-works-3d.png",
-        "alt": ""
+        "alt": "Consumers Energy Interactive Energy Experience Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/consumers-energy/hero.jpg",
@@ -21,8 +21,8 @@
       "status": "Online",
       "workplace": "Doner North",
       "link": {
-        "url": "",
-        "label": "Visit"
+        "url": "https://scottduncancreative.com/archive/consumers-energy/",
+        "label": "Archive"
       },
       "techStackIds": [
         "vue-js",
@@ -41,59 +41,59 @@
       "caseStudyImages": [
         {
           "url": "/imgs/portfolio/consumers-energy/home.jpg",
-          "alt": "Consumer Energy Homepage"
+          "alt": "Consumers Energy Interactive Energy Experience Homepage"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/selection.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Selection Screen"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/residential-ext-01.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Residential External"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/residential-int-01.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Residential Internal 01"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/residential-int-02.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Residential Internal 02"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/pop-up-m-01.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Pop Up Mobile 01"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/small-ext-01.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Small Business External"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/small-int-01.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Small Business Internal"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/pop-up-m-02.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Pop Up Mobile 02"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/large-ext-01.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Large Business External 01"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/large-ext-02.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Large Business External 02"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/pop-up-m-03.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Pop Up Mobile 03"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/large-int-01.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Large Business Internal 01"
         },
         {
           "url": "/imgs/portfolio/consumers-energy/large-int-02.jpg",
-          "alt": ""
+          "alt": "Consumers Energy Interactive Energy Experience Large Business Internal 02"
         }
       ],
       "overview": "The Consumers Energy Interactive Energy Experience is a dynamic, single-page website designed to engage users through a series of interactive scenes. Each scene highlights practical ways to save money on energy, allowing users to explore and select points of interest. These selected points are compiled into a personalized list, which can then be downloaded as a worksheet for future reference.",
@@ -107,7 +107,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/detroit-zoo/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/detroit-zoo/selected-works-3d.png",
-        "alt": ""
+        "alt": "Detroit Zoo Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/detroit-zoo/hero.jpg",
@@ -215,7 +215,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/sdm/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/sdm/selected-works-3d.png",
-        "alt": ""
+        "alt": "Shoppers Drug Mart Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/sdm/hero.jpg",
@@ -310,7 +310,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/hunter-pr/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/hunter-pr/selected-works-3d.png",
-        "alt": ""
+        "alt": "Hunter PR Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/hunter-pr/hero.jpg",
@@ -405,7 +405,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/duke-university/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/duke-university/selected-works-3d.png",
-        "alt": ""
+        "alt": "Duke University Climate Road Trip Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/duke-university/hero.jpg",
@@ -485,7 +485,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/yamamoto/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/yamamoto/selected-works-3d.png",
-        "alt": ""
+        "alt": "Yamamoto Agency Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/yamamoto/hero.jpg",
@@ -589,7 +589,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/union/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/union/selected-works-3d.png",
-        "alt": ""
+        "alt": "Union Creative Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/union/hero.jpg",
@@ -602,8 +602,8 @@
       "status": "Offline",
       "workplace": "Union Creative",
       "link": {
-        "url": "",
-        "label": ""
+        "url": "https://scottduncancreative.com/archive/union-creative/",
+        "label": "Archive"
       },
       "techStackIds": [
         "vue-js",
@@ -666,7 +666,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/6deg/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/6deg/selected-works-3d.png",
-        "alt": ""
+        "alt": "6 Degrees Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/6deg/hero.jpg",
@@ -679,8 +679,8 @@
       "status": "Offline",
       "workplace": "Union Creative",
       "link": {
-        "url": "#",
-        "label": ""
+        "url": "https://scottduncancreative.com/archive/6-degrees/",
+        "label": "Archive"
       },
       "techStackIds": [
         "vue-js",
@@ -752,7 +752,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/media-assembly/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/media-assembly/selected-works-3d.png",
-        "alt": ""
+        "alt": "Media Assembly Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/media-assembly/hero.jpg",
@@ -766,24 +766,17 @@
       "workplace": "Union Creative",
       "link": {
         "url": "https://web.archive.org/web/20190713065510/https://www.media-assembly.com/",
-        "label": "Visit"
+        "label": "Web Archive"
       },
       "techStackIds": [
         "vue-js",
         "javascript",
         "gsap",
-        "typescript",
         "html",
         "css",
         "less",
-        "net",
-        "agility",
-        "contentful",
         "jira",
         "bitbucket",
-        "accessibility",
-        "figma",
-        "xd",
         "photoshop"
       ],
       "caseStudyImages": [
@@ -863,7 +856,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/club-penguin/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/club-penguin/selected-works-3d.png",
-        "alt": ""
+        "alt": "Club Penguin Thumbnail"
       },
       "years": {
         "label": "Years",
@@ -937,7 +930,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/ugd/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/ugd/selected-works-3d.png",
-        "alt": ""
+        "alt": "Underground Digital Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/ugd/hero.jpg",
@@ -1019,7 +1012,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/doner-north-dpn/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/doner-north-dpn/selected-works-3d.png",
-        "alt": ""
+        "alt": "DonerNorth / Doner Partners Network Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/doner-north-dpn/hero.jpg",
@@ -1109,7 +1102,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/sprouts/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/sprouts/selected-works-3d.png",
-        "alt": ""
+        "alt": "Sprouts Farmers Market Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/sprouts/hero.jpg",
@@ -1123,7 +1116,7 @@
       "workplace": "Havas Worldwide",
       "link": {
         "url": "https://web.archive.org/web/20141011145821/https://www.sprouts.com/",
-        "label": ""
+        "label": "Web Archive"
       },
       "techStackIds": [
         "javascript",
@@ -1166,7 +1159,7 @@
       "selectedWorks": {
         "thumbnailMain": "/imgs/portfolio/interval-house/selected-works.jpg",
         "thumbnail3d": "/imgs/portfolio/interval-house/selected-works-3d.png",
-        "alt": ""
+        "alt": "Interval House The Way to Live Thumbnail"
       },
       "heroImage": {
         "url": "/imgs/portfolio/interval-house/hero.jpg",
@@ -1179,8 +1172,8 @@
       "status": "Offline",
       "workplace": "Union Creative",
       "link": {
-        "url": "",
-        "label": ""
+        "url": "https://web.archive.org/web/20211221121057/https://thewaytolive.ca/",
+        "label": "Web Archive"
       },
       "techStackIds": [
         "vue-js",
@@ -1190,7 +1183,6 @@
         "less",
         "jira",
         "bitbucket",
-        "accessibility",
         "photoshop"
       ],
       "caseStudyImages": [

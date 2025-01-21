@@ -16,7 +16,10 @@ export default function Footer() {
 
         <ul className="footer__contact-list">
           <li className="footer__contact-item">
-            <a className="footer__contact-link" href="">
+            <a
+              className="footer__contact-link"
+              href="mailto:scott@scottduncancreative.com"
+            >
               email
             </a>
           </li>
@@ -25,6 +28,8 @@ export default function Footer() {
             <a
               className="footer__contact-link"
               href="https://www.linkedin.com/in/scduncan/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               linkedin
             </a>

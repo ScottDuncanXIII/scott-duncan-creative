@@ -13,12 +13,13 @@ import Footer from "../../modules/Footer";
 
 import { SelectedWorkType } from "../../types/SelectedWorksType";
 import { TechStackType } from "../../types/TechStackType";
+import { WorkHeroType } from "../../types/WorkHeroType";
+
+import { PreloaderActiveContext } from "../../context/PreloaderActiveContext";
 
 import data from "../../data.json";
 
 import "./work.css";
-import { WorkHeroType } from "../../types/WorkHeroType";
-import { PreloaderActiveContext } from "../../context/PreloaderActiveContext";
 
 export default function Work() {
   const { workId } = useParams();
@@ -79,7 +80,6 @@ export default function Work() {
   }
 
   function handlePreloadComplete() {
-    //console.log("handlePreloadComplete");
     setImagesPreloadComplete(true);
   }
 
@@ -115,18 +115,6 @@ export default function Work() {
             imageUrl="/imgs/background-work-scroll.jpg"
             overlayColor={loaderData?.colorMain}
           >
-            {/* <ScrollGallery>
-              {loaderData?.caseStudyImages.map((caseStudy, index) => (
-                <li className="scroll-gallery__item" key={index}>
-                  <img
-                    className="scroll-gallery__image"
-                    src={caseStudy.url}
-                    alt={caseStudy.alt}
-                  />
-                </li>
-              ))}
-            </ScrollGallery> */}
-
             <ScrollGallery imageArray={loaderData?.caseStudyImages} />
           </ParallaxBackground>
         )}

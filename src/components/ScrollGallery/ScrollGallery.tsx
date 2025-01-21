@@ -17,22 +17,10 @@ export default function ScrollGallery({
   const imageArrayData = useRef(imageArray);
 
   useGSAP(() => {
-    //if (scrollerPin.current || !scrollGalleryList.current) return;
-    //console.log("imageArrayData.current", imageArrayData.current);
-    //console.log("Init Scroll Gllery", scrollGalleryList.current);
-
     gsap.delayedCall(0.5, initScrollPin);
 
     function initScrollPin() {
-      //console.log("scrollerPin", scrollerPin);
       if (scrollerPin.current) return;
-
-      //console.log("Init Scroller Pin");
-      /* console.log(
-        "scrollGalleryList.current as HTMLUListElement).offsetWidth - innerWidth",
-        -(scrollGalleryList.current as HTMLUListElement).offsetWidth +
-          innerWidth
-      ); */
 
       scrollerPin.current = gsap.timeline();
 
@@ -75,7 +63,6 @@ export default function ScrollGallery({
             />
           </li>
         ))}
-        {/* {children} */}
       </ul>
 
       <Scanlines />
