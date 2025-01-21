@@ -3,8 +3,6 @@ import data from "../data.json";
 import { Params } from "react-router";
 
 export const workLoader = async ({ params }: { params: Params<"workId"> }) => {
-  //console.log("Work Loader Init ----------------");
-  //console.log(params);
   document.body.style.overflow = "hidden";
 
   const { workId } = params;
@@ -35,7 +33,6 @@ export const workLoader = async ({ params }: { params: Params<"workId"> }) => {
     pageTransitionTimeline.play();
 
     await pageTransitionTimeline.then(() => {
-      //console.log("Work Loader Transition Done");
       pageTransitionTimeline?.kill();
       pageTransitionTimeline = null;
     });
@@ -44,7 +41,6 @@ export const workLoader = async ({ params }: { params: Params<"workId"> }) => {
   function preloadWorkData() {
     return new Promise((resolve) => {
       setTimeout(() => {
-        //console.log("Work Loader Promise Done");
         resolve(workDetailsData);
       }, 100);
     });

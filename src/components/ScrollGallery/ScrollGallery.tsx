@@ -8,8 +8,10 @@ import { ImageType } from "../../types/ImageType";
 
 export default function ScrollGallery({
   imageArray,
+  isPreloadComplete = false,
 }: {
   imageArray?: ImageType[];
+  isPreloadComplete: boolean;
 }) {
   const scrollGallery = useRef(null);
   const scrollGalleryList = useRef<HTMLUListElement | null>(null);
@@ -17,7 +19,9 @@ export default function ScrollGallery({
   const imageArrayData = useRef(imageArray);
 
   useGSAP(() => {
-    gsap.delayedCall(0.5, initScrollPin);
+    if (!isPreloadComplete) return;
+
+    gsap.delayedCall(1, initScrollPin);
 
     function initScrollPin() {
       if (scrollerPin.current) return;
@@ -49,7 +53,7 @@ export default function ScrollGallery({
       scrollerPin.current?.kill();
       scrollerPin.current = null;
     };
-  }, []);
+  }, [isPreloadComplete]);
 
   return (
     <div className="scroll-gallery" ref={scrollGallery}>

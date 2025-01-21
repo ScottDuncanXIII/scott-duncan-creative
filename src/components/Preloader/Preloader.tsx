@@ -223,7 +223,6 @@ export default function Preloader({
     });
 
     tl.then(() => {
-      //console.log("handlePreloadComplete");
       handlePreloadComplete();
     });
   }, [preloaderComplete]);

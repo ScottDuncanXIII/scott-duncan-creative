@@ -17,7 +17,6 @@ function PreloaderActiveProvider({ children }: { children: ReactNode }) {
 
     const updatedPreloaderArray = [...preloaderActiveArray, pageId];
 
-    //console.log("updatedPreloaderArray", updatedPreloaderArray);
     setPreloaderActiveArray(updatedPreloaderArray);
   }
 

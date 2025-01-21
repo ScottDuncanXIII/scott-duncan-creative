@@ -110,14 +110,17 @@ export default function Work() {
           techStack={data.techStack as TechStackType[]}
         />
 
-        {imagesPreloadComplete && (
+        <div className="work-scroll-gallery">
           <ParallaxBackground
             imageUrl="/imgs/background-work-scroll.jpg"
             overlayColor={loaderData?.colorMain}
           >
-            <ScrollGallery imageArray={loaderData?.caseStudyImages} />
+            <ScrollGallery
+              isPreloadComplete={imagesPreloadComplete}
+              imageArray={loaderData?.caseStudyImages}
+            />
           </ParallaxBackground>
-        )}
+        </div>
 
         <Footer />
       </div>

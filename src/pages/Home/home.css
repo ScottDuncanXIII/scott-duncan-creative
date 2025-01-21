@@ -8,9 +8,14 @@
   position: fixed;
   right: 2px;
   top: 50%;
-  z-index: 10;
+  transition: 0.5s color;
   writing-mode: tb;
   rotate: 180deg;
+  z-index: 12;
+
+  &:hover {
+    color: var(--color--b);
+  }
 }
 
 .edge-links__email {

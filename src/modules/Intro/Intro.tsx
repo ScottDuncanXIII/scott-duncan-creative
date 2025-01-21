@@ -22,129 +22,135 @@ export default function Intro({ initAnimations }: { initAnimations: boolean }) {
 
   useGSAP(() => {
     if (!initAnimations) return;
+
     const colorArray = data.work.map((work) => work.colorMain);
 
-    const headingNameSplit = new SplitType(headingName.current!, {
-      types: "words,chars",
-    });
+    gsap.delayedCall(0.1, initIntro);
 
-    const headingRoleSplitA = new SplitType(headingRoleA.current!, {
-      types: "words,chars",
-    });
+    function initIntro() {
+      const headingNameSplit = new SplitType(headingName.current!, {
+        types: "words,chars",
+      });
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: intro.current,
-        end: "bottom 65%",
-        onEnterBack: () => {
-          pauseAnim.current = false;
+      const headingRoleSplitA = new SplitType(headingRoleA.current!, {
+        types: "words,chars",
+      });
 
-          tl.timeScale(1).play();
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: intro.current,
+          end: "bottom 65%",
+          //markers: true,
+          onEnterBack: () => {
+            pauseAnim.current = false;
+
+            tl.timeScale(1).play();
+          },
+          onLeave: () => {
+            pauseAnim.current = true;
+
+            tl.timeScale(3).delay(0).reverse();
+
+            gsap.to(".intro-content-pattern__line", {
+              backgroundColor: "#b46e12",
+              duration: 2,
+            });
+
+            if (patternAnimA.current && patternAnimB.current) {
+              patternAnimA.current.kill();
+              patternAnimB.current.kill();
+            }
+          },
         },
-        onLeave: () => {
-          pauseAnim.current = true;
+      });
 
-          tl.timeScale(3).delay(0).reverse();
-
-          gsap.to(".intro-content-pattern__line", {
-            backgroundColor: "#b46e12",
-            duration: 2,
-          });
-
-          if (patternAnimA.current && patternAnimB.current) {
-            patternAnimA.current.kill();
-            patternAnimB.current.kill();
-          }
-        },
-      },
-    });
-
-    tl.from(headingNameSplit.chars, {
-      duration: 0.8,
-      yPercent: 100,
-      stagger: {
-        each: 0.1,
-        from: "random",
-      },
-      ease: "expo.out",
-      onStart: () => {},
-    });
-
-    tl.from(
-      "#line",
-      {
-        duration: 5,
-        scale: 0,
-        ease: "expo.out",
-      },
-      "<"
-    );
-
-    tl.from(
-      headingRoleSplitA.chars,
-      {
-        duration: 0.6,
+      tl.from(headingNameSplit.chars, {
+        duration: 0.8,
         yPercent: 100,
-        autoAlpha: 0,
         stagger: {
-          each: 0.075,
-          from: "center",
-        },
-        ease: "expo.out",
-      },
-      "<+=10%"
-    );
-
-    tl.fromTo(
-      ".intro-content-pattern__line",
-      {
-        scaleY: 0,
-      },
-      {
-        duration: 1,
-        scaleY: "random(0.6,1.3)",
-        stagger: {
-          each: -0.04,
+          each: 0.1,
           from: "random",
         },
-        ease: "back.out(2)",
-        onComplete: () => {
-          if (pauseAnim.current) return;
-          animRandomPatternScale();
-          if (pauseAnim.current) return;
-          animRandomPatternColor();
+        ease: "expo.out",
+        onStart: () => {},
+      });
+
+      tl.from(
+        "#line",
+        {
+          duration: 5,
+          scale: 0,
+          ease: "expo.out",
         },
-      },
-      "<+=0.5"
-    );
+        "<"
+      );
 
-    tl.from(
-      (scrollPrompt.current! as HTMLElement).querySelector(
-        ".intro-scroll__polygon"
-      ),
-      {
-        duration: 5,
-        opacity: 0,
-        rotate: "360deg",
-      },
-      "<"
-    );
+      tl.from(
+        headingRoleSplitA.chars,
+        {
+          duration: 0.6,
+          yPercent: 100,
+          autoAlpha: 0,
+          stagger: {
+            each: 0.075,
+            from: "center",
+          },
+          ease: "expo.out",
+        },
+        "<+=10%"
+      );
 
-    tl.from(
-      (scrollPrompt.current! as HTMLElement).querySelector(
-        ".intro-scroll__line"
-      ),
-      { duration: 1.5, height: 0, autoAlpha: 0 },
-      "<+=20%"
-    );
+      tl.fromTo(
+        ".intro-content-pattern__line",
+        {
+          scaleY: 0,
+        },
+        {
+          duration: 1,
+          scaleY: "random(0.6,1.3)",
+          stagger: {
+            each: -0.04,
+            from: "random",
+          },
+          ease: "back.out(2)",
+          onComplete: () => {
+            if (pauseAnim.current) return;
+            animRandomPatternScale();
+            if (pauseAnim.current) return;
+            animRandomPatternColor();
+          },
+        },
+        "<+=0.5"
+      );
 
-    tl.from(
-      (scrollPrompt.current! as HTMLElement).querySelector(
-        ".intro-scroll__label"
-      ),
-      { duration: 1, width: "0", autoAlpha: 0 },
-      "<+=20%"
-    );
+      tl.from(
+        (scrollPrompt.current! as HTMLElement).querySelector(
+          ".intro-scroll__polygon"
+        ),
+        {
+          duration: 5,
+          opacity: 0,
+          rotate: "360deg",
+        },
+        "<"
+      );
+
+      tl.from(
+        (scrollPrompt.current! as HTMLElement).querySelector(
+          ".intro-scroll__line"
+        ),
+        { duration: 1.5, height: 0, autoAlpha: 0 },
+        "<+=20%"
+      );
+
+      tl.from(
+        (scrollPrompt.current! as HTMLElement).querySelector(
+          ".intro-scroll__label"
+        ),
+        { duration: 1, width: "0", autoAlpha: 0 },
+        "<+=20%"
+      );
+    }
 
     function animRandomPatternColor() {
       patternAnimA.current = gsap.to(".intro-content-pattern__line", {

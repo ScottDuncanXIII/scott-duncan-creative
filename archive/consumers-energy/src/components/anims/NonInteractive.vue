@@ -61,14 +61,6 @@ export default {
       this.animJson = data
       this.isLoaded = true
       this.$emit('asset-loaded')
-
-      /*setTimeout(() => {
-        const elements = document.querySelectorAll(".ce-interactive-scene__scene-asset-anim");
-        for (var i = 0; i <= elements.length; i++) {
-          //console.log(elements[i]);
-          elements[i].style.width = "100%";
-        }
-      }, 5000)*/
     }
   },
   computed: {

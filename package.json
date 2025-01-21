@@ -21,6 +21,7 @@
     "react-router": "^7.0.2",
     "react-transition-group": "^4.4.5",
     "split-type": "^0.3.4",
+    "tinygesture": "^3.0.0",
     "uuid": "^11.0.3"
   },
   "devDependencies": {
